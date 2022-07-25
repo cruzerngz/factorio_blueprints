@@ -1,0 +1,64 @@
+{
+  "blueprint_book": {
+    "description": "A collection of factories centered around hexagonal rails.\nBuilt around 2-8 trains.\nEach cell contains:\n- 4 independent train stations with double stackers\n- 2 optional stations with no stackers\n- 1 optional service station for 1-4 trains\n- Global circuit network for both red and green wires",
+    "item": "blueprint-book",
+    "label": "hex_cells",
+    "label_color": null,
+    "active_index": 2,
+    "version": 281479275675648,
+    "order": [
+      {
+        "blueprint_book": {
+          "item": "blueprint-book",
+          "label": "empty_templates",
+          "label_color": null,
+          "active_index": 4,
+          "version": 281479275675648
+        },
+        "index": 0
+      },
+      {
+        "blueprint_book": {
+          "item": "blueprint-book",
+          "label": "power_units",
+          "label_color": null,
+          "active_index": 1,
+          "version": 281479275675648
+        },
+        "index": 1
+      },
+      {
+        "blueprint_book": {
+          "description": "Main factory buildings",
+          "item": "blueprint-book",
+          "label": "work_units",
+          "label_color": null,
+          "active_index": 1,
+          "version": 281479275675648
+        },
+        "index": 2
+      },
+      {
+        "blueprint_book": {
+          "description": "Fully self-contained research units, requiring only raw inputs (plate or ore, fluids).",
+          "item": "blueprint-book",
+          "label": "research_units",
+          "label_color": null,
+          "active_index": 0,
+          "version": 281479275675648
+        },
+        "index": 3
+      },
+      {
+        "blueprint_book": {
+          "item": "blueprint-book",
+          "label": "artillery_units",
+          "label_color": null,
+          "active_index": 1,
+          "version": 281479275675648
+        },
+        "index": 4
+      }
+    ]
+  }
+}

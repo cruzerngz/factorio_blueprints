@@ -1,0 +1,31 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "power_units",
+    "label_color": null,
+    "active_index": 1,
+    "version": 281479275675648,
+    "order": [
+      {
+        "blueprint": {
+          "item": "blueprint",
+          "label": "cell_solar_construction",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "description": "2022 solar\n1708 accululator\n84.4% ratio\n84MW continuous",
+          "item": "blueprint",
+          "label": "solar_hex_cell",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 1
+      }
+    ]
+  },
+  "index": 1
+}

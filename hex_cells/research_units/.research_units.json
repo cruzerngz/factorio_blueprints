@@ -1,0 +1,33 @@
+{
+  "blueprint_book": {
+    "description": "Fully self-contained research units, requiring only raw inputs (plate or ore, fluids).",
+    "item": "blueprint-book",
+    "label": "research_units",
+    "label_color": null,
+    "active_index": 0,
+    "version": 281479275675648,
+    "order": [
+      {
+        "blueprint": {
+          "description": "Research hex cell\nprototype, no service features or circuit networks \nrequires 6 solar hex cells to function",
+          "item": "blueprint",
+          "label": "research_hex_cell_v1",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "description": "Input:\n- 6.4K/min iron ore\n- 5K/min copper ore\n- 1.5K/min stone\n- 1.1K/min coal\n- 540K/min water\n- 345K/min crude oil\n\nOutput:\n- 100SPM (all researches except follower robot count)\n\nPower: 610MW",
+          "item": "blueprint",
+          "label": "research_hex_cell_v2",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 1
+      }
+    ]
+  },
+  "index": 3
+}

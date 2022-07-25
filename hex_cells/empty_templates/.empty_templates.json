@@ -1,0 +1,59 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "empty_templates",
+    "label_color": null,
+    "active_index": 4,
+    "version": 281479275675648,
+    "order": [
+      {
+        "blueprint": {
+          "item": "blueprint",
+          "label": "empty_hex_cell",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "item": "blueprint",
+          "label": "empty_hex_cell_radar_turrets",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 1
+      },
+      {
+        "blueprint": {
+          "description": "4 cargo inputs\n2 fluid inputs\n1 service stop",
+          "item": "blueprint",
+          "label": "empty_work_cell",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 2
+      },
+      {
+        "blueprint": {
+          "item": "blueprint",
+          "label": "empty_work_cell_mid_only",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 3
+      },
+      {
+        "blueprint": {
+          "description": "Two 2-by diagonal stackers, holds 2-8 trains.",
+          "item": "blueprint",
+          "label": "cell_stacker_segment",
+          "label_color": null,
+          "version": 281479275675648
+        },
+        "index": 4
+      }
+    ]
+  },
+  "index": 0
+}
