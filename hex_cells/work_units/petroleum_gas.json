@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 516k/min water\n- 330k/min oil\n\nOutput:\n- 416k/min PG\n\nPower: 680 MW\n\nNote: high train volume needed (>6 trains/min IO)\n",
+    "icons": [
+      {
+        "signal": {
+          "type": "fluid",
+          "name": "petroleum-gas"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "petroleum_gas",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -58569,15 +58578,6 @@
           "y": -9.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "fluid",
-          "name": "petroleum-gas"
-        },
-        "index": 1
       }
     ]
   },

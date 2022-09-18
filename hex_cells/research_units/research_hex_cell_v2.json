@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 6.4K/min iron ore\n- 5K/min copper ore\n- 1.5K/min stone\n- 1.1K/min coal\n- 540K/min water\n- 345K/min crude oil\n\nOutput:\n- 100SPM (all researches except follower robot count)\n\nPower: 610MW",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "space-science-pack"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "research_hex_cell_v2",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -79922,15 +79931,6 @@
           "y": -491.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "space-science-pack"
-        },
-        "index": 1
       }
     ]
   },

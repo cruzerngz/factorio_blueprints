@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 31K/min iron\n- 34K/min copper\n\nOutput:\n- 43K/min green chips\n\nPower: 500MW",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "electronic-circuit"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "green_chips_v2",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -71850,15 +71859,6 @@
           "y": 334.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "electronic-circuit"
-        },
-        "index": 1
       }
     ]
   },

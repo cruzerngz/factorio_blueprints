@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 43.2K/min green chips\n- 14k/min steel/copper\n\nOutput:\n- 2.9k/min solar panels\n\nPower: 440MW",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "solar-panel"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "solar_panels",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -54964,15 +54973,6 @@
           "y": -113.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "solar-panel"
-        },
-        "index": 1
       }
     ]
   },

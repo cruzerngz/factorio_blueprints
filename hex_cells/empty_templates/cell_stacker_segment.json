@@ -1,9 +1,39 @@
 {
   "blueprint": {
     "description": "Two 2-by diagonal stackers, holds 2-8 trains.",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 3
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 4
+      }
+    ],
     "item": "blueprint",
     "label": "cell_stacker_segment",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -4330,36 +4360,6 @@
           "y": -553.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "locomotive"
-        },
-        "index": 1
-      },
-      {
-        "signal": {
-          "type": "item",
-          "name": "locomotive"
-        },
-        "index": 2
-      },
-      {
-        "signal": {
-          "type": "item",
-          "name": "locomotive"
-        },
-        "index": 3
-      },
-      {
-        "signal": {
-          "type": "item",
-          "name": "locomotive"
-        },
-        "index": 4
       }
     ]
   },

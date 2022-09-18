@@ -1,149 +1,284 @@
 {
   "blueprint_book": {
     "description": "Main factory buildings",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "iron-gear-wheel"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint-book",
     "label": "work_units",
     "label_color": null,
     "active_index": 1,
-    "version": 281479275675648,
+    "version": 281479276199938,
     "order": [
       {
         "blueprint": {
           "description": "Input:\n- 16.5K/min per ingest station\n\nOutput:\n- 20K/min per pickup station (copper, iron)\n- 4K/min per pickup station (steel)\n\nPower: 415MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electric-furnace"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "cell_smelter_unit_v1",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 0
       },
       {
         "blueprint": {
           "description": "Input:\n- 37K/min per ingest station (copper, iron)\n- 38.6K/min per ingest station (steel)\n\nOutput:\n- 43.2K/min per pickup station (copper, iron)\n- 9K/min per pickup station (steel)\n\nPower: 885 - 900MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electric-furnace"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "cell_smelter_unit_v2",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 1
       },
       {
         "blueprint": {
           "description": "Input:\n- 29K/min iron\n- 31K/min copper\n\nOutput:\n- 40K/min green chips\n\nPower: 470MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "green_chips_v1",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 6
       },
       {
         "blueprint": {
           "description": "Input:\n- 31K/min iron\n- 34K/min copper\n\nOutput:\n- 43K/min green chips\n\nPower: 500MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "green_chips_v2",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 7
       },
       {
         "blueprint": {
           "description": "Input:\n- 62K/min iron\n- 66K/min copper\n\nOutput:\n- 86.4K/min green chips\n\nPower: 1GW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "green_chips_v3",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 8
       },
       {
         "blueprint": {
           "description": "Input:\n- 62K/min iron\n- 66K/min copper\n\nOutput:\n- 86.4K/min green chips\n\nPower: 1GW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "green_chips_v4",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 9
       },
       {
         "blueprint": {
           "description": "Input:\n- 516k/min water\n- 330k/min oil\n\nOutput:\n- 416k/min PG\n\nPower: 680 MW\n\nNote: high train volume needed (>6 trains/min IO)\n",
+          "icons": [
+            {
+              "signal": {
+                "type": "fluid",
+                "name": "petroleum-gas"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "petroleum_gas",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 12
       },
       {
         "blueprint": {
           "description": "Input:\n- 16K/min coal\n- 315k/min petroleum gas\nOoutput: \n- 40K/min plastic \n\nPower: 210MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "plastic-bar"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "plastic_v1",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 18
       },
       {
         "blueprint": {
           "description": "Input:\n- 33K/min coal\n- 666k/min petroleum gas\nOoutput: \n- 86.4K/min plastic \n\nPower: 450MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "plastic-bar"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "plastic_v2",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 19
       },
       {
         "blueprint": {
           "description": "Input:\n- 15k/min green chips and plastic\n- 10k/min copper\n\nOutput:\n- 10K/min red chips\n\nPower: 840MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "advanced-circuit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "red_chips",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 24
       },
       {
         "blueprint": {
           "description": "Input:\n- 54K/min green chips\n- 5.4K/min red chips\n- 10.8K/min sulfuric acid\n\nOutput:\n- 3.0K/min blue chips\n\nPower: 375MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "processing-unit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "blue_chips_v1",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 30
       },
       {
         "blueprint": {
           "description": "Input:\n- 86.4K/min green chips\n- 8.64K/min red chips\n- 22K/min sulfuric acid\n\nOutput:\n- 6.0K/min blue chips\n\nPower: 725MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "processing-unit"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "blue_chips_v2",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 31
       },
       {
         "blueprint": {
           "description": "Input:\n- 43.2K/min green chips\n- 14k/min steel/copper\n\nOutput:\n- 2.9k/min solar panels\n\nPower: 440MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "solar-panel"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "solar_panels",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 36
       },
       {
         "blueprint": {
           "description": "Input:\n- 40K/min green chips\n- 13k/min steel/copper\n\nOutput:\n- 2.7k/min solar panels\n\nPower: 315MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "solar-panel"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "solar_panels_v2",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 37
       }

@@ -1,8 +1,17 @@
 {
   "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-dot"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "empty_hex_cell",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -11424,15 +11433,6 @@
           "y": -213.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "virtual",
-          "name": "signal-dot"
-        },
-        "index": 1
       }
     ]
   },

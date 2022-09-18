@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 86.4K/min green chips\n- 8.64K/min red chips\n- 22K/min sulfuric acid\n\nOutput:\n- 6.0K/min blue chips\n\nPower: 725MW",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "processing-unit"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "blue_chips_v2",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -83163,15 +83172,6 @@
           "y": 1230.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "processing-unit"
-        },
-        "index": 1
       }
     ]
   },

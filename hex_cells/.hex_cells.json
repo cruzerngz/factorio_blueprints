@@ -1,61 +1,115 @@
 {
   "blueprint_book": {
     "description": "A collection of factories centered around hexagonal rails.\nBuilt around 2-8 trains.\nEach cell contains:\n- 4 independent train stations with double stackers\n- 2 optional stations with no stackers\n- 1 optional service station for 1-4 trains\n- Global circuit network for both red and green wires",
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-grey"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint-book",
     "label": "hex_cells",
     "label_color": null,
     "active_index": 2,
-    "version": 281479275675648,
+    "version": 281479276199938,
     "order": [
       {
         "blueprint_book": {
+          "icons": [
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-dot"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint-book",
           "label": "empty_templates",
           "label_color": null,
           "active_index": 4,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 0
       },
       {
         "blueprint_book": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "solar-panel"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint-book",
           "label": "power_units",
           "label_color": null,
           "active_index": 1,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 1
       },
       {
         "blueprint_book": {
           "description": "Main factory buildings",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint-book",
           "label": "work_units",
           "label_color": null,
           "active_index": 1,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 2
       },
       {
         "blueprint_book": {
           "description": "Fully self-contained research units, requiring only raw inputs (plate or ore, fluids).",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "lab"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint-book",
           "label": "research_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 3
       },
       {
         "blueprint_book": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "artillery-turret"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint-book",
           "label": "artillery_units",
           "label_color": null,
           "active_index": 1,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 4
       }

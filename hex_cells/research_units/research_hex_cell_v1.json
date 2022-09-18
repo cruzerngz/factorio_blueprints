@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Research hex cell\nprototype, no service features or circuit networks \nrequires 6 solar hex cells to function",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "space-science-pack"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "research_hex_cell_v1",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -71837,15 +71846,6 @@
           "y": -779.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "space-science-pack"
-        },
-        "index": 1
       }
     ]
   },

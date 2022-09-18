@@ -1,55 +1,130 @@
 {
   "blueprint_book": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-dot"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint-book",
     "label": "empty_templates",
     "label_color": null,
     "active_index": 4,
-    "version": 281479275675648,
+    "version": 281479276199938,
     "order": [
       {
         "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-dot"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "empty_hex_cell",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 0
       },
       {
         "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-dot"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "empty_hex_cell_radar_turrets",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 1
       },
       {
         "blueprint": {
           "description": "4 cargo inputs\n2 fluid inputs\n1 service stop",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "empty_work_cell",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 2
       },
       {
         "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
           "item": "blueprint",
           "label": "empty_work_cell_mid_only",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 3
       },
       {
         "blueprint": {
           "description": "Two 2-by diagonal stackers, holds 2-8 trains.",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 4
+            }
+          ],
           "item": "blueprint",
           "label": "cell_stacker_segment",
           "label_color": null,
-          "version": 281479275675648
+          "version": 281479276199938
         },
         "index": 4
       }

@@ -1,9 +1,18 @@
 {
   "blueprint": {
     "description": "Input:\n- 16K/min coal\n- 315k/min petroleum gas\nOoutput: \n- 40K/min plastic \n\nPower: 210MW",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "plastic-bar"
+        },
+        "index": 1
+      }
+    ],
     "item": "blueprint",
     "label": "plastic_v1",
-    "version": 281479275675648,
+    "version": 281479276199938,
     "entities": [
       {
         "entity_number": 1,
@@ -58702,15 +58711,6 @@
           "y": 782.5
         },
         "direction": 3
-      }
-    ],
-    "icons": [
-      {
-        "signal": {
-          "type": "item",
-          "name": "plastic-bar"
-        },
-        "index": 1
       }
     ]
   },
