@@ -11,7 +11,7 @@
     ],
     "item": "blueprint",
     "label": "empty_work_cell_mid_only",
-    "version": 281479276199938,
+    "version": 281479276265473,
     "entities": [
       {
         "entity_number": 1,
@@ -18155,5 +18155,5 @@
       }
     ]
   },
-  "index": 3
+  "index": 13
 }

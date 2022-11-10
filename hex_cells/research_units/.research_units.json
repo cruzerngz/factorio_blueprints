@@ -14,7 +14,7 @@
     "label": "research_units",
     "label_color": null,
     "active_index": 0,
-    "version": 281479276199938,
+    "version": 281479276265473,
     "order": [
       {
         "blueprint": {
@@ -31,7 +31,7 @@
           "item": "blueprint",
           "label": "research_hex_cell_v1",
           "label_color": null,
-          "version": 281479276199938
+          "version": 281479276265473
         },
         "index": 0
       },
@@ -50,9 +50,28 @@
           "item": "blueprint",
           "label": "research_hex_cell_v2",
           "label_color": null,
-          "version": 281479276199938
+          "version": 281479276265473
         },
         "index": 1
+      },
+      {
+        "blueprint": {
+          "description": "Input: \n- 9.5K/min iron ore\n- 7.6K/min copper ore\n- 1.2K/min stone\n- 1K/min coal\n- 33K/min water\n- 21K/min crude oil\n\nOutput:\n- 155 SPM (all research except follower robot count)\n\nPower: 750MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "space-science-pack"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_hex_cell_v3",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 2
       }
     ]
   },

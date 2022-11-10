@@ -1,0 +1,62 @@
+{
+  "blueprint_book": {
+    "description": "Prototyping and small factory units",
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-P"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-R"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-O"
+        },
+        "index": 3
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-T"
+        },
+        "index": 4
+      }
+    ],
+    "item": "blueprint-book",
+    "label": "prototypes",
+    "label_color": null,
+    "active_index": 0,
+    "version": 281479276265473,
+    "order": [
+      {
+        "blueprint": {
+          "description": "2.7k/min plastic\nfully prod",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "plastic-bar"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "mini_plastic",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 0
+      }
+    ]
+  },
+  "index": 6
+}
