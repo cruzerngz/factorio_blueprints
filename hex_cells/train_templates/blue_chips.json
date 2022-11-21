@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "blue chips\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "processing-unit"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "blue_chips",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 135.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 142.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 149.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 156.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 163.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 170.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 177.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 184.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "processing-unit"
+            },
+            {
+              "index": 2,
+              "name": "processing-unit"
+            },
+            {
+              "index": 3,
+              "name": "processing-unit"
+            },
+            {
+              "index": 4,
+              "name": "processing-unit"
+            },
+            {
+              "index": 5,
+              "name": "processing-unit"
+            },
+            {
+              "index": 6,
+              "name": "processing-unit"
+            },
+            {
+              "index": 7,
+              "name": "processing-unit"
+            },
+            {
+              "index": 8,
+              "name": "processing-unit"
+            },
+            {
+              "index": 9,
+              "name": "processing-unit"
+            },
+            {
+              "index": 10,
+              "name": "processing-unit"
+            },
+            {
+              "index": 11,
+              "name": "processing-unit"
+            },
+            {
+              "index": 12,
+              "name": "processing-unit"
+            },
+            {
+              "index": 13,
+              "name": "processing-unit"
+            },
+            {
+              "index": 14,
+              "name": "processing-unit"
+            },
+            {
+              "index": 15,
+              "name": "processing-unit"
+            },
+            {
+              "index": 16,
+              "name": "processing-unit"
+            },
+            {
+              "index": 17,
+              "name": "processing-unit"
+            },
+            {
+              "index": 18,
+              "name": "processing-unit"
+            },
+            {
+              "index": 19,
+              "name": "processing-unit"
+            },
+            {
+              "index": 20,
+              "name": "processing-unit"
+            },
+            {
+              "index": 21,
+              "name": "processing-unit"
+            },
+            {
+              "index": 22,
+              "name": "processing-unit"
+            },
+            {
+              "index": 23,
+              "name": "processing-unit"
+            },
+            {
+              "index": 24,
+              "name": "processing-unit"
+            },
+            {
+              "index": 25,
+              "name": "processing-unit"
+            },
+            {
+              "index": 26,
+              "name": "processing-unit"
+            },
+            {
+              "index": 27,
+              "name": "processing-unit"
+            },
+            {
+              "index": 28,
+              "name": "processing-unit"
+            },
+            {
+              "index": 29,
+              "name": "processing-unit"
+            },
+            {
+              "index": 30,
+              "name": "processing-unit"
+            },
+            {
+              "index": 31,
+              "name": "processing-unit"
+            },
+            {
+              "index": 32,
+              "name": "processing-unit"
+            },
+            {
+              "index": 33,
+              "name": "processing-unit"
+            },
+            {
+              "index": 34,
+              "name": "processing-unit"
+            },
+            {
+              "index": 35,
+              "name": "processing-unit"
+            },
+            {
+              "index": 36,
+              "name": "processing-unit"
+            },
+            {
+              "index": 37,
+              "name": "processing-unit"
+            },
+            {
+              "index": 38,
+              "name": "processing-unit"
+            },
+            {
+              "index": 39,
+              "name": "processing-unit"
+            },
+            {
+              "index": 40,
+              "name": "processing-unit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 191.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.9411764740943909,
+          "g": 0.7843137383460999,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 198.1875,
+          "y": 1299
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0.6980392336845398,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_blue_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_blue_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 20
+}

@@ -1,0 +1,494 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "space-science-pack"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "research_train_2",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 283.59375,
+          "y": 2283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "beacon"
+            },
+            {
+              "index": 2,
+              "name": "beacon"
+            },
+            {
+              "index": 3,
+              "name": "beacon"
+            },
+            {
+              "index": 4,
+              "name": "beacon"
+            },
+            {
+              "index": 5,
+              "name": "beacon"
+            },
+            {
+              "index": 6,
+              "name": "beacon"
+            },
+            {
+              "index": 7,
+              "name": "beacon"
+            },
+            {
+              "index": 8,
+              "name": "beacon"
+            },
+            {
+              "index": 9,
+              "name": "beacon"
+            },
+            {
+              "index": 10,
+              "name": "beacon"
+            },
+            {
+              "index": 11,
+              "name": "beacon"
+            },
+            {
+              "index": 12,
+              "name": "beacon"
+            },
+            {
+              "index": 13,
+              "name": "beacon"
+            },
+            {
+              "index": 14,
+              "name": "beacon"
+            },
+            {
+              "index": 15,
+              "name": "beacon"
+            },
+            {
+              "index": 16,
+              "name": "beacon"
+            },
+            {
+              "index": 17,
+              "name": "beacon"
+            },
+            {
+              "index": 18,
+              "name": "beacon"
+            },
+            {
+              "index": 19,
+              "name": "beacon"
+            },
+            {
+              "index": 20,
+              "name": "beacon"
+            },
+            {
+              "index": 21,
+              "name": "beacon"
+            },
+            {
+              "index": 22,
+              "name": "beacon"
+            },
+            {
+              "index": 23,
+              "name": "beacon"
+            },
+            {
+              "index": 24,
+              "name": "beacon"
+            },
+            {
+              "index": 25,
+              "name": "beacon"
+            },
+            {
+              "index": 26,
+              "name": "beacon"
+            },
+            {
+              "index": 27,
+              "name": "beacon"
+            },
+            {
+              "index": 28,
+              "name": "beacon"
+            },
+            {
+              "index": 29,
+              "name": "beacon"
+            },
+            {
+              "index": 30,
+              "name": "beacon"
+            },
+            {
+              "index": 31,
+              "name": "beacon"
+            },
+            {
+              "index": 32,
+              "name": "beacon"
+            },
+            {
+              "index": 33,
+              "name": "beacon"
+            },
+            {
+              "index": 34,
+              "name": "beacon"
+            },
+            {
+              "index": 35,
+              "name": "beacon"
+            },
+            {
+              "index": 36,
+              "name": "beacon"
+            },
+            {
+              "index": 37,
+              "name": "beacon"
+            },
+            {
+              "index": 38,
+              "name": "beacon"
+            },
+            {
+              "index": 39,
+              "name": "beacon"
+            },
+            {
+              "index": 40,
+              "name": "beacon"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 290.59375,
+          "y": 2283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "beacon"
+            },
+            {
+              "index": 2,
+              "name": "beacon"
+            },
+            {
+              "index": 3,
+              "name": "beacon"
+            },
+            {
+              "index": 4,
+              "name": "beacon"
+            },
+            {
+              "index": 5,
+              "name": "beacon"
+            },
+            {
+              "index": 6,
+              "name": "beacon"
+            },
+            {
+              "index": 7,
+              "name": "beacon"
+            },
+            {
+              "index": 8,
+              "name": "beacon"
+            },
+            {
+              "index": 9,
+              "name": "beacon"
+            },
+            {
+              "index": 10,
+              "name": "beacon"
+            },
+            {
+              "index": 11,
+              "name": "beacon"
+            },
+            {
+              "index": 12,
+              "name": "beacon"
+            },
+            {
+              "index": 13,
+              "name": "beacon"
+            },
+            {
+              "index": 14,
+              "name": "beacon"
+            },
+            {
+              "index": 15,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 16,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 17,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 18,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 19,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 20,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 21,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 22,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 23,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 24,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 25,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 26,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 27,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 28,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 29,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 30,
+              "name": "stack-inserter"
+            },
+            {
+              "index": 31,
+              "name": "storage-tank"
+            },
+            {
+              "index": 32,
+              "name": "pump"
+            },
+            {
+              "index": 33,
+              "name": "radar"
+            },
+            {
+              "index": 34,
+              "name": "power-switch"
+            },
+            {
+              "index": 35,
+              "name": "pipe"
+            },
+            {
+              "index": 36,
+              "name": "pipe"
+            },
+            {
+              "index": 37,
+              "name": "pipe"
+            },
+            {
+              "index": 38,
+              "name": "pipe"
+            },
+            {
+              "index": 39,
+              "name": "pipe"
+            },
+            {
+              "index": 40,
+              "name": "pipe"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 297.59375,
+          "y": 2283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electric-furnace"
+            },
+            {
+              "index": 2,
+              "name": "electric-furnace"
+            },
+            {
+              "index": 3,
+              "name": "electric-furnace"
+            },
+            {
+              "index": 4,
+              "name": "electric-furnace"
+            }
+          ],
+          "bar": 4
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 304.59375,
+          "y": 2283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 2,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 3,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 4,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 5,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 6,
+              "name": "medium-electric-pole"
+            },
+            {
+              "index": 7,
+              "name": "pipe-to-ground"
+            },
+            {
+              "index": 8,
+              "name": "pipe-to-ground"
+            },
+            {
+              "index": 9,
+              "name": "pipe-to-ground"
+            },
+            {
+              "index": 10,
+              "name": "steel-chest"
+            },
+            {
+              "index": 11,
+              "name": "steel-chest"
+            },
+            {
+              "index": 12,
+              "name": "steel-chest"
+            },
+            {
+              "index": 13,
+              "name": "fast-underground-belt"
+            }
+          ],
+          "bar": 13
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "locomotive",
+        "position": {
+          "x": 311.59375,
+          "y": 2283
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0,
+          "b": 1,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          5
+        ],
+        "schedule": [
+          {
+            "station": "research_supply_2",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 13
+}

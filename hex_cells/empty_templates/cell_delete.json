@@ -1,0 +1,34 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "entity_filters": [
+        {
+          "name": "curved-rail",
+          "index": 0
+        },
+        {
+          "name": "straight-rail",
+          "index": 1
+        },
+        {
+          "name": "rail-signal",
+          "index": 2
+        },
+        {
+          "name": "rail-chain-signal",
+          "index": 3
+        },
+        {
+          "name": "big-electric-pole",
+          "index": 10
+        }
+      ],
+      "tile_selection_mode": 2,
+      "description": "Remove rails, rail signals and big power poles"
+    },
+    "item": "deconstruction-planner",
+    "label": "cell_delete",
+    "version": 281479276265473
+  },
+  "index": 5
+}

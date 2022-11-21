@@ -1,0 +1,172 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "fluid",
+          "name": "water"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "water",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 134.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 2,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 141.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 3,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 148.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 4,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 155.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 5,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 162.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 6,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 169.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 7,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 176.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 8,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 183.84375,
+          "y": 1293
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.84375,
+          "y": 1293
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0,
+          "g": 0.20000000298023224,
+          "b": 0.5529412031173706,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.84375,
+          "y": 1293
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0,
+          "g": 0.20000000298023224,
+          "b": 0.5529412031173706,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_water",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "fluid_count",
+                "condition": {
+                  "first_signal": {
+                    "type": "fluid",
+                    "name": "water"
+                  },
+                  "constant": 200000,
+                  "comparator": "="
+                }
+              }
+            ]
+          },
+          {
+            "station": "cell_water",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "fluid_count",
+                "condition": {
+                  "first_signal": {
+                    "type": "fluid",
+                    "name": "water"
+                  },
+                  "constant": 0,
+                  "comparator": "="
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 13
+}

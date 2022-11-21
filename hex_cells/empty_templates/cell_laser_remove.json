@@ -1,0 +1,31 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "entity_filters": [
+        {
+          "name": "laser-turret",
+          "index": 0
+        },
+        {
+          "name": "substation",
+          "index": 1
+        }
+      ],
+      "tile_selection_mode": 2,
+      "description": "removes lasers and substations from cells",
+      "icons": [
+        {
+          "signal": {
+            "type": "item",
+            "name": "laser-turret"
+          },
+          "index": 1
+        }
+      ]
+    },
+    "item": "deconstruction-planner",
+    "label": "cell_laser_remove",
+    "version": 281479276265473
+  },
+  "index": 17
+}

@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "green chips\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "electronic-circuit"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "green_chips",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 2,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 3,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 4,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 5,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 6,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 7,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 8,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 9,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 10,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 11,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 12,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 13,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 14,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 15,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 16,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 17,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 18,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 19,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 20,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 21,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 22,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 23,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 24,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 25,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 26,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 27,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 28,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 29,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 30,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 31,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 32,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 33,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 34,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 35,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 36,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 37,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 38,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 39,
+              "name": "electronic-circuit"
+            },
+            {
+              "index": 40,
+              "name": "electronic-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.9411764740943909,
+          "g": 0.7843137383460999,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.78125,
+          "y": 1295
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0,
+          "g": 0.6784313917160034,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_green_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_green_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 18
+}

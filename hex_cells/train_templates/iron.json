@@ -1,0 +1,1468 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "iron-plate"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "iron",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 135.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 142.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 149.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 156.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 163.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 170.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 177.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 184.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-plate"
+            },
+            {
+              "index": 2,
+              "name": "iron-plate"
+            },
+            {
+              "index": 3,
+              "name": "iron-plate"
+            },
+            {
+              "index": 4,
+              "name": "iron-plate"
+            },
+            {
+              "index": 5,
+              "name": "iron-plate"
+            },
+            {
+              "index": 6,
+              "name": "iron-plate"
+            },
+            {
+              "index": 7,
+              "name": "iron-plate"
+            },
+            {
+              "index": 8,
+              "name": "iron-plate"
+            },
+            {
+              "index": 9,
+              "name": "iron-plate"
+            },
+            {
+              "index": 10,
+              "name": "iron-plate"
+            },
+            {
+              "index": 11,
+              "name": "iron-plate"
+            },
+            {
+              "index": 12,
+              "name": "iron-plate"
+            },
+            {
+              "index": 13,
+              "name": "iron-plate"
+            },
+            {
+              "index": 14,
+              "name": "iron-plate"
+            },
+            {
+              "index": 15,
+              "name": "iron-plate"
+            },
+            {
+              "index": 16,
+              "name": "iron-plate"
+            },
+            {
+              "index": 17,
+              "name": "iron-plate"
+            },
+            {
+              "index": 18,
+              "name": "iron-plate"
+            },
+            {
+              "index": 19,
+              "name": "iron-plate"
+            },
+            {
+              "index": 20,
+              "name": "iron-plate"
+            },
+            {
+              "index": 21,
+              "name": "iron-plate"
+            },
+            {
+              "index": 22,
+              "name": "iron-plate"
+            },
+            {
+              "index": 23,
+              "name": "iron-plate"
+            },
+            {
+              "index": 24,
+              "name": "iron-plate"
+            },
+            {
+              "index": 25,
+              "name": "iron-plate"
+            },
+            {
+              "index": 26,
+              "name": "iron-plate"
+            },
+            {
+              "index": 27,
+              "name": "iron-plate"
+            },
+            {
+              "index": 28,
+              "name": "iron-plate"
+            },
+            {
+              "index": 29,
+              "name": "iron-plate"
+            },
+            {
+              "index": 30,
+              "name": "iron-plate"
+            },
+            {
+              "index": 31,
+              "name": "iron-plate"
+            },
+            {
+              "index": 32,
+              "name": "iron-plate"
+            },
+            {
+              "index": 33,
+              "name": "iron-plate"
+            },
+            {
+              "index": 34,
+              "name": "iron-plate"
+            },
+            {
+              "index": 35,
+              "name": "iron-plate"
+            },
+            {
+              "index": 36,
+              "name": "iron-plate"
+            },
+            {
+              "index": 37,
+              "name": "iron-plate"
+            },
+            {
+              "index": 38,
+              "name": "iron-plate"
+            },
+            {
+              "index": 39,
+              "name": "iron-plate"
+            },
+            {
+              "index": 40,
+              "name": "iron-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 191.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.4666666686534881,
+          "g": 0.615686297416687,
+          "b": 0.8235294222831726,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 198.1875,
+          "y": 1305
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.4666666686534881,
+          "g": 0.615686297416687,
+          "b": 0.8235294222831726,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_iron_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_iron_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 8
+}

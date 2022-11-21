@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "plastic train\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "plastic-bar"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "plastic",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 135.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 142.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 149.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 156.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 163.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 170.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 177.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 184.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 2,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 3,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 4,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 5,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 6,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 7,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 8,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 9,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 10,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 11,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 12,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 13,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 14,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 15,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 16,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 17,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 18,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 19,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 20,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 21,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 22,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 23,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 24,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 25,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 26,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 27,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 28,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 29,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 30,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 31,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 32,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 33,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 34,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 35,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 36,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 37,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 38,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 39,
+              "name": "plastic-bar"
+            },
+            {
+              "index": 40,
+              "name": "plastic-bar"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 191.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 198.0625,
+          "y": 1301
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_plastic",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_plastic",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 21
+}

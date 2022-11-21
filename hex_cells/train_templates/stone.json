@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "Stone train\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "stone"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "stone",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "stone"
+            },
+            {
+              "index": 2,
+              "name": "stone"
+            },
+            {
+              "index": 3,
+              "name": "stone"
+            },
+            {
+              "index": 4,
+              "name": "stone"
+            },
+            {
+              "index": 5,
+              "name": "stone"
+            },
+            {
+              "index": 6,
+              "name": "stone"
+            },
+            {
+              "index": 7,
+              "name": "stone"
+            },
+            {
+              "index": 8,
+              "name": "stone"
+            },
+            {
+              "index": 9,
+              "name": "stone"
+            },
+            {
+              "index": 10,
+              "name": "stone"
+            },
+            {
+              "index": 11,
+              "name": "stone"
+            },
+            {
+              "index": 12,
+              "name": "stone"
+            },
+            {
+              "index": 13,
+              "name": "stone"
+            },
+            {
+              "index": 14,
+              "name": "stone"
+            },
+            {
+              "index": 15,
+              "name": "stone"
+            },
+            {
+              "index": 16,
+              "name": "stone"
+            },
+            {
+              "index": 17,
+              "name": "stone"
+            },
+            {
+              "index": 18,
+              "name": "stone"
+            },
+            {
+              "index": 19,
+              "name": "stone"
+            },
+            {
+              "index": 20,
+              "name": "stone"
+            },
+            {
+              "index": 21,
+              "name": "stone"
+            },
+            {
+              "index": 22,
+              "name": "stone"
+            },
+            {
+              "index": 23,
+              "name": "stone"
+            },
+            {
+              "index": 24,
+              "name": "stone"
+            },
+            {
+              "index": 25,
+              "name": "stone"
+            },
+            {
+              "index": 26,
+              "name": "stone"
+            },
+            {
+              "index": 27,
+              "name": "stone"
+            },
+            {
+              "index": 28,
+              "name": "stone"
+            },
+            {
+              "index": 29,
+              "name": "stone"
+            },
+            {
+              "index": 30,
+              "name": "stone"
+            },
+            {
+              "index": 31,
+              "name": "stone"
+            },
+            {
+              "index": 32,
+              "name": "stone"
+            },
+            {
+              "index": 33,
+              "name": "stone"
+            },
+            {
+              "index": 34,
+              "name": "stone"
+            },
+            {
+              "index": 35,
+              "name": "stone"
+            },
+            {
+              "index": 36,
+              "name": "stone"
+            },
+            {
+              "index": 37,
+              "name": "stone"
+            },
+            {
+              "index": 38,
+              "name": "stone"
+            },
+            {
+              "index": 39,
+              "name": "stone"
+            },
+            {
+              "index": 40,
+              "name": "stone"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.5490196347236633,
+          "g": 0.3529411852359772,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.40625,
+          "y": 1289
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.5490196347236633,
+          "g": 0.3529411852359772,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_stone",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_stone",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 1
+}

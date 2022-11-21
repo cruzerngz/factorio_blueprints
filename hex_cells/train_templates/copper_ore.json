@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "Copper ore carrying train\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "copper-ore"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "copper_ore",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-ore"
+            },
+            {
+              "index": 2,
+              "name": "copper-ore"
+            },
+            {
+              "index": 3,
+              "name": "copper-ore"
+            },
+            {
+              "index": 4,
+              "name": "copper-ore"
+            },
+            {
+              "index": 5,
+              "name": "copper-ore"
+            },
+            {
+              "index": 6,
+              "name": "copper-ore"
+            },
+            {
+              "index": 7,
+              "name": "copper-ore"
+            },
+            {
+              "index": 8,
+              "name": "copper-ore"
+            },
+            {
+              "index": 9,
+              "name": "copper-ore"
+            },
+            {
+              "index": 10,
+              "name": "copper-ore"
+            },
+            {
+              "index": 11,
+              "name": "copper-ore"
+            },
+            {
+              "index": 12,
+              "name": "copper-ore"
+            },
+            {
+              "index": 13,
+              "name": "copper-ore"
+            },
+            {
+              "index": 14,
+              "name": "copper-ore"
+            },
+            {
+              "index": 15,
+              "name": "copper-ore"
+            },
+            {
+              "index": 16,
+              "name": "copper-ore"
+            },
+            {
+              "index": 17,
+              "name": "copper-ore"
+            },
+            {
+              "index": 18,
+              "name": "copper-ore"
+            },
+            {
+              "index": 19,
+              "name": "copper-ore"
+            },
+            {
+              "index": 20,
+              "name": "copper-ore"
+            },
+            {
+              "index": 21,
+              "name": "copper-ore"
+            },
+            {
+              "index": 22,
+              "name": "copper-ore"
+            },
+            {
+              "index": 23,
+              "name": "copper-ore"
+            },
+            {
+              "index": 24,
+              "name": "copper-ore"
+            },
+            {
+              "index": 25,
+              "name": "copper-ore"
+            },
+            {
+              "index": 26,
+              "name": "copper-ore"
+            },
+            {
+              "index": 27,
+              "name": "copper-ore"
+            },
+            {
+              "index": 28,
+              "name": "copper-ore"
+            },
+            {
+              "index": 29,
+              "name": "copper-ore"
+            },
+            {
+              "index": 30,
+              "name": "copper-ore"
+            },
+            {
+              "index": 31,
+              "name": "copper-ore"
+            },
+            {
+              "index": 32,
+              "name": "copper-ore"
+            },
+            {
+              "index": 33,
+              "name": "copper-ore"
+            },
+            {
+              "index": 34,
+              "name": "copper-ore"
+            },
+            {
+              "index": 35,
+              "name": "copper-ore"
+            },
+            {
+              "index": 36,
+              "name": "copper-ore"
+            },
+            {
+              "index": 37,
+              "name": "copper-ore"
+            },
+            {
+              "index": 38,
+              "name": "copper-ore"
+            },
+            {
+              "index": 39,
+              "name": "copper-ore"
+            },
+            {
+              "index": 40,
+              "name": "copper-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.32156863808631897,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.1875,
+          "y": 1283
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.32156863808631897,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_copper_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_copper_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 3
+}

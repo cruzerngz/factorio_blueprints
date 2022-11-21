@@ -13,7 +13,7 @@
     "item": "blueprint-book",
     "label": "research_units",
     "label_color": null,
-    "active_index": 0,
+    "active_index": 13,
     "version": 281479276265473,
     "order": [
       {
@@ -56,7 +56,7 @@
       },
       {
         "blueprint": {
-          "description": "Input: \n- 9.5K/min iron ore\n- 7.6K/min copper ore\n- 1.2K/min stone\n- 1K/min coal\n- 33K/min water\n- 21K/min crude oil\n\nOutput:\n- 155 SPM (all research except follower robot count)\n\nPower: 750MW",
+          "description": "Input: \n- 9.5K/min iron ore\n- 7.6K/min copper ore\n- 1.2K/min stone\n- 1K/min coal\n- 33K/min water\n- 21K/min crude oil\n\nOutput:\n- 158 SPM (all research except follower robot count)\n\nPower: 750MW",
           "icons": [
             {
               "signal": {
@@ -72,8 +72,99 @@
           "version": 281479276265473
         },
         "index": 2
+      },
+      {
+        "blueprint": {
+          "description": "Input: \n- 9.5K/min iron ore\n- 7.6K/min copper ore\n- 1.2K/min stone\n- 1K/min coal\n- 33K/min water\n- 21K/min crude oil\n\nOutput:\n- 158 SPM (all research except follower robot count)\n\nPower: 750MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "space-science-pack"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_hex_cell_v3_skeleton",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 3
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_supply_1",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 6
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_supply_2",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 7
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "space-science-pack"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_train_1",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 12
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "space-science-pack"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "research_train_2",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 13
       }
     ]
   },
-  "index": 3
+  "index": 5
 }

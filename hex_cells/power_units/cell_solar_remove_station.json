@@ -1,0 +1,34 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "entity_filters": [
+        {
+          "name": "train-stop",
+          "index": 0
+        }
+      ],
+      "tile_selection_mode": 2,
+      "description": "remove the unused train station",
+      "icons": [
+        {
+          "signal": {
+            "type": "item",
+            "name": "solar-panel"
+          },
+          "index": 1
+        },
+        {
+          "signal": {
+            "type": "item",
+            "name": "train-stop"
+          },
+          "index": 2
+        }
+      ]
+    },
+    "item": "deconstruction-planner",
+    "label": "cell_solar_remove_station",
+    "version": 281479276265473
+  },
+  "index": 2
+}

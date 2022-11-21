@@ -1,0 +1,1468 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "copper-plate"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "copper",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 135.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 142.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 149.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 156.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 163.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 170.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 177.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 184.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "copper-plate"
+            },
+            {
+              "index": 2,
+              "name": "copper-plate"
+            },
+            {
+              "index": 3,
+              "name": "copper-plate"
+            },
+            {
+              "index": 4,
+              "name": "copper-plate"
+            },
+            {
+              "index": 5,
+              "name": "copper-plate"
+            },
+            {
+              "index": 6,
+              "name": "copper-plate"
+            },
+            {
+              "index": 7,
+              "name": "copper-plate"
+            },
+            {
+              "index": 8,
+              "name": "copper-plate"
+            },
+            {
+              "index": 9,
+              "name": "copper-plate"
+            },
+            {
+              "index": 10,
+              "name": "copper-plate"
+            },
+            {
+              "index": 11,
+              "name": "copper-plate"
+            },
+            {
+              "index": 12,
+              "name": "copper-plate"
+            },
+            {
+              "index": 13,
+              "name": "copper-plate"
+            },
+            {
+              "index": 14,
+              "name": "copper-plate"
+            },
+            {
+              "index": 15,
+              "name": "copper-plate"
+            },
+            {
+              "index": 16,
+              "name": "copper-plate"
+            },
+            {
+              "index": 17,
+              "name": "copper-plate"
+            },
+            {
+              "index": 18,
+              "name": "copper-plate"
+            },
+            {
+              "index": 19,
+              "name": "copper-plate"
+            },
+            {
+              "index": 20,
+              "name": "copper-plate"
+            },
+            {
+              "index": 21,
+              "name": "copper-plate"
+            },
+            {
+              "index": 22,
+              "name": "copper-plate"
+            },
+            {
+              "index": 23,
+              "name": "copper-plate"
+            },
+            {
+              "index": 24,
+              "name": "copper-plate"
+            },
+            {
+              "index": 25,
+              "name": "copper-plate"
+            },
+            {
+              "index": 26,
+              "name": "copper-plate"
+            },
+            {
+              "index": 27,
+              "name": "copper-plate"
+            },
+            {
+              "index": 28,
+              "name": "copper-plate"
+            },
+            {
+              "index": 29,
+              "name": "copper-plate"
+            },
+            {
+              "index": 30,
+              "name": "copper-plate"
+            },
+            {
+              "index": 31,
+              "name": "copper-plate"
+            },
+            {
+              "index": 32,
+              "name": "copper-plate"
+            },
+            {
+              "index": 33,
+              "name": "copper-plate"
+            },
+            {
+              "index": 34,
+              "name": "copper-plate"
+            },
+            {
+              "index": 35,
+              "name": "copper-plate"
+            },
+            {
+              "index": 36,
+              "name": "copper-plate"
+            },
+            {
+              "index": 37,
+              "name": "copper-plate"
+            },
+            {
+              "index": 38,
+              "name": "copper-plate"
+            },
+            {
+              "index": 39,
+              "name": "copper-plate"
+            },
+            {
+              "index": 40,
+              "name": "copper-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 191.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.6078431606292725,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 198.1875,
+          "y": 1303
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.6078431606292725,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_copper",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_copper",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 9
+}

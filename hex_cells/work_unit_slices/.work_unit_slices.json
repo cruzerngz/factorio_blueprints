@@ -1,33 +1,35 @@
 {
   "blueprint_book": {
+    "description": "Slice of a work unit.",
     "icons": [
       {
         "signal": {
           "type": "item",
-          "name": "solar-panel"
+          "name": "iron-gear-wheel"
         },
         "index": 1
       }
     ],
     "item": "blueprint-book",
-    "label": "power_units",
+    "label": "work_unit_slices",
     "label_color": null,
-    "active_index": 13,
+    "active_index": 24,
     "version": 281479276265473,
     "order": [
       {
         "blueprint": {
+          "description": "2.7k/min normal ores",
           "icons": [
             {
               "signal": {
                 "type": "item",
-                "name": "solar-panel"
+                "name": "electric-furnace"
               },
               "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "cell_solar_construction",
+          "label": "smelter_slice",
           "label_color": null,
           "version": 281479276265473
         },
@@ -35,68 +37,80 @@
       },
       {
         "blueprint": {
-          "description": "2022 solar\n1708 accululator\n84.4% ratio\n84MW continuous",
+          "description": "2.7k/min",
           "icons": [
             {
               "signal": {
                 "type": "item",
-                "name": "solar-panel"
+                "name": "electronic-circuit"
               },
               "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "solar_hex_cell",
+          "label": "green_chips_slice",
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 1
-      },
-      {
-        "deconstruction_planner": {
-          "label": "cell_solar_remove_station"
-        },
-        "index": 2
+        "index": 6
       },
       {
         "blueprint": {
-          "description": "Full nuclear power plant\n\nInputs:\n- 10 fuel cells/min\n\nOutput:\n- 4.2 GW sustained, 4.32 GW theoretical max\n- 10 used fuel cells/s",
+          "description": "2.7k/min",
           "icons": [
             {
               "signal": {
                 "type": "item",
-                "name": "nuclear-reactor"
+                "name": "plastic-bar"
               },
               "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "nuclear_hex_cell",
+          "label": "plastic_slice",
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 7
+        "index": 12
       },
       {
         "blueprint": {
-          "description": "UPS efficient reactor unit. Uses 10x the number of nuclear reactors, with 1/4 the number of heat carrying entities and 1/10 the number of pipes\n\nInputs:\n- 10 fuel cells/min\n\nOutput:\n3.7 GW continuous",
           "icons": [
             {
               "signal": {
                 "type": "item",
-                "name": "nuclear-reactor"
+                "name": "advanced-circuit"
               },
-              "index": 2
+              "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "nuclear_hex_cell_ups",
+          "label": "red_chips_slice",
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 13
+        "index": 18
+      },
+      {
+        "blueprint": {
+          "description": "2.7k/min green chips input",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "processing-unit"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "blue_chips_slice",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 24
       }
     ]
   },
-  "index": 2
+  "index": 4
 }

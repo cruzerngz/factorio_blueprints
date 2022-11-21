@@ -1,0 +1,1022 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "research_supply_2",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 281.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 2,
+        "name": "stack-inserter",
+        "position": {
+          "x": 281.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 280.5,
+          "y": 2295.5
+        },
+        "neighbours": [
+          14,
+          56
+        ]
+      },
+      {
+        "entity_number": 4,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 283.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 5,
+        "name": "stack-inserter",
+        "position": {
+          "x": 283.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 282.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 7,
+        "name": "stack-inserter",
+        "position": {
+          "x": 282.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 285.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 9,
+        "name": "stack-inserter",
+        "position": {
+          "x": 285.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 284.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 11,
+        "name": "stack-inserter",
+        "position": {
+          "x": 284.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 286.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 13,
+        "name": "stack-inserter",
+        "position": {
+          "x": 286.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 287.5,
+          "y": 2295.5
+        },
+        "neighbours": [
+          3,
+          27,
+          69
+        ]
+      },
+      {
+        "entity_number": 15,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 288.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "storage-tank",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 16,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 289.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "pump",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 17,
+        "name": "stack-inserter",
+        "position": {
+          "x": 288.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stack-inserter",
+        "position": {
+          "x": 289.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 290.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "radar",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 20,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 291.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "power-switch",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 21,
+        "name": "stack-inserter",
+        "position": {
+          "x": 290.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "stack-inserter",
+        "position": {
+          "x": 291.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 292.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "pipe",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 24,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 293.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "pipe",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "stack-inserter",
+        "position": {
+          "x": 293.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "stack-inserter",
+        "position": {
+          "x": 292.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 294.5,
+          "y": 2295.5
+        },
+        "neighbours": [
+          14,
+          28,
+          82
+        ]
+      },
+      {
+        "entity_number": 28,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 301.5,
+          "y": 2295.5
+        },
+        "neighbours": [
+          27,
+          37,
+          87
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "stack-inserter",
+        "position": {
+          "x": 303.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 303.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "medium-electric-pole",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 31,
+        "name": "stack-inserter",
+        "position": {
+          "x": 305.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stack-inserter",
+        "position": {
+          "x": 304.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 305.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "steel-chest",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 34,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 304.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "pipe-to-ground",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 35,
+        "name": "stack-inserter",
+        "position": {
+          "x": 306.5,
+          "y": 2295.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 306.5,
+          "y": 2294.5
+        },
+        "request_filters": [
+          {
+            "index": 2,
+            "name": "fast-underground-belt",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 37,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 308.5,
+          "y": 2295.5
+        },
+        "neighbours": [
+          28,
+          88
+        ]
+      },
+      {
+        "entity_number": 38,
+        "name": "straight-rail",
+        "position": {
+          "x": 281,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 39,
+        "name": "straight-rail",
+        "position": {
+          "x": 283,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 40,
+        "name": "straight-rail",
+        "position": {
+          "x": 285,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 41,
+        "name": "straight-rail",
+        "position": {
+          "x": 287,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 42,
+        "name": "straight-rail",
+        "position": {
+          "x": 289,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 43,
+        "name": "straight-rail",
+        "position": {
+          "x": 291,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 44,
+        "name": "straight-rail",
+        "position": {
+          "x": 293,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 45,
+        "name": "straight-rail",
+        "position": {
+          "x": 295,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 46,
+        "name": "straight-rail",
+        "position": {
+          "x": 297,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 47,
+        "name": "straight-rail",
+        "position": {
+          "x": 299,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 48,
+        "name": "straight-rail",
+        "position": {
+          "x": 301,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 49,
+        "name": "straight-rail",
+        "position": {
+          "x": 303,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 50,
+        "name": "straight-rail",
+        "position": {
+          "x": 305,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 51,
+        "name": "straight-rail",
+        "position": {
+          "x": 307,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 52,
+        "name": "straight-rail",
+        "position": {
+          "x": 309,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 53,
+        "name": "straight-rail",
+        "position": {
+          "x": 311,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 54,
+        "name": "straight-rail",
+        "position": {
+          "x": 313,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 55,
+        "name": "straight-rail",
+        "position": {
+          "x": 315,
+          "y": 2297
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 56,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 280.5,
+          "y": 2298.5
+        },
+        "neighbours": [
+          3,
+          69
+        ]
+      },
+      {
+        "entity_number": 57,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 281.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 58,
+        "name": "stack-inserter",
+        "position": {
+          "x": 281.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 59,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 282.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 60,
+        "name": "stack-inserter",
+        "position": {
+          "x": 282.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 61,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 283.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 62,
+        "name": "stack-inserter",
+        "position": {
+          "x": 283.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 63,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 284.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 64,
+        "name": "stack-inserter",
+        "position": {
+          "x": 284.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 65,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 285.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 66,
+        "name": "stack-inserter",
+        "position": {
+          "x": 285.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 67,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 286.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 68,
+        "name": "stack-inserter",
+        "position": {
+          "x": 286.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 69,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 287.5,
+          "y": 2298.5
+        },
+        "neighbours": [
+          14,
+          56,
+          82
+        ]
+      },
+      {
+        "entity_number": 70,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 289.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 71,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 288.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 72,
+        "name": "stack-inserter",
+        "position": {
+          "x": 288.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 73,
+        "name": "stack-inserter",
+        "position": {
+          "x": 289.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 74,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 290.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "beacon",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "entity_number": 75,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 291.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "stack-inserter",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 76,
+        "name": "stack-inserter",
+        "position": {
+          "x": 291.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 77,
+        "name": "stack-inserter",
+        "position": {
+          "x": 290.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 78,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 293.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "stack-inserter",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 79,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 292.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "stack-inserter",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 80,
+        "name": "stack-inserter",
+        "position": {
+          "x": 293.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 81,
+        "name": "stack-inserter",
+        "position": {
+          "x": 292.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 82,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 294.5,
+          "y": 2298.5
+        },
+        "neighbours": [
+          27,
+          69,
+          87
+        ]
+      },
+      {
+        "entity_number": 83,
+        "name": "stack-inserter",
+        "position": {
+          "x": 297.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 84,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 297.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "electric-furnace",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 85,
+        "name": "stack-inserter",
+        "position": {
+          "x": 298.5,
+          "y": 2298.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 86,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 298.5,
+          "y": 2299.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "electric-furnace",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 87,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 301.5,
+          "y": 2298.5
+        },
+        "neighbours": [
+          28,
+          82,
+          88
+        ]
+      },
+      {
+        "entity_number": 88,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 308.5,
+          "y": 2298.5
+        },
+        "neighbours": [
+          37,
+          87
+        ]
+      },
+      {
+        "entity_number": 89,
+        "name": "train-stop",
+        "position": {
+          "x": 315,
+          "y": 2299
+        },
+        "direction": 2,
+        "station": "research_supply_2",
+        "manual_trains_limit": 1
+      }
+    ]
+  },
+  "index": 7
+}

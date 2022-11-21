@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "Coal train\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "coal"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "coal",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "coal"
+            },
+            {
+              "index": 2,
+              "name": "coal"
+            },
+            {
+              "index": 3,
+              "name": "coal"
+            },
+            {
+              "index": 4,
+              "name": "coal"
+            },
+            {
+              "index": 5,
+              "name": "coal"
+            },
+            {
+              "index": 6,
+              "name": "coal"
+            },
+            {
+              "index": 7,
+              "name": "coal"
+            },
+            {
+              "index": 8,
+              "name": "coal"
+            },
+            {
+              "index": 9,
+              "name": "coal"
+            },
+            {
+              "index": 10,
+              "name": "coal"
+            },
+            {
+              "index": 11,
+              "name": "coal"
+            },
+            {
+              "index": 12,
+              "name": "coal"
+            },
+            {
+              "index": 13,
+              "name": "coal"
+            },
+            {
+              "index": 14,
+              "name": "coal"
+            },
+            {
+              "index": 15,
+              "name": "coal"
+            },
+            {
+              "index": 16,
+              "name": "coal"
+            },
+            {
+              "index": 17,
+              "name": "coal"
+            },
+            {
+              "index": 18,
+              "name": "coal"
+            },
+            {
+              "index": 19,
+              "name": "coal"
+            },
+            {
+              "index": 20,
+              "name": "coal"
+            },
+            {
+              "index": 21,
+              "name": "coal"
+            },
+            {
+              "index": 22,
+              "name": "coal"
+            },
+            {
+              "index": 23,
+              "name": "coal"
+            },
+            {
+              "index": 24,
+              "name": "coal"
+            },
+            {
+              "index": 25,
+              "name": "coal"
+            },
+            {
+              "index": 26,
+              "name": "coal"
+            },
+            {
+              "index": 27,
+              "name": "coal"
+            },
+            {
+              "index": 28,
+              "name": "coal"
+            },
+            {
+              "index": 29,
+              "name": "coal"
+            },
+            {
+              "index": 30,
+              "name": "coal"
+            },
+            {
+              "index": 31,
+              "name": "coal"
+            },
+            {
+              "index": 32,
+              "name": "coal"
+            },
+            {
+              "index": 33,
+              "name": "coal"
+            },
+            {
+              "index": 34,
+              "name": "coal"
+            },
+            {
+              "index": 35,
+              "name": "coal"
+            },
+            {
+              "index": 36,
+              "name": "coal"
+            },
+            {
+              "index": 37,
+              "name": "coal"
+            },
+            {
+              "index": 38,
+              "name": "coal"
+            },
+            {
+              "index": 39,
+              "name": "coal"
+            },
+            {
+              "index": 40,
+              "name": "coal"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.062745101749897,
+          "g": 0.062745101749897,
+          "b": 0.062745101749897,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.3125,
+          "y": 1287
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.062745101749897,
+          "g": 0.062745101749897,
+          "b": 0.062745101749897,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_coal",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_coal",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 0
+}

@@ -17,6 +17,43 @@
     "order": [
       {
         "blueprint": {
+          "description": "Landfill for empty hex cell",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "landfill"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "empty_cell_land",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "landfill"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "empty_call_land_full",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 1
+      },
+      {
+        "blueprint": {
           "icons": [
             {
               "signal": {
@@ -31,7 +68,25 @@
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 0
+        "index": 2
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-dot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "empty_hex_cell_radar",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 3
       },
       {
         "blueprint": {
@@ -49,7 +104,13 @@
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 1
+        "index": 4
+      },
+      {
+        "deconstruction_planner": {
+          "label": "cell_delete"
+        },
+        "index": 5
       },
       {
         "blueprint": {
@@ -57,10 +118,31 @@
           "icons": [
             {
               "signal": {
-                "type": "virtual",
-                "name": "signal-dot"
+                "type": "item",
+                "name": "laser-turret"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 4
             }
           ],
           "item": "blueprint",
@@ -75,10 +157,31 @@
           "icons": [
             {
               "signal": {
-                "type": "virtual",
-                "name": "signal-dot"
+                "type": "item",
+                "name": "laser-turret"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-U"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 4
             }
           ],
           "item": "blueprint",
@@ -93,14 +196,35 @@
           "icons": [
             {
               "signal": {
-                "type": "virtual",
-                "name": "signal-dot"
+                "type": "item",
+                "name": "laser-turret"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-R"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-U"
+              },
+              "index": 4
             }
           ],
           "item": "blueprint",
-          "label": "cell_laser_down",
+          "label": "cell_laser_right_upper",
           "label_color": null,
           "version": 281479276265473
         },
@@ -111,14 +235,35 @@
           "icons": [
             {
               "signal": {
-                "type": "virtual",
-                "name": "signal-dot"
+                "type": "item",
+                "name": "laser-turret"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-R"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-L"
+              },
+              "index": 4
             }
           ],
           "item": "blueprint",
-          "label": "cell_laser_left",
+          "label": "cell_laser_right_lower",
           "label_color": null,
           "version": 281479276265473
         },
@@ -129,10 +274,31 @@
           "icons": [
             {
               "signal": {
-                "type": "virtual",
-                "name": "signal-dot"
+                "type": "item",
+                "name": "laser-turret"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-R"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 4
             }
           ],
           "item": "blueprint",
@@ -143,10 +309,166 @@
         "index": 10
       },
       {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "laser-turret"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-D"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "cell_laser_down",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 11
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "laser-turret"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-L"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-L"
+              },
+              "index": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "cell_laser_left_lower",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 12
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "laser-turret"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-L"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-U"
+              },
+              "index": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "cell_laser_left_upper",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 13
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "laser-turret"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-L"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-blue"
+              },
+              "index": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "cell_laser_left",
+          "label_color": null,
+          "version": 281479276265473
+        },
+        "index": 14
+      },
+      {
         "deconstruction_planner": {
           "label": "cell_laser_remove"
         },
-        "index": 11
+        "index": 17
       },
       {
         "blueprint": {
@@ -165,7 +487,7 @@
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 12
+        "index": 18
       },
       {
         "blueprint": {
@@ -183,7 +505,7 @@
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 13
+        "index": 19
       },
       {
         "blueprint": {
@@ -223,7 +545,7 @@
           "label_color": null,
           "version": 281479276265473
         },
-        "index": 18
+        "index": 24
       }
     ]
   },

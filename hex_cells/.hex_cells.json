@@ -37,6 +37,26 @@
       },
       {
         "blueprint_book": {
+          "description": "Non hex units",
+          "icons": [
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-dot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "small_units",
+          "label_color": null,
+          "active_index": 1,
+          "version": 281479276265473
+        },
+        "index": 1
+      },
+      {
+        "blueprint_book": {
           "icons": [
             {
               "signal": {
@@ -49,10 +69,10 @@
           "item": "blueprint-book",
           "label": "power_units",
           "label_color": null,
-          "active_index": 0,
+          "active_index": 13,
           "version": 281479276265473
         },
-        "index": 1
+        "index": 2
       },
       {
         "blueprint_book": {
@@ -69,10 +89,30 @@
           "item": "blueprint-book",
           "label": "work_units",
           "label_color": null,
-          "active_index": 0,
+          "active_index": 37,
           "version": 281479276265473
         },
-        "index": 2
+        "index": 3
+      },
+      {
+        "blueprint_book": {
+          "description": "Slice of a work unit.",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "work_unit_slices",
+          "label_color": null,
+          "active_index": 24,
+          "version": 281479276265473
+        },
+        "index": 4
       },
       {
         "blueprint_book": {
@@ -89,10 +129,10 @@
           "item": "blueprint-book",
           "label": "research_units",
           "label_color": null,
-          "active_index": 0,
+          "active_index": 13,
           "version": 281479276265473
         },
-        "index": 3
+        "index": 5
       },
       {
         "blueprint_book": {
@@ -108,10 +148,10 @@
           "item": "blueprint-book",
           "label": "artillery_units",
           "label_color": null,
-          "active_index": 1,
+          "active_index": 6,
           "version": 281479276265473
         },
-        "index": 4
+        "index": 6
       },
       {
         "blueprint_book": {
@@ -152,7 +192,27 @@
           "active_index": 0,
           "version": 281479276265473
         },
-        "index": 6
+        "index": 7
+      },
+      {
+        "blueprint_book": {
+          "description": "Book for copy-pasting trains.\nWagons have all filtered slots if possible",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "train_templates",
+          "label_color": null,
+          "active_index": 21,
+          "version": 281479276265473
+        },
+        "index": 8
       }
     ]
   }

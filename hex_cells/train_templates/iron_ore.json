@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "Iron ore train\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "iron-ore"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "iron_ore",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "iron-ore"
+            },
+            {
+              "index": 2,
+              "name": "iron-ore"
+            },
+            {
+              "index": 3,
+              "name": "iron-ore"
+            },
+            {
+              "index": 4,
+              "name": "iron-ore"
+            },
+            {
+              "index": 5,
+              "name": "iron-ore"
+            },
+            {
+              "index": 6,
+              "name": "iron-ore"
+            },
+            {
+              "index": 7,
+              "name": "iron-ore"
+            },
+            {
+              "index": 8,
+              "name": "iron-ore"
+            },
+            {
+              "index": 9,
+              "name": "iron-ore"
+            },
+            {
+              "index": 10,
+              "name": "iron-ore"
+            },
+            {
+              "index": 11,
+              "name": "iron-ore"
+            },
+            {
+              "index": 12,
+              "name": "iron-ore"
+            },
+            {
+              "index": 13,
+              "name": "iron-ore"
+            },
+            {
+              "index": 14,
+              "name": "iron-ore"
+            },
+            {
+              "index": 15,
+              "name": "iron-ore"
+            },
+            {
+              "index": 16,
+              "name": "iron-ore"
+            },
+            {
+              "index": 17,
+              "name": "iron-ore"
+            },
+            {
+              "index": 18,
+              "name": "iron-ore"
+            },
+            {
+              "index": 19,
+              "name": "iron-ore"
+            },
+            {
+              "index": 20,
+              "name": "iron-ore"
+            },
+            {
+              "index": 21,
+              "name": "iron-ore"
+            },
+            {
+              "index": 22,
+              "name": "iron-ore"
+            },
+            {
+              "index": 23,
+              "name": "iron-ore"
+            },
+            {
+              "index": 24,
+              "name": "iron-ore"
+            },
+            {
+              "index": 25,
+              "name": "iron-ore"
+            },
+            {
+              "index": 26,
+              "name": "iron-ore"
+            },
+            {
+              "index": 27,
+              "name": "iron-ore"
+            },
+            {
+              "index": 28,
+              "name": "iron-ore"
+            },
+            {
+              "index": 29,
+              "name": "iron-ore"
+            },
+            {
+              "index": 30,
+              "name": "iron-ore"
+            },
+            {
+              "index": 31,
+              "name": "iron-ore"
+            },
+            {
+              "index": 32,
+              "name": "iron-ore"
+            },
+            {
+              "index": 33,
+              "name": "iron-ore"
+            },
+            {
+              "index": 34,
+              "name": "iron-ore"
+            },
+            {
+              "index": 35,
+              "name": "iron-ore"
+            },
+            {
+              "index": 36,
+              "name": "iron-ore"
+            },
+            {
+              "index": 37,
+              "name": "iron-ore"
+            },
+            {
+              "index": 38,
+              "name": "iron-ore"
+            },
+            {
+              "index": 39,
+              "name": "iron-ore"
+            },
+            {
+              "index": 40,
+              "name": "iron-ore"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.4666666686534881,
+          "g": 0.615686297416687,
+          "b": 0.6784313917160034,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197,
+          "y": 1285
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.4666666686534881,
+          "g": 0.615686297416687,
+          "b": 0.6784313917160034,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_iron_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_iron_ore",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 2
+}

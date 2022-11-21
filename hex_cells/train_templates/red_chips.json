@@ -1,0 +1,1469 @@
+{
+  "blueprint": {
+    "description": "red chips\n- wagons fully filtered",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "advanced-circuit"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "red_chips",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 134.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 141.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 148.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 155.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 162.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 169.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 176.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 183.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 2,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 3,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 4,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 5,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 6,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 7,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 8,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 9,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 10,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 11,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 12,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 13,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 14,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 15,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 16,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 17,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 18,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 19,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 20,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 21,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 22,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 23,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 24,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 25,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 26,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 27,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 28,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 29,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 30,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 31,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 32,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 33,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 34,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 35,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 36,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 37,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 38,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 39,
+              "name": "advanced-circuit"
+            },
+            {
+              "index": 40,
+              "name": "advanced-circuit"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 190.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.9411764740943909,
+          "g": 0.7843137383460999,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 197.46875,
+          "y": 1297
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_pickup_red_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_red_circuits",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 19
+}

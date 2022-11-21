@@ -1,18 +1,19 @@
 {
   "blueprint_book": {
+    "description": "Non hex units",
     "icons": [
       {
         "signal": {
-          "type": "item",
-          "name": "artillery-turret"
+          "type": "virtual",
+          "name": "signal-dot"
         },
         "index": 1
       }
     ],
     "item": "blueprint-book",
-    "label": "artillery_units",
+    "label": "small_units",
     "label_color": null,
-    "active_index": 6,
+    "active_index": 1,
     "version": 281479276265473,
     "order": [
       {
@@ -21,13 +22,13 @@
             {
               "signal": {
                 "type": "item",
-                "name": "artillery-wagon"
+                "name": "electric-mining-drill"
               },
               "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "cell_arti_template_1",
+          "label": "mining_block",
           "label_color": null,
           "version": 281479276265473
         },
@@ -39,37 +40,19 @@
             {
               "signal": {
                 "type": "item",
-                "name": "artillery-wagon"
+                "name": "electric-mining-drill"
               },
               "index": 1
             }
           ],
           "item": "blueprint",
-          "label": "cell_arti_template_2",
+          "label": "mining_block_train_interface",
           "label_color": null,
           "version": 281479276265473
         },
         "index": 1
-      },
-      {
-        "blueprint": {
-          "icons": [
-            {
-              "signal": {
-                "type": "item",
-                "name": "artillery-wagon"
-              },
-              "index": 1
-            }
-          ],
-          "item": "blueprint",
-          "label": "cell_arti_template_v2",
-          "label_color": null,
-          "version": 281479276265473
-        },
-        "index": 6
       }
     ]
   },
-  "index": 6
+  "index": 1
 }

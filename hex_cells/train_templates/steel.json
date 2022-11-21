@@ -1,0 +1,299 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "steel-plate"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "steel",
+    "version": 281479276265473,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 135.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 142.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 149.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 156.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 163.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 6,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 170.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 7,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 177.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 8,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 184.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 191.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.7843137383460999,
+          "g": 0.7843137383460999,
+          "b": 1,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 198.15625,
+          "y": 1307
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 0.7843137383460999,
+          "g": 0.7843137383460999,
+          "b": 1,
+          "a": 0.49803921580314636
+        }
+      }
+    ]
+  },
+  "index": 10
+}
