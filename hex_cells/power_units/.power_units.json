@@ -12,8 +12,8 @@
     "item": "blueprint-book",
     "label": "power_units",
     "label_color": null,
-    "active_index": 13,
-    "version": 281479276265473,
+    "active_index": 0,
+    "version": 281479276527617,
     "order": [
       {
         "blueprint": {
@@ -29,7 +29,7 @@
           "item": "blueprint",
           "label": "cell_solar_construction",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 0
       },
@@ -48,7 +48,7 @@
           "item": "blueprint",
           "label": "solar_hex_cell",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 1
       },
@@ -73,7 +73,7 @@
           "item": "blueprint",
           "label": "nuclear_hex_cell",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 7
       },
@@ -92,7 +92,7 @@
           "item": "blueprint",
           "label": "nuclear_hex_cell_ups",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 13
       }

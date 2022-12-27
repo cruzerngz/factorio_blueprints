@@ -14,7 +14,7 @@
     "label": "work_unit_slices",
     "label_color": null,
     "active_index": 24,
-    "version": 281479276265473,
+    "version": 281479276527617,
     "order": [
       {
         "blueprint": {
@@ -31,7 +31,7 @@
           "item": "blueprint",
           "label": "smelter_slice",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 0
       },
@@ -50,7 +50,7 @@
           "item": "blueprint",
           "label": "green_chips_slice",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 6
       },
@@ -69,7 +69,7 @@
           "item": "blueprint",
           "label": "plastic_slice",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 12
       },
@@ -87,7 +87,7 @@
           "item": "blueprint",
           "label": "red_chips_slice",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 18
       },
@@ -106,7 +106,7 @@
           "item": "blueprint",
           "label": "blue_chips_slice",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 24
       }

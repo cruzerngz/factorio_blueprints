@@ -13,8 +13,8 @@
     "item": "blueprint-book",
     "label": "small_units",
     "label_color": null,
-    "active_index": 1,
-    "version": 281479276265473,
+    "active_index": 0,
+    "version": 281479276527617,
     "order": [
       {
         "blueprint": {
@@ -30,7 +30,7 @@
           "item": "blueprint",
           "label": "mining_block",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 0
       },
@@ -48,9 +48,81 @@
           "item": "blueprint",
           "label": "mining_block_train_interface",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 1
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electric-mining-drill"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "mining_block_balancer",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 2
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electric-mining-drill"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "mining_block_train_station",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 3
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-robot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "bot_mining_block",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 6
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-robot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "bot_train_interface",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 7
       }
     ]
   },

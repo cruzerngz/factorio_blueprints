@@ -1,0 +1,411 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "logistic-robot"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "bot_mining_block",
+    "version": 281479276527617,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 6
+              },
+              {
+                "entity_id": 9
+              },
+              {
+                "entity_id": 13
+              },
+              {
+                "entity_id": 21
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          13,
+          21
+        ]
+      },
+      {
+        "entity_number": 8,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 9.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 13
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 11
+              },
+              {
+                "entity_id": 7
+              },
+              {
+                "entity_id": 14
+              },
+              {
+                "entity_id": 27
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          7,
+          27
+        ]
+      },
+      {
+        "entity_number": 14,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 13.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 13
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 16,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 17,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 18,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 19,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 1.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 21
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 3.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 20
+              },
+              {
+                "entity_id": 7
+              },
+              {
+                "entity_id": 23
+              },
+              {
+                "entity_id": 27
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          7,
+          27
+        ]
+      },
+      {
+        "entity_number": 22,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 5.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 21
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 9.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 27
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 25
+              },
+              {
+                "entity_id": 21
+              },
+              {
+                "entity_id": 13
+              },
+              {
+                "entity_id": 28
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          21,
+          13
+        ]
+      },
+      {
+        "entity_number": 28,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 13.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 27
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "index": 6
+}

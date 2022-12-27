@@ -13,8 +13,8 @@
     "item": "blueprint-book",
     "label": "work_units",
     "label_color": null,
-    "active_index": 37,
-    "version": 281479276265473,
+    "active_index": 0,
+    "version": 281479276527617,
     "order": [
       {
         "blueprint": {
@@ -31,7 +31,7 @@
           "item": "blueprint",
           "label": "cell_smelter_unit_v1",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 0
       },
@@ -50,7 +50,7 @@
           "item": "blueprint",
           "label": "cell_smelter_unit_v2",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 1
       },
@@ -69,7 +69,7 @@
           "item": "blueprint",
           "label": "green_chips_v1",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 6
       },
@@ -88,7 +88,7 @@
           "item": "blueprint",
           "label": "green_chips_v2",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 7
       },
@@ -107,7 +107,7 @@
           "item": "blueprint",
           "label": "green_chips_v3",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 8
       },
@@ -126,9 +126,35 @@
           "item": "blueprint",
           "label": "green_chips_v4",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 9
+      },
+      {
+        "blueprint": {
+          "description": "Hybrid cell\n\nInput:\n- 31K/min iron\n- 63K/min copper\n- 33K/min coal\n- 333k/min petroleum gas \n\nOutput:\n- 43.2K/min green chips\n- 43.2K/min plastic\n\nPower: 700MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "plastic-bar"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "green_chips_plastic",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 10
       },
       {
         "blueprint": {
@@ -145,7 +171,7 @@
           "item": "blueprint",
           "label": "petroleum_gas",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 12
       },
@@ -164,7 +190,7 @@
           "item": "blueprint",
           "label": "plastic_v1",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 18
       },
@@ -183,7 +209,7 @@
           "item": "blueprint",
           "label": "plastic_v2",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 19
       },
@@ -202,7 +228,7 @@
           "item": "blueprint",
           "label": "plastic_v3",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 20
       },
@@ -221,9 +247,47 @@
           "item": "blueprint",
           "label": "red_chips",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 24
+      },
+      {
+        "blueprint": {
+          "description": "Input:\n- 15k/min green chips and plastic\n- 11k/min copper\n\nOutput:\n- 11K/min red chips\n\nPower: 825MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "advanced-circuit"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "red_chips_v2",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 25
+      },
+      {
+        "blueprint": {
+          "description": "Input:\n- 20/min green chips and plastic\n- 15k/min copper\n\nOutput:\n- 14.4K/min red chips\n\nPower: 1GW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "advanced-circuit"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "red_chips_v3",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 26
       },
       {
         "blueprint": {
@@ -240,7 +304,7 @@
           "item": "blueprint",
           "label": "blue_chips_v1",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 30
       },
@@ -259,7 +323,7 @@
           "item": "blueprint",
           "label": "blue_chips_v2",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 31
       },
@@ -278,7 +342,7 @@
           "item": "blueprint",
           "label": "solar_panels",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 36
       },
@@ -297,7 +361,7 @@
           "item": "blueprint",
           "label": "solar_panels_v2",
           "label_color": null,
-          "version": 281479276265473
+          "version": 281479276527617
         },
         "index": 37
       }

@@ -11,21 +11,21 @@
       {
         "signal": {
           "type": "fluid",
-          "name": "water"
+          "name": "petroleum-gas"
         },
         "index": 2
       }
     ],
     "item": "blueprint",
-    "label": "water",
+    "label": "petroleum",
     "version": 281479276527617,
     "entities": [
       {
         "entity_number": 1,
         "name": "fluid-wagon",
         "position": {
-          "x": 134.84375,
-          "y": 1293
+          "x": 1945.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -33,8 +33,8 @@
         "entity_number": 2,
         "name": "fluid-wagon",
         "position": {
-          "x": 141.84375,
-          "y": 1293
+          "x": 1952.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -42,8 +42,8 @@
         "entity_number": 3,
         "name": "fluid-wagon",
         "position": {
-          "x": 148.84375,
-          "y": 1293
+          "x": 1959.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -51,8 +51,8 @@
         "entity_number": 4,
         "name": "fluid-wagon",
         "position": {
-          "x": 155.84375,
-          "y": 1293
+          "x": 1966.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -60,8 +60,8 @@
         "entity_number": 5,
         "name": "fluid-wagon",
         "position": {
-          "x": 162.84375,
-          "y": 1293
+          "x": 1973.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -69,8 +69,8 @@
         "entity_number": 6,
         "name": "fluid-wagon",
         "position": {
-          "x": 169.84375,
-          "y": 1293
+          "x": 1980.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -78,8 +78,8 @@
         "entity_number": 7,
         "name": "fluid-wagon",
         "position": {
-          "x": 176.84375,
-          "y": 1293
+          "x": 1987.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -87,8 +87,8 @@
         "entity_number": 8,
         "name": "fluid-wagon",
         "position": {
-          "x": 183.84375,
-          "y": 1293
+          "x": 1994.25,
+          "y": 197
         },
         "orientation": 0.25
       },
@@ -96,14 +96,14 @@
         "entity_number": 9,
         "name": "locomotive",
         "position": {
-          "x": 190.84375,
-          "y": 1293
+          "x": 2001.25,
+          "y": 197
         },
         "orientation": 0.25,
         "color": {
-          "r": 0,
-          "g": 0.20000000298023224,
-          "b": 0.5529412031173706,
+          "r": 0.250980406999588,
+          "g": 0.250980406999588,
+          "b": 0.250980406999588,
           "a": 0.49803921580314636
         }
       },
@@ -111,14 +111,14 @@
         "entity_number": 10,
         "name": "locomotive",
         "position": {
-          "x": 197.84375,
-          "y": 1293
+          "x": 2008.25,
+          "y": 197
         },
         "orientation": 0.25,
         "color": {
-          "r": 0,
-          "g": 0.20000000298023224,
-          "b": 0.5529412031173706,
+          "r": 0.250980406999588,
+          "g": 0.250980406999588,
+          "b": 0.250980406999588,
           "a": 0.49803921580314636
         }
       }
@@ -131,7 +131,7 @@
         ],
         "schedule": [
           {
-            "station": "cell_pickup_water",
+            "station": "cell_pickup_petroleum_gas",
             "wait_conditions": [
               {
                 "compare_type": "or",
@@ -139,7 +139,7 @@
                 "condition": {
                   "first_signal": {
                     "type": "fluid",
-                    "name": "water"
+                    "name": "petroleum-gas"
                   },
                   "constant": 200000,
                   "comparator": "="
@@ -148,7 +148,7 @@
             ]
           },
           {
-            "station": "cell_water",
+            "station": "cell_petroleum_gas",
             "wait_conditions": [
               {
                 "compare_type": "or",
@@ -156,7 +156,7 @@
                 "condition": {
                   "first_signal": {
                     "type": "fluid",
-                    "name": "water"
+                    "name": "petroleum-gas"
                   },
                   "constant": 0,
                   "comparator": "="
@@ -168,5 +168,5 @@
       }
     ]
   },
-  "index": 13
+  "index": 14
 }

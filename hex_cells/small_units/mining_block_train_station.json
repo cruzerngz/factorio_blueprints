@@ -1,0 +1,721 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "electric-mining-drill"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "mining_block_train_station",
+    "version": 281479276527617,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": -399.5
+        },
+        "neighbours": [
+          20
+        ]
+      },
+      {
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -399
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "express-splitter",
+        "position": {
+          "x": 651.5,
+          "y": -396
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 4,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -396.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 5,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -397.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 6,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -397
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 7,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -396.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 8,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -396.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -397.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 10,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -397.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -397
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -394.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 13,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -395.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 14,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -395
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 15,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -394.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 16,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -394.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -395.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 18,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -395.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -395
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": -392.5
+        },
+        "neighbours": [
+          1,
+          40
+        ]
+      },
+      {
+        "entity_number": 21,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -393
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -390.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 23,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -390
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 24,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -390.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 25,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -390.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -391
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "express-splitter",
+        "position": {
+          "x": 651.5,
+          "y": -389
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 28,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -388.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 29,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -388
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 30,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -389.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 31,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -388.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 32,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -388.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -389.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 34,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -389.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -389
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -387.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 37,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -387.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 38,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -387.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -387
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": -385.5
+        },
+        "neighbours": [
+          20,
+          59
+        ]
+      },
+      {
+        "entity_number": 41,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -385
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "express-splitter",
+        "position": {
+          "x": 651.5,
+          "y": -382
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 43,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -382.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 44,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -383.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 45,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -383
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 46,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -382.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 47,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -382.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -383.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 49,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -383
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -380.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 52,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -381.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 53,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -381
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 54,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -380.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 55,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -380.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -381.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 57,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -381
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": -378.5
+        },
+        "neighbours": [
+          40,
+          79
+        ]
+      },
+      {
+        "entity_number": 60,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -379
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -376.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 62,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -376
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 63,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -376.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 64,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -376.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -377
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "express-splitter",
+        "position": {
+          "x": 651.5,
+          "y": -375
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 67,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -374.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 68,
+        "name": "express-splitter",
+        "position": {
+          "x": 652.5,
+          "y": -374
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 69,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -375.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 70,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -374.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 71,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -374.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -375.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 73,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -375
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "stack-inserter",
+        "position": {
+          "x": 653.5,
+          "y": -373.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 76,
+        "name": "stack-inserter",
+        "position": {
+          "x": 655.5,
+          "y": -373.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 77,
+        "name": "steel-chest",
+        "position": {
+          "x": 654.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -373
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": -371.5
+        },
+        "neighbours": [
+          59
+        ]
+      },
+      {
+        "entity_number": 80,
+        "name": "straight-rail",
+        "position": {
+          "x": 657,
+          "y": -371
+        }
+      }
+    ]
+  },
+  "index": 3
+}
