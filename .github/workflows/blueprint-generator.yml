@@ -35,6 +35,7 @@ jobs:
 
     - name: 'convert to blueprint string'
       run: |
+        chmod +x ./fbpconvert
         ./fbpconvert export file ./hex_cells -o blueprint.txt
 
     - name: 'upload blueprint book'
