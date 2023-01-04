@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+
   build-fbpconvert-executable:
     runs-on: ubuntu-latest
 
@@ -34,4 +35,10 @@ jobs:
 
     - name: 'convert to blueprint string'
       run: |
-        fbpconvert export file ./hex_cells -o blueprint.txt
+        ./fbpconvert export file ./hex_cells -o blueprint.txt
+
+    - name: 'upload blueprint book'
+      uses: actions/upload-artifact@v3
+      with:
+        name: blueprint_book.txt
+        path: ./blueprint_book.txt
