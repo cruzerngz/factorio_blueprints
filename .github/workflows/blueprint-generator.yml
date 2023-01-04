@@ -23,18 +23,18 @@ jobs:
           name: fbpconvert
           path: fbpconvert/target/release/fbpconvert
 
-  Generate-blueprint:
-    runs-on: ubuntu-latest
+  # Generate-blueprint:
+  #   runs-on: ubuntu-latest
 
-    if: steps.upload.outcome == 'success'
+  #   if: steps.upload.outcome == 'success'
 
-    steps:
+  #   steps:
 
-    - uses: actions/checkout@v2
-    - uses: actions/download-artifact@v3
-      with:
-        name: fbpconvert
+  #   - uses: actions/checkout@v2
+  #   - uses: actions/download-artifact@v3
+  #     with:
+  #       name: fbpconvert
 
-    - name: 'convert to blueprint string'
-      run: |
-        fbpconvert export file ./hex_cells -o blueprint.txt
+  #   - name: 'convert to blueprint string'
+  #     run: |
+  #       fbpconvert export file ./hex_cells -o blueprint.txt
