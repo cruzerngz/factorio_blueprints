@@ -17,7 +17,6 @@ jobs:
         run: |
           cd fbpconvert
           cargo build --release
-
       - name: 'upload executable artifact'
           uses: actions/upload-artifact@v3
           with:
@@ -28,17 +27,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: 'download executable'
         - uses: actions/checkout@v2
         - uses: actions/download-artifact@v3
           with:
             name: fbpconvert
-
       - name: 'convert to blueprint string'
         run: |
           fbpconvert export file ./hex_cells -o blueprint.txt
-
-
-
-
