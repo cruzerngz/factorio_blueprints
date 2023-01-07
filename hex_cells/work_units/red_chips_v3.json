@@ -1,6 +1,6 @@
 {
   "blueprint": {
-    "description": "Input:\n- 20/min green chips and plastic\n- 15k/min copper\n\nOutput:\n- 14.4K/min red chips\n\nPower: 1GW",
+    "description": "Input:\n- 20k/min green chips and plastic\n- 15k/min copper\n\nOutput:\n- 14.4K/min red chips\n\nPower: 1GW",
     "icons": [
       {
         "signal": {
@@ -3993,12 +3993,12 @@
           "2": {
             "red": [
               {
-                "entity_id": 376,
-                "circuit_id": 2
-              },
-              {
                 "entity_id": 284,
                 "circuit_id": 1
+              },
+              {
+                "entity_id": 376,
+                "circuit_id": 2
               }
             ]
           }
@@ -4015,11 +4015,11 @@
           "1": {
             "green": [
               {
-                "entity_id": 377,
-                "circuit_id": 1
+                "entity_id": 285
               },
               {
-                "entity_id": 285
+                "entity_id": 377,
+                "circuit_id": 1
               },
               {
                 "entity_id": 379
@@ -4081,10 +4081,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 379
+                "entity_id": 288
               },
               {
-                "entity_id": 288
+                "entity_id": 379
               },
               {
                 "entity_id": 469
@@ -5000,10 +5000,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 466
+                "entity_id": 382
               },
               {
-                "entity_id": 382
+                "entity_id": 466
               }
             ]
           }
@@ -30423,8 +30423,8 @@
           "y": 893.5
         },
         "neighbours": [
-          3157,
           2933,
+          3157,
           3162,
           3504
         ]
@@ -35403,10 +35403,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 3460
+                "entity_id": 2623
               },
               {
-                "entity_id": 2623
+                "entity_id": 3460
               },
               {
                 "entity_id": 3808
@@ -35417,10 +35417,10 @@
             ],
             "green": [
               {
-                "entity_id": 3460
+                "entity_id": 2623
               },
               {
-                "entity_id": 2623
+                "entity_id": 3460
               },
               {
                 "entity_id": 3808
@@ -35432,8 +35432,8 @@
           }
         },
         "neighbours": [
-          3460,
           2623,
+          3460,
           3808,
           4544
         ]
@@ -37136,8 +37136,8 @@
         },
         "neighbours": [
           3542,
-          3794,
           3716,
+          3794,
           4145
         ]
       },
@@ -45557,8 +45557,8 @@
           }
         },
         "neighbours": [
-          3724,
           3717,
+          3724,
           5585
         ]
       },
@@ -64425,11 +64425,11 @@
           "1": {
             "green": [
               {
-                "entity_id": 6627,
-                "circuit_id": 1
+                "entity_id": 6626
               },
               {
-                "entity_id": 6626
+                "entity_id": 6627,
+                "circuit_id": 1
               },
               {
                 "entity_id": 6664
@@ -64902,11 +64902,11 @@
           "1": {
             "red": [
               {
-                "entity_id": 6662,
+                "entity_id": 6628,
                 "circuit_id": 2
               },
               {
-                "entity_id": 6628,
+                "entity_id": 6662,
                 "circuit_id": 2
               }
             ]
@@ -67624,8 +67624,8 @@
         },
         "neighbours": [
           6262,
-          6939,
           6799,
+          6939,
           6966,
           6997
         ]

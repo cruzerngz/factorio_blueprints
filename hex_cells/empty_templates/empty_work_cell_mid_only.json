@@ -1625,13 +1625,13 @@
           "1": {
             "red": [
               {
-                "entity_id": 145
-              },
-              {
                 "entity_id": 91
               },
               {
                 "entity_id": 117
+              },
+              {
+                "entity_id": 145
               },
               {
                 "entity_id": 438
@@ -1639,13 +1639,13 @@
             ],
             "green": [
               {
-                "entity_id": 145
-              },
-              {
                 "entity_id": 91
               },
               {
                 "entity_id": 117
+              },
+              {
+                "entity_id": 145
               },
               {
                 "entity_id": 438
@@ -9173,10 +9173,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 903
+                "entity_id": 783
               },
               {
-                "entity_id": 783
+                "entity_id": 903
               },
               {
                 "entity_id": 955
@@ -9187,10 +9187,10 @@
             ],
             "green": [
               {
-                "entity_id": 903
+                "entity_id": 783
               },
               {
-                "entity_id": 783
+                "entity_id": 903
               },
               {
                 "entity_id": 955
@@ -9202,8 +9202,8 @@
           }
         },
         "neighbours": [
-          903,
           783,
+          903,
           955,
           1071
         ]

@@ -173,10 +173,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 11
+                "entity_id": 7
               },
               {
-                "entity_id": 7
+                "entity_id": 11
               },
               {
                 "entity_id": 14
@@ -281,10 +281,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 20
+                "entity_id": 7
               },
               {
-                "entity_id": 7
+                "entity_id": 20
               },
               {
                 "entity_id": 23
@@ -369,13 +369,13 @@
           "1": {
             "green": [
               {
-                "entity_id": 25
+                "entity_id": 13
               },
               {
                 "entity_id": 21
               },
               {
-                "entity_id": 13
+                "entity_id": 25
               },
               {
                 "entity_id": 28
@@ -384,8 +384,8 @@
           }
         },
         "neighbours": [
-          21,
-          13
+          13,
+          21
         ]
       },
       {

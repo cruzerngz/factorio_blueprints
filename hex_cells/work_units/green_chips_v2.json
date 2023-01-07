@@ -4224,8 +4224,8 @@
           "y": 158.5
         },
         "neighbours": [
-          421,
           285,
+          421,
           431,
           719
         ]
@@ -4290,8 +4290,8 @@
           "y": 158.5
         },
         "neighbours": [
-          424,
           294,
+          424,
           442,
           731
         ]
@@ -4390,8 +4390,8 @@
           "y": 158.5
         },
         "neighbours": [
-          431,
           303,
+          431,
           449,
           746
         ]
@@ -4456,8 +4456,8 @@
           "y": 158.5
         },
         "neighbours": [
-          442,
           312,
+          442,
           460,
           757
         ]
@@ -4556,8 +4556,8 @@
           "y": 158.5
         },
         "neighbours": [
-          449,
           321,
+          449,
           467,
           772
         ]
@@ -4622,8 +4622,8 @@
           "y": 158.5
         },
         "neighbours": [
-          460,
           330,
+          460,
           478,
           783
         ]
@@ -4722,8 +4722,8 @@
           "y": 158.5
         },
         "neighbours": [
-          467,
           339,
+          467,
           485,
           798
         ]
@@ -4788,8 +4788,8 @@
           "y": 158.5
         },
         "neighbours": [
-          478,
           348,
+          478,
           494,
           809
         ]
@@ -4872,8 +4872,8 @@
         },
         "neighbours": [
           272,
-          485,
           357,
+          485,
           822
         ]
       },
@@ -26437,8 +26437,8 @@
           }
         },
         "neighbours": [
-          2113,
-          1780
+          1780,
+          2113
         ]
       },
       {
@@ -64239,10 +64239,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6698
+                "entity_id": 6696
               },
               {
-                "entity_id": 6696
+                "entity_id": 6698
               }
             ],
             "green": [
@@ -64360,18 +64360,18 @@
           "1": {
             "red": [
               {
-                "entity_id": 6705
+                "entity_id": 6702
               },
               {
-                "entity_id": 6702
+                "entity_id": 6705
               }
             ],
             "green": [
               {
-                "entity_id": 6705
+                "entity_id": 6702
               },
               {
-                "entity_id": 6702
+                "entity_id": 6705
               }
             ]
           }
@@ -64432,10 +64432,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6709
+                "entity_id": 6705
               },
               {
-                "entity_id": 6705
+                "entity_id": 6709
               }
             ],
             "green": [
@@ -64553,10 +64553,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6716
+                "entity_id": 6714
               },
               {
-                "entity_id": 6714
+                "entity_id": 6716
               }
             ],
             "green": [
@@ -64674,18 +64674,18 @@
           "1": {
             "red": [
               {
-                "entity_id": 6723
+                "entity_id": 6720
               },
               {
-                "entity_id": 6720
+                "entity_id": 6723
               }
             ],
             "green": [
               {
-                "entity_id": 6723
+                "entity_id": 6720
               },
               {
-                "entity_id": 6720
+                "entity_id": 6723
               }
             ]
           }
@@ -64746,10 +64746,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6727
+                "entity_id": 6723
               },
               {
-                "entity_id": 6723
+                "entity_id": 6727
               }
             ],
             "green": [
@@ -64867,10 +64867,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6734
+                "entity_id": 6732
               },
               {
-                "entity_id": 6732
+                "entity_id": 6734
               }
             ],
             "green": [
@@ -64988,18 +64988,18 @@
           "1": {
             "red": [
               {
-                "entity_id": 6741
+                "entity_id": 6738
               },
               {
-                "entity_id": 6738
+                "entity_id": 6741
               }
             ],
             "green": [
               {
-                "entity_id": 6741
+                "entity_id": 6738
               },
               {
-                "entity_id": 6738
+                "entity_id": 6741
               }
             ]
           }
@@ -65060,10 +65060,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6745
+                "entity_id": 6741
               },
               {
-                "entity_id": 6741
+                "entity_id": 6745
               }
             ],
             "green": [
@@ -65181,10 +65181,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6752
+                "entity_id": 6750
               },
               {
-                "entity_id": 6750
+                "entity_id": 6752
               }
             ],
             "green": [
@@ -65302,18 +65302,18 @@
           "1": {
             "red": [
               {
-                "entity_id": 6759
+                "entity_id": 6756
               },
               {
-                "entity_id": 6756
+                "entity_id": 6759
               }
             ],
             "green": [
               {
-                "entity_id": 6759
+                "entity_id": 6756
               },
               {
-                "entity_id": 6756
+                "entity_id": 6759
               }
             ]
           }
@@ -65379,10 +65379,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6763
+                "entity_id": 6759
               },
               {
-                "entity_id": 6759
+                "entity_id": 6763
               }
             ],
             "green": [
@@ -65560,12 +65560,12 @@
           "1": {
             "green": [
               {
-                "entity_id": 6769,
-                "circuit_id": 2
-              },
-              {
                 "entity_id": 6672,
                 "circuit_id": 1
+              },
+              {
+                "entity_id": 6769,
+                "circuit_id": 2
               },
               {
                 "entity_id": 6772
@@ -65596,10 +65596,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6770
+                "entity_id": 6675
               },
               {
-                "entity_id": 6675
+                "entity_id": 6770
               },
               {
                 "entity_id": 6943
@@ -67531,10 +67531,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 6866
+                "entity_id": 6772
               },
               {
-                "entity_id": 6772
+                "entity_id": 6866
               },
               {
                 "entity_id": 7092
@@ -67861,10 +67861,10 @@
             ],
             "green": [
               {
-                "entity_id": 6965
+                "entity_id": 6962
               },
               {
-                "entity_id": 6962
+                "entity_id": 6965
               }
             ]
           }
@@ -68175,10 +68175,10 @@
             ],
             "green": [
               {
-                "entity_id": 6983
+                "entity_id": 6980
               },
               {
-                "entity_id": 6980
+                "entity_id": 6983
               }
             ]
           }
@@ -68489,10 +68489,10 @@
             ],
             "green": [
               {
-                "entity_id": 7001
+                "entity_id": 6998
               },
               {
-                "entity_id": 6998
+                "entity_id": 7001
               }
             ]
           }
@@ -68867,10 +68867,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 7023
+                "entity_id": 6763
               },
               {
-                "entity_id": 6763
+                "entity_id": 7023
               }
             ],
             "green": [
@@ -69001,12 +69001,12 @@
           "1": {
             "green": [
               {
-                "entity_id": 7028,
-                "circuit_id": 2
-              },
-              {
                 "entity_id": 6939,
                 "circuit_id": 1
+              },
+              {
+                "entity_id": 7028,
+                "circuit_id": 2
               },
               {
                 "entity_id": 7031
@@ -69037,14 +69037,14 @@
           "1": {
             "green": [
               {
-                "entity_id": 7030,
-                "circuit_id": 1
+                "entity_id": 6772
               },
               {
                 "entity_id": 6943
               },
               {
-                "entity_id": 6772
+                "entity_id": 7030,
+                "circuit_id": 1
               }
             ]
           }

@@ -37,7 +37,7 @@
       },
       {
         "blueprint": {
-          "description": "Input:\n- 37K/min per ingest station (copper, iron)\n- 38.6K/min per ingest station (steel)\n\nOutput:\n- 43.2K/min per pickup station (copper, iron)\n- 9K/min per pickup station (steel)\n\nPower: 885 - 900MW",
+          "description": "Input:\n- 37K/min per ingest station (copper, iron)\n- 38.6K/min per ingest station (steel)\n- 43.2K/min per ingest station (stone)\n\nOutput:\n- 43.2K/min per pickup station (copper, iron)\n- 9K/min per pickup station (steel)\n- 26K/min per pickup station (stone)\n\nNotes:\n- Stone smelting requires only 8/14 smelters per line\n\nPower: 885 - 900MW",
           "icons": [
             {
               "signal": {
@@ -272,7 +272,7 @@
       },
       {
         "blueprint": {
-          "description": "Input:\n- 20/min green chips and plastic\n- 15k/min copper\n\nOutput:\n- 14.4K/min red chips\n\nPower: 1GW",
+          "description": "Input:\n- 20k/min green chips and plastic\n- 15k/min copper\n\nOutput:\n- 14.4K/min red chips\n\nPower: 1GW",
           "icons": [
             {
               "signal": {
@@ -326,6 +326,25 @@
           "version": 281479276527617
         },
         "index": 31
+      },
+      {
+        "blueprint": {
+          "description": "Input:\n- 86.4K/min green chips\n- 8.64K/min red chips\n- 22K/min sulfuric acid\n\nOutput:\n- 6.0K/min blue chips\n\nPower: 680MW",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "processing-unit"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "blue_chips_v3",
+          "label_color": null,
+          "version": 281479276527617
+        },
+        "index": 32
       },
       {
         "blueprint": {
