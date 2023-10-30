@@ -1,6 +1,5 @@
 {
   "blueprint": {
-    "description": "Coal train\n- wagons fully filtered",
     "icons": [
       {
         "signal": {
@@ -12,184 +11,184 @@
       {
         "signal": {
           "type": "item",
-          "name": "coal"
+          "name": "stone-brick"
         },
         "index": 2
       }
     ],
     "item": "blueprint",
-    "label": "coal",
+    "label": "stone_bricks",
     "version": 281479277641728,
     "entities": [
       {
         "entity_number": 1,
         "name": "cargo-wagon",
         "position": {
-          "x": 134.3125,
-          "y": 1287
+          "x": 135.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -198,171 +197,171 @@
         "entity_number": 2,
         "name": "cargo-wagon",
         "position": {
-          "x": 141.3125,
-          "y": 1287
+          "x": 142.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -371,171 +370,171 @@
         "entity_number": 3,
         "name": "cargo-wagon",
         "position": {
-          "x": 148.3125,
-          "y": 1287
+          "x": 149.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -544,171 +543,171 @@
         "entity_number": 4,
         "name": "cargo-wagon",
         "position": {
-          "x": 155.3125,
-          "y": 1287
+          "x": 156.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -717,171 +716,171 @@
         "entity_number": 5,
         "name": "cargo-wagon",
         "position": {
-          "x": 162.3125,
-          "y": 1287
+          "x": 163.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -890,171 +889,171 @@
         "entity_number": 6,
         "name": "cargo-wagon",
         "position": {
-          "x": 169.3125,
-          "y": 1287
+          "x": 170.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -1063,171 +1062,171 @@
         "entity_number": 7,
         "name": "cargo-wagon",
         "position": {
-          "x": 176.3125,
-          "y": 1287
+          "x": 177.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -1236,171 +1235,171 @@
         "entity_number": 8,
         "name": "cargo-wagon",
         "position": {
-          "x": 183.3125,
-          "y": 1287
+          "x": 184.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 2,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 3,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 4,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 5,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 6,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 7,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 8,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 9,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 10,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 11,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 12,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 13,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 14,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 15,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 16,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 17,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 18,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 19,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 20,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 21,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 22,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 23,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 24,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 25,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 26,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 27,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 28,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 29,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 30,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 31,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 32,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 33,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 34,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 35,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 36,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 37,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 38,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 39,
-              "name": "coal"
+              "name": "stone-brick"
             },
             {
               "index": 40,
-              "name": "coal"
+              "name": "stone-brick"
             }
           ]
         }
@@ -1409,14 +1408,14 @@
         "entity_number": 9,
         "name": "locomotive",
         "position": {
-          "x": 190.3125,
-          "y": 1287
+          "x": 191.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "color": {
-          "r": 0.062745101749897,
-          "g": 0.062745101749897,
-          "b": 0.062745101749897,
+          "r": 0.6196078658103943,
+          "g": 0.5098039507865906,
+          "b": 0.16470588743686676,
           "a": 0.49803921580314636
         }
       },
@@ -1424,14 +1423,14 @@
         "entity_number": 10,
         "name": "locomotive",
         "position": {
-          "x": 197.3125,
-          "y": 1287
+          "x": 198.0625,
+          "y": 1313
         },
         "orientation": 0.25,
         "color": {
-          "r": 0.062745101749897,
-          "g": 0.062745101749897,
-          "b": 0.062745101749897,
+          "r": 0.6196078658103943,
+          "g": 0.5098039507865906,
+          "b": 0.16470588743686676,
           "a": 0.49803921580314636
         }
       }
@@ -1444,7 +1443,7 @@
         ],
         "schedule": [
           {
-            "station": "cell_pickup_coal",
+            "station": "cell_pickup_stone_bricks",
             "wait_conditions": [
               {
                 "compare_type": "or",
@@ -1453,7 +1452,7 @@
             ]
           },
           {
-            "station": "cell_coal",
+            "station": "cell_stone_bricks",
             "wait_conditions": [
               {
                 "compare_type": "or",
@@ -1465,5 +1464,5 @@
       }
     ]
   },
-  "index": 0
+  "index": 7
 }

@@ -1,6 +1,6 @@
 {
   "blueprint_book": {
-    "description": "A collection of factories centered around hexagonal rails.\nBuilt around 2-8 trains.\nEach cell contains:\n- 4 independent train stations with double stackers\n- 2 optional stations with no stackers\n- 1 optional service station for 1-4 trains\n- Global circuit network for both red and green wires",
+    "description": "A collection of factories centered around hexagonal rails.\nBuilt around 2-8 trains.\nEach cell contains:\n- 4 independent train stations with double stackers\n- 2 optional stations with no stackers\n- 1 optional service station for 1-4 trains\n- Global circuit network for both red and green wires\n\nSpecs:\n- Hex cells snap to a relative grid size of 368 by 176 ",
     "icons": [
       {
         "signal": {
@@ -14,7 +14,7 @@
     "label": "hex_cells",
     "label_color": null,
     "active_index": 0,
-    "version": 281479276527617,
+    "version": 281479277641728,
     "order": [
       {
         "blueprint_book": {
@@ -31,7 +31,7 @@
           "label": "empty_templates",
           "label_color": null,
           "active_index": 0,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 0
       },
@@ -51,7 +51,7 @@
           "label": "small_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 1
       },
@@ -70,7 +70,7 @@
           "label": "power_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 2
       },
@@ -90,7 +90,7 @@
           "label": "work_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 3
       },
@@ -109,8 +109,8 @@
           "item": "blueprint-book",
           "label": "work_unit_slices",
           "label_color": null,
-          "active_index": 0,
-          "version": 281479276527617
+          "active_index": 24,
+          "version": 281479277641728
         },
         "index": 4
       },
@@ -129,8 +129,8 @@
           "item": "blueprint-book",
           "label": "research_units",
           "label_color": null,
-          "active_index": 0,
-          "version": 281479276527617
+          "active_index": 13,
+          "version": 281479277641728
         },
         "index": 5
       },
@@ -148,8 +148,8 @@
           "item": "blueprint-book",
           "label": "artillery_units",
           "label_color": null,
-          "active_index": 0,
-          "version": 281479276527617
+          "active_index": 12,
+          "version": 281479277641728
         },
         "index": 6
       },
@@ -190,7 +190,7 @@
           "label": "prototypes",
           "label_color": null,
           "active_index": 0,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 7
       },
@@ -209,8 +209,8 @@
           "item": "blueprint-book",
           "label": "train_templates",
           "label_color": null,
-          "active_index": 0,
-          "version": 281479276527617
+          "active_index": 24,
+          "version": 281479277641728
         },
         "index": 8
       }

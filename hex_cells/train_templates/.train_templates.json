@@ -13,8 +13,8 @@
     "item": "blueprint-book",
     "label": "train_templates",
     "label_color": null,
-    "active_index": 0,
-    "version": 281479276527617,
+    "active_index": 24,
+    "version": 281479277641728,
     "order": [
       {
         "blueprint": {
@@ -38,7 +38,7 @@
           "item": "blueprint",
           "label": "coal",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 0
       },
@@ -64,7 +64,7 @@
           "item": "blueprint",
           "label": "stone",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 1
       },
@@ -90,7 +90,7 @@
           "item": "blueprint",
           "label": "iron_ore",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 2
       },
@@ -116,9 +116,59 @@
           "item": "blueprint",
           "label": "copper_ore",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 3
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "uranium-ore"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "uranium_ore",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 4
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "stone-brick"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "stone_bricks",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 7
       },
       {
         "blueprint": {
@@ -141,7 +191,7 @@
           "item": "blueprint",
           "label": "iron",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 8
       },
@@ -166,7 +216,7 @@
           "item": "blueprint",
           "label": "copper",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 9
       },
@@ -191,7 +241,7 @@
           "item": "blueprint",
           "label": "steel",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 10
       },
@@ -216,7 +266,7 @@
           "item": "blueprint",
           "label": "oil",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 12
       },
@@ -241,7 +291,7 @@
           "item": "blueprint",
           "label": "water",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 13
       },
@@ -266,7 +316,7 @@
           "item": "blueprint",
           "label": "petroleum",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 14
       },
@@ -292,7 +342,7 @@
           "item": "blueprint",
           "label": "green_chips",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 18
       },
@@ -318,7 +368,7 @@
           "item": "blueprint",
           "label": "red_chips",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 19
       },
@@ -344,7 +394,7 @@
           "item": "blueprint",
           "label": "blue_chips",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 20
       },
@@ -370,9 +420,29 @@
           "item": "blueprint",
           "label": "plastic",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 21
+      },
+      {
+        "blueprint_book": {
+          "description": "Trains for anything that is not bulk resources",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "hub_trains",
+          "label_color": null,
+          "active_index": 1,
+          "version": 281479277641728
+        },
+        "index": 24
       }
     ]
   },

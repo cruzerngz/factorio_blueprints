@@ -1,0 +1,522 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "arti_service",
+    "version": 281479277641728,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -709
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "locomotive",
+        "position": {
+          "x": 757,
+          "y": -704
+        },
+        "orientation": 0,
+        "items": {
+          "rocket-fuel": 30
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -707
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "train-stop",
+        "position": {
+          "x": 759,
+          "y": -707
+        },
+        "control_behavior": {
+          "read_from_train": true,
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "",
+        "manual_trains_limit": 1
+      },
+      {
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -705
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -703
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -701
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -701.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 9,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -701.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "rocket-fuel",
+            "count": 100
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 757,
+          "y": -697
+        },
+        "orientation": 0,
+        "items": {
+          "rocket-fuel": 30
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -699
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -699.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 13,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -699.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "rocket-fuel",
+            "count": 100
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -697
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -695
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 757,
+          "y": -690
+        },
+        "orientation": 0,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "construction-robot"
+            },
+            {
+              "index": 2,
+              "name": "repair-pack"
+            },
+            {
+              "index": 3,
+              "name": "repair-pack"
+            },
+            {
+              "index": 4,
+              "name": "repair-pack"
+            },
+            {
+              "index": 5,
+              "name": "artillery-turret"
+            },
+            {
+              "index": 6,
+              "name": "gate"
+            },
+            {
+              "index": 7,
+              "name": "laser-turret"
+            },
+            {
+              "index": 8,
+              "name": "stone-wall"
+            },
+            {
+              "index": 9,
+              "name": "stone-wall"
+            }
+          ],
+          "bar": 9
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -693
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -692.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 19,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -692.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "construction-robot",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 20,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -691
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -690.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 22,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -691.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 23,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -690.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "artillery-turret",
+            "count": 10
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 24,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -691.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "repair-pack",
+            "count": 300
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -689
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -688.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 27,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -689.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 28,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -688.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "gate",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -689.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "radar",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 30,
+        "name": "stack-inserter",
+        "position": {
+          "x": 755.5,
+          "y": -687.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 31,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 754.5,
+          "y": -687.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "stone-wall",
+            "count": 200
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 32,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -687
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "stack-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -687.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 34,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 759.5,
+          "y": -687.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "laser-turret",
+            "count": 50
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 35,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 757,
+          "y": -683
+        },
+        "orientation": 0
+      },
+      {
+        "entity_number": 36,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -685
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "pump",
+        "position": {
+          "x": 759,
+          "y": -685.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 38,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -683
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -681
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "pump",
+        "position": {
+          "x": 759,
+          "y": -680.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 41,
+        "name": "straight-rail",
+        "position": {
+          "x": 757,
+          "y": -679
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          2,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_arti_service",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_arti_outpost_supply",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "circuit",
+                "condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-check"
+                  },
+                  "constant": 1,
+                  "comparator": "≠"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 1
+}

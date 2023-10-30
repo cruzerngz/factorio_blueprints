@@ -1,0 +1,1440 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "cargo-wagon"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "solar_restock",
+    "version": 281479277641728,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -797.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 2,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -797.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 3,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -796.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 4,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -796.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "cliff-explosives",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "entity_number": 5,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 677,
+          "y": -796.00390625
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "substation"
+            },
+            {
+              "index": 2,
+              "name": "substation"
+            },
+            {
+              "index": 3,
+              "name": "substation"
+            },
+            {
+              "index": 4,
+              "name": "substation"
+            },
+            {
+              "index": 5,
+              "name": "small-lamp"
+            },
+            {
+              "index": 6,
+              "name": "small-lamp"
+            },
+            {
+              "index": 7,
+              "name": "small-lamp"
+            },
+            {
+              "index": 8,
+              "name": "small-lamp"
+            },
+            {
+              "index": 9,
+              "name": "roboport"
+            },
+            {
+              "index": 10,
+              "name": "cliff-explosives"
+            },
+            {
+              "index": 11,
+              "name": "cliff-explosives"
+            },
+            {
+              "index": 12,
+              "name": "cliff-explosives"
+            },
+            {
+              "index": 13,
+              "name": "solar-panel"
+            },
+            {
+              "index": 14,
+              "name": "solar-panel"
+            },
+            {
+              "index": 15,
+              "name": "solar-panel"
+            },
+            {
+              "index": 16,
+              "name": "solar-panel"
+            }
+          ],
+          "bar": 16
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -797
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -797.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 8,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -797.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 9,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -796.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 10,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -796.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "cliff-explosives",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "entity_number": 11,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -795.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 12,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -794.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 13,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -795.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "roboport",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "entity_number": 14,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -794.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "substation",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -795
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -794.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 17,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -795.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 18,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -795.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "roboport",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "entity_number": 19,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -794.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "substation",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 20,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -793.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 21,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -793.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "small-lamp",
+            "count": 200
+          }
+        ]
+      },
+      {
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -793
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -793.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 24,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -793.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "small-lamp",
+            "count": 200
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 677,
+          "y": -789.00390625
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "accumulator"
+            },
+            {
+              "index": 2,
+              "name": "accumulator"
+            },
+            {
+              "index": 3,
+              "name": "accumulator"
+            },
+            {
+              "index": 4,
+              "name": "accumulator"
+            },
+            {
+              "index": 5,
+              "name": "accumulator"
+            },
+            {
+              "index": 6,
+              "name": "accumulator"
+            },
+            {
+              "index": 7,
+              "name": "accumulator"
+            },
+            {
+              "index": 8,
+              "name": "accumulator"
+            },
+            {
+              "index": 9,
+              "name": "accumulator"
+            },
+            {
+              "index": 10,
+              "name": "accumulator"
+            },
+            {
+              "index": 11,
+              "name": "accumulator"
+            },
+            {
+              "index": 12,
+              "name": "accumulator"
+            },
+            {
+              "index": 13,
+              "name": "accumulator"
+            },
+            {
+              "index": 14,
+              "name": "accumulator"
+            },
+            {
+              "index": 15,
+              "name": "accumulator"
+            },
+            {
+              "index": 16,
+              "name": "accumulator"
+            },
+            {
+              "index": 17,
+              "name": "accumulator"
+            },
+            {
+              "index": 18,
+              "name": "accumulator"
+            },
+            {
+              "index": 19,
+              "name": "accumulator"
+            },
+            {
+              "index": 20,
+              "name": "accumulator"
+            },
+            {
+              "index": 21,
+              "name": "accumulator"
+            },
+            {
+              "index": 22,
+              "name": "accumulator"
+            },
+            {
+              "index": 23,
+              "name": "accumulator"
+            },
+            {
+              "index": 24,
+              "name": "accumulator"
+            },
+            {
+              "index": 25,
+              "name": "accumulator"
+            },
+            {
+              "index": 26,
+              "name": "accumulator"
+            },
+            {
+              "index": 27,
+              "name": "accumulator"
+            },
+            {
+              "index": 28,
+              "name": "accumulator"
+            },
+            {
+              "index": 29,
+              "name": "accumulator"
+            },
+            {
+              "index": 30,
+              "name": "accumulator"
+            },
+            {
+              "index": 31,
+              "name": "accumulator"
+            },
+            {
+              "index": 32,
+              "name": "accumulator"
+            },
+            {
+              "index": 33,
+              "name": "accumulator"
+            },
+            {
+              "index": 34,
+              "name": "accumulator"
+            },
+            {
+              "index": 35,
+              "name": "accumulator"
+            },
+            {
+              "index": 36,
+              "name": "accumulator"
+            },
+            {
+              "index": 37,
+              "name": "accumulator"
+            },
+            {
+              "index": 38,
+              "name": "accumulator"
+            },
+            {
+              "index": 39,
+              "name": "accumulator"
+            },
+            {
+              "index": 40,
+              "name": "accumulator"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -791
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -789.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 28,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -788.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 29,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -789.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 30,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -788.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 31,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -789
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -788.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 33,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -789.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 34,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -789.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 35,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -788.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 36,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -786.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 37,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -787.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 38,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -787.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 39,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -786.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 40,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -787
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -786.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 42,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -787.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 43,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -787.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 44,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -786.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "accumulator",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 45,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 677,
+          "y": -782.00390625
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "solar-panel"
+            },
+            {
+              "index": 2,
+              "name": "solar-panel"
+            },
+            {
+              "index": 3,
+              "name": "solar-panel"
+            },
+            {
+              "index": 4,
+              "name": "solar-panel"
+            },
+            {
+              "index": 5,
+              "name": "solar-panel"
+            },
+            {
+              "index": 6,
+              "name": "solar-panel"
+            },
+            {
+              "index": 7,
+              "name": "solar-panel"
+            },
+            {
+              "index": 8,
+              "name": "solar-panel"
+            },
+            {
+              "index": 9,
+              "name": "solar-panel"
+            },
+            {
+              "index": 10,
+              "name": "solar-panel"
+            },
+            {
+              "index": 11,
+              "name": "solar-panel"
+            },
+            {
+              "index": 12,
+              "name": "solar-panel"
+            },
+            {
+              "index": 13,
+              "name": "solar-panel"
+            },
+            {
+              "index": 14,
+              "name": "solar-panel"
+            },
+            {
+              "index": 15,
+              "name": "solar-panel"
+            },
+            {
+              "index": 16,
+              "name": "solar-panel"
+            },
+            {
+              "index": 17,
+              "name": "solar-panel"
+            },
+            {
+              "index": 18,
+              "name": "solar-panel"
+            },
+            {
+              "index": 19,
+              "name": "solar-panel"
+            },
+            {
+              "index": 20,
+              "name": "solar-panel"
+            },
+            {
+              "index": 21,
+              "name": "solar-panel"
+            },
+            {
+              "index": 22,
+              "name": "solar-panel"
+            },
+            {
+              "index": 23,
+              "name": "solar-panel"
+            },
+            {
+              "index": 24,
+              "name": "solar-panel"
+            },
+            {
+              "index": 25,
+              "name": "solar-panel"
+            },
+            {
+              "index": 26,
+              "name": "solar-panel"
+            },
+            {
+              "index": 27,
+              "name": "solar-panel"
+            },
+            {
+              "index": 28,
+              "name": "solar-panel"
+            },
+            {
+              "index": 29,
+              "name": "solar-panel"
+            },
+            {
+              "index": 30,
+              "name": "solar-panel"
+            },
+            {
+              "index": 31,
+              "name": "solar-panel"
+            },
+            {
+              "index": 32,
+              "name": "solar-panel"
+            },
+            {
+              "index": 33,
+              "name": "solar-panel"
+            },
+            {
+              "index": 34,
+              "name": "solar-panel"
+            },
+            {
+              "index": 35,
+              "name": "solar-panel"
+            },
+            {
+              "index": 36,
+              "name": "solar-panel"
+            },
+            {
+              "index": 37,
+              "name": "solar-panel"
+            },
+            {
+              "index": 38,
+              "name": "solar-panel"
+            },
+            {
+              "index": 39,
+              "name": "solar-panel"
+            },
+            {
+              "index": 40,
+              "name": "solar-panel"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -785
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -783.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 48,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -782.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 49,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -783.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 50,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -782.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 51,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -783
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -783.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 53,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -782.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 54,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -783.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 55,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -782.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 56,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -780.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 57,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -781.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 58,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -781.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 59,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -780.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 60,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -781
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -781.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 62,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -780.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 63,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -780.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 64,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -781.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "solar-panel",
+            "count": 500
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 65,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -779
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 677,
+          "y": -775.00390625
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "construction-robot"
+            },
+            {
+              "index": 2,
+              "name": "construction-robot"
+            },
+            {
+              "index": 3,
+              "name": "construction-robot"
+            },
+            {
+              "index": 4,
+              "name": "logistic-robot"
+            }
+          ],
+          "bar": 4
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -777
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -775
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -772.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 70,
+        "name": "stack-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -773.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 71,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -773.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "construction-robot",
+            "count": 150
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 72,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 674.5,
+          "y": -772.5
+        },
+        "request_filters": [
+          {
+            "index": 2,
+            "name": "logistic-robot",
+            "count": 50
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 73,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -773
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -773.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 75,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -772.5
+        },
+        "request_filters": [
+          {
+            "index": 2,
+            "name": "logistic-robot",
+            "count": 50
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 76,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -772.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 77,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -773.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "construction-robot",
+            "count": 150
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 78,
+        "name": "locomotive",
+        "position": {
+          "x": 677,
+          "y": -768
+        },
+        "orientation": 0.5,
+        "items": {
+          "rocket-fuel": 30
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -771
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -769
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "stack-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -768.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 82,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 679.5,
+          "y": -768.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "rocket-fuel",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "entity_number": 83,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -767
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 679.5,
+          "y": -766.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "train-stop",
+        "position": {
+          "x": 675,
+          "y": -765
+        },
+        "direction": 4,
+        "station": "",
+        "manual_trains_limit": 1
+      },
+      {
+        "entity_number": 86,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -765
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          78
+        ],
+        "schedule": [
+          {
+            "station": "hub_solar_restock",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_solar_construction",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 0
+}

@@ -14,7 +14,7 @@
     "label": "small_units",
     "label_color": null,
     "active_index": 0,
-    "version": 281479276527617,
+    "version": 281479277641728,
     "order": [
       {
         "blueprint": {
@@ -30,7 +30,7 @@
           "item": "blueprint",
           "label": "mining_block",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 0
       },
@@ -48,7 +48,7 @@
           "item": "blueprint",
           "label": "mining_block_train_interface",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 1
       },
@@ -66,7 +66,7 @@
           "item": "blueprint",
           "label": "mining_block_balancer",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 2
       },
@@ -84,7 +84,7 @@
           "item": "blueprint",
           "label": "mining_block_train_station",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 3
       },
@@ -102,7 +102,7 @@
           "item": "blueprint",
           "label": "bot_mining_block",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 6
       },
@@ -118,11 +118,29 @@
             }
           ],
           "item": "blueprint",
-          "label": "bot_train_interface",
+          "label": "bot_train_interface_4",
           "label_color": null,
-          "version": 281479276527617
+          "version": 281479277641728
         },
         "index": 7
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-robot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "bot_train_interface_8",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 8
       }
     ]
   },

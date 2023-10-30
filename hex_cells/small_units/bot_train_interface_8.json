@@ -1,0 +1,3600 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "logistic-robot"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint",
+    "label": "bot_train_interface_8",
+    "version": 281479277641728,
+    "snap-to-grid": {
+      "x": 2,
+      "y": 1
+    },
+    "absolute-snapping": true,
+    "position-relative-to-grid": {
+      "x": 0,
+      "y": 10
+    },
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 2,
+          "y": 0.5
+        },
+        "direction": 2,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_constant": 0,
+            "second_constant": 95,
+            "operation": "/"
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 2
+              }
+            ]
+          },
+          "2": {
+            "red": [
+              {
+                "entity_id": 3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1,
+                "circuit_id": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1,
+                "circuit_id": 2
+              },
+              {
+                "entity_id": 8
+              },
+              {
+                "entity_id": 10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        },
+        "neighbours": [
+          6,
+          28
+        ]
+      },
+      {
+        "entity_number": 5,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 2.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        },
+        "neighbours": [
+          4,
+          33
+        ]
+      },
+      {
+        "entity_number": 7,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 2.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 8,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 2.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 3
+              },
+              {
+                "entity_id": 15
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 3
+              },
+              {
+                "entity_id": 11
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 10
+              },
+              {
+                "entity_id": 19
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 13,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 14,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 3.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 15,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 3.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 8
+              },
+              {
+                "entity_id": 17
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 4.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 17,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 4.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 15
+              },
+              {
+                "entity_id": 24
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 11
+              },
+              {
+                "entity_id": 20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 19
+              },
+              {
+                "entity_id": 29
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 6.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 22,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 23,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 5.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 24,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 17
+              },
+              {
+                "entity_id": 26
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 6.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 26,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 6.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 24
+              },
+              {
+                "entity_id": 32
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 8.5
+        },
+        "neighbours": [
+          4,
+          33,
+          64
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 7.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 20
+              },
+              {
+                "entity_id": 37
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 31,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 7.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 32,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 7.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 26
+              },
+              {
+                "entity_id": 39
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 8.5
+        },
+        "neighbours": [
+          6,
+          28,
+          67
+        ]
+      },
+      {
+        "entity_number": 34,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 10.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 37
+              },
+              {
+                "entity_id": 46
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 10.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 37,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 9.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 29
+              },
+              {
+                "entity_id": 35
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 9.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 39,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 9.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 32
+              },
+              {
+                "entity_id": 41
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 9.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 41,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 10.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 39
+              },
+              {
+                "entity_id": 48
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 10.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 43,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 12.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 46
+              },
+              {
+                "entity_id": 55
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 12.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 46,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 11.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 35
+              },
+              {
+                "entity_id": 44
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 11.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 48,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 11.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 41
+              },
+              {
+                "entity_id": 50
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 11.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 50,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 12.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 48
+              },
+              {
+                "entity_id": 57
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 12.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 52,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 14.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 55
+              },
+              {
+                "entity_id": 62
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 14.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 55,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 13.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 44
+              },
+              {
+                "entity_id": 53
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 13.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 57,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 13.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 50
+              },
+              {
+                "entity_id": 59
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 13.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 59,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 14.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 57
+              },
+              {
+                "entity_id": 66
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 14.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 61,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 16.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 53
+              },
+              {
+                "entity_id": 69
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 16.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 64,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 15.5
+        },
+        "neighbours": [
+          28,
+          67,
+          89
+        ]
+      },
+      {
+        "entity_number": 65,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 16.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 66,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 16.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 59
+              },
+              {
+                "entity_id": 74
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 15.5
+        },
+        "neighbours": [
+          33,
+          64,
+          92
+        ]
+      },
+      {
+        "entity_number": 68,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 17.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 62
+              },
+              {
+                "entity_id": 70
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 18.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 69
+              },
+              {
+                "entity_id": 78
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 17.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 72,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 18.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 73,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 17.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 74,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 17.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 66
+              },
+              {
+                "entity_id": 76
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 18.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 76,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 18.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 74
+              },
+              {
+                "entity_id": 83
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 19.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 70
+              },
+              {
+                "entity_id": 79
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 20.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 78
+              },
+              {
+                "entity_id": 87
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 19.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 81,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 20.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 82,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 19.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 83,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 19.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 76
+              },
+              {
+                "entity_id": 85
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 20.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 85,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 20.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 83
+              },
+              {
+                "entity_id": 91
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 21.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 79
+              },
+              {
+                "entity_id": 95
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 21.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 89,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 22.5
+        },
+        "neighbours": [
+          64,
+          92,
+          123
+        ]
+      },
+      {
+        "entity_number": 90,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 21.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 91,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 21.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 85
+              },
+              {
+                "entity_id": 98
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 22.5
+        },
+        "neighbours": [
+          67,
+          89,
+          126
+        ]
+      },
+      {
+        "entity_number": 93,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 23.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 95,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 23.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 87
+              },
+              {
+                "entity_id": 97
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 24.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 97,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 24.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 95
+              },
+              {
+                "entity_id": 104
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 23.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 91
+              },
+              {
+                "entity_id": 100
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 23.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 100,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 24.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 98
+              },
+              {
+                "entity_id": 107
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 24.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 102,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 25.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 104,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 25.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 97
+              },
+              {
+                "entity_id": 106
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 26.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 106,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 26.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 104
+              },
+              {
+                "entity_id": 113
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 25.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 100
+              },
+              {
+                "entity_id": 109
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 25.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 109,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 26.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 107
+              },
+              {
+                "entity_id": 116
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 26.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 111,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 27.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 113,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 27.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 106
+              },
+              {
+                "entity_id": 115
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 28.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 115,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 28.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 113
+              },
+              {
+                "entity_id": 121
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 116,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 27.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 109
+              },
+              {
+                "entity_id": 118
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 27.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 118,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 28.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 116
+              },
+              {
+                "entity_id": 125
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 28.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 120,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 30.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 115
+              },
+              {
+                "entity_id": 128
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 30.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 123,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 29.5
+        },
+        "neighbours": [
+          89,
+          126,
+          148
+        ]
+      },
+      {
+        "entity_number": 124,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 30.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 125,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 30.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 118
+              },
+              {
+                "entity_id": 133
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 29.5
+        },
+        "neighbours": [
+          92,
+          123,
+          151
+        ]
+      },
+      {
+        "entity_number": 127,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 31.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 121
+              },
+              {
+                "entity_id": 129
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 32.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 128
+              },
+              {
+                "entity_id": 137
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 31.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 131,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 32.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 132,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 31.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 133,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 31.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 125
+              },
+              {
+                "entity_id": 135
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 32.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 135,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 32.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 133
+              },
+              {
+                "entity_id": 142
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 136,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 35
+        }
+      },
+      {
+        "entity_number": 137,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 33.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 129
+              },
+              {
+                "entity_id": 138
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 138,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 34.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 137
+              },
+              {
+                "entity_id": 146
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 139,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 33.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 140,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 34.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 141,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 33.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 142,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 33.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 135
+              },
+              {
+                "entity_id": 144
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 143,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 34.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 144,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 34.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 142
+              },
+              {
+                "entity_id": 150
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 35
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 35.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 138
+              },
+              {
+                "entity_id": 154
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 35.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 148,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 36.5
+        },
+        "neighbours": [
+          123,
+          151,
+          182
+        ]
+      },
+      {
+        "entity_number": 149,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 35.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 150,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 35.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 144
+              },
+              {
+                "entity_id": 157
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 151,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 36.5
+        },
+        "neighbours": [
+          126,
+          148,
+          185
+        ]
+      },
+      {
+        "entity_number": 152,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 39
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 37.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 154,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 37.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 146
+              },
+              {
+                "entity_id": 156
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 155,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 38.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 156,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 38.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 154
+              },
+              {
+                "entity_id": 163
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 157,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 37.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 150
+              },
+              {
+                "entity_id": 159
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 158,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 37.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 159,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 38.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 157
+              },
+              {
+                "entity_id": 166
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 160,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 38.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 161,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 39
+        }
+      },
+      {
+        "entity_number": 162,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 39.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 163,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 39.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 156
+              },
+              {
+                "entity_id": 165
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 164,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 40.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 165,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 40.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 163
+              },
+              {
+                "entity_id": 172
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 166,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 39.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 159
+              },
+              {
+                "entity_id": 168
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 167,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 39.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 168,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 40.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 166
+              },
+              {
+                "entity_id": 175
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 169,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 40.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 170,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 43
+        }
+      },
+      {
+        "entity_number": 171,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 41.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 172,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 41.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 165
+              },
+              {
+                "entity_id": 174
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 173,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 42.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 174,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 42.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 172
+              },
+              {
+                "entity_id": 180
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 175,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 41.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 168
+              },
+              {
+                "entity_id": 177
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 176,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 41.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 177,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 42.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 175
+              },
+              {
+                "entity_id": 184
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 178,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 42.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 179,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 43
+        }
+      },
+      {
+        "entity_number": 180,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 44.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 174
+              },
+              {
+                "entity_id": 187
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 181,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 44.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 182,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 43.5
+        },
+        "neighbours": [
+          148,
+          185,
+          207
+        ]
+      },
+      {
+        "entity_number": 183,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 44.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 184,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 44.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 177
+              },
+              {
+                "entity_id": 192
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 185,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 43.5
+        },
+        "neighbours": [
+          151,
+          182,
+          210
+        ]
+      },
+      {
+        "entity_number": 186,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 47
+        }
+      },
+      {
+        "entity_number": 187,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 45.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 180
+              },
+              {
+                "entity_id": 188
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 188,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 46.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 187
+              },
+              {
+                "entity_id": 196
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 189,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 45.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 190,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 46.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 191,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 45.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 192,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 45.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 184
+              },
+              {
+                "entity_id": 194
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 193,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 46.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 194,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 46.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 192
+              },
+              {
+                "entity_id": 201
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 195,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 47
+        }
+      },
+      {
+        "entity_number": 196,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 47.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 188
+              },
+              {
+                "entity_id": 197
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 197,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 48.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 196
+              },
+              {
+                "entity_id": 205
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 198,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 47.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 199,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 48.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 200,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 47.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 201,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 47.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 194
+              },
+              {
+                "entity_id": 203
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 202,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 48.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 203,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 48.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 201
+              },
+              {
+                "entity_id": 209
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 204,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 51
+        }
+      },
+      {
+        "entity_number": 205,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 49.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 197
+              },
+              {
+                "entity_id": 213
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 206,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 49.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 207,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 50.5
+        },
+        "neighbours": [
+          182,
+          210,
+          238
+        ]
+      },
+      {
+        "entity_number": 208,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 49.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 209,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 49.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 203
+              },
+              {
+                "entity_id": 216
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 210,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 50.5
+        },
+        "neighbours": [
+          185,
+          207,
+          239
+        ]
+      },
+      {
+        "entity_number": 211,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 51
+        }
+      },
+      {
+        "entity_number": 212,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 51.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 213,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 51.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 205
+              },
+              {
+                "entity_id": 215
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 214,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 52.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 215,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 52.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 213
+              },
+              {
+                "entity_id": 222
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 216,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 51.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 209
+              },
+              {
+                "entity_id": 218
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 217,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 51.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 218,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 52.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 216
+              },
+              {
+                "entity_id": 225
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 219,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 52.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 220,
+        "name": "roboport",
+        "position": {
+          "x": 2,
+          "y": 55
+        }
+      },
+      {
+        "entity_number": 221,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 53.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 222,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 53.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 215
+              },
+              {
+                "entity_id": 224
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 223,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 54.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 224,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 54.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 222
+              },
+              {
+                "entity_id": 231
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 225,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 53.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 218
+              },
+              {
+                "entity_id": 227
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 226,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 53.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 227,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 54.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 225
+              },
+              {
+                "entity_id": 234
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 228,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 54.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 229,
+        "name": "roboport",
+        "position": {
+          "x": 12,
+          "y": 55
+        }
+      },
+      {
+        "entity_number": 230,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 55.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 231,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 55.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 224
+              },
+              {
+                "entity_id": 233
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 232,
+        "name": "stack-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 56.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 233,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 4.5,
+          "y": 56.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 231
+              },
+              {
+                "entity_id": 236
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 234,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 55.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 227
+              },
+              {
+                "entity_id": 236
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 235,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 55.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 236,
+        "name": "logistic-chest-buffer",
+        "position": {
+          "x": 9.5,
+          "y": 56.5
+        },
+        "control_behavior": {
+          "circuit_mode_of_operation": 1
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 233
+              },
+              {
+                "entity_id": 234
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 237,
+        "name": "stack-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 56.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 238,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 57.5
+        },
+        "neighbours": [
+          207,
+          239
+        ]
+      },
+      {
+        "entity_number": 239,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 57.5
+        },
+        "neighbours": [
+          210,
+          238
+        ]
+      }
+    ]
+  },
+  "index": 8
+}

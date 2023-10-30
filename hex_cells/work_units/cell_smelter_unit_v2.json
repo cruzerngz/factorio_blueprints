@@ -1,6 +1,6 @@
 {
   "blueprint": {
-    "description": "Input:\n- 37K/min per ingest station (copper, iron)\n- 38.6K/min per ingest station (steel)\n- 43.2K/min per ingest station (stone)\n\nOutput:\n- 43.2K/min per pickup station (copper, iron)\n- 9K/min per pickup station (steel)\n- 26K/min per pickup station (stone)\n\nNotes:\n- Stone smelting requires only 8/14 smelters per line\n\nPower: 885 - 900MW",
+    "description": "Input:\n- 36K/min per ingest station (copper, iron)\n- 38.6K/min per ingest station (steel)\n- 43.2K/min per ingest station (stone)\n\nOutput:\n- 43.2K/min per pickup station (copper, iron)\n- 9K/min per pickup station (steel)\n- 26K/min per pickup station (stone)\n\nNotes:\n- Stone smelting requires only 8/14 smelters per line\n\nPower: 885 - 900MW",
     "icons": [
       {
         "signal": {
@@ -12,7 +12,7 @@
     ],
     "item": "blueprint",
     "label": "cell_smelter_unit_v2",
-    "version": 281479276527617,
+    "version": 281479277641728,
     "entities": [
       {
         "entity_number": 1,
@@ -38812,6 +38812,9 @@
         "position": {
           "x": 465.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -38857,6 +38860,9 @@
         "position": {
           "x": 473.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -38902,6 +38908,9 @@
         "position": {
           "x": 481.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -38947,6 +38956,9 @@
         "position": {
           "x": 489.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -38992,6 +39004,9 @@
         "position": {
           "x": 497.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39037,6 +39052,9 @@
         "position": {
           "x": 505.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39082,6 +39100,9 @@
         "position": {
           "x": 513.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39127,6 +39148,9 @@
         "position": {
           "x": 521.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39172,6 +39196,9 @@
         "position": {
           "x": 529.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39217,6 +39244,9 @@
         "position": {
           "x": 537.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39262,6 +39292,9 @@
         "position": {
           "x": 545.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39307,6 +39340,9 @@
         "position": {
           "x": 553.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39352,6 +39388,9 @@
         "position": {
           "x": 561.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39397,6 +39436,9 @@
         "position": {
           "x": 569.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39442,6 +39484,9 @@
         "position": {
           "x": 577.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39487,6 +39532,9 @@
         "position": {
           "x": 585.5,
           "y": 1.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -39612,20 +39660,23 @@
       },
       {
         "entity_number": 4148,
+        "name": "electric-furnace",
+        "position": {
+          "x": 463.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4149,
         "name": "express-underground-belt",
         "position": {
           "x": 462.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4149,
-        "name": "electric-furnace",
-        "position": {
-          "x": 463.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4150,
@@ -39652,20 +39703,23 @@
       },
       {
         "entity_number": 4152,
+        "name": "electric-furnace",
+        "position": {
+          "x": 471.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4153,
         "name": "express-underground-belt",
         "position": {
           "x": 470.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4153,
-        "name": "electric-furnace",
-        "position": {
-          "x": 471.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4154,
@@ -39692,20 +39746,23 @@
       },
       {
         "entity_number": 4156,
+        "name": "electric-furnace",
+        "position": {
+          "x": 479.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4157,
         "name": "express-underground-belt",
         "position": {
           "x": 478.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4157,
-        "name": "electric-furnace",
-        "position": {
-          "x": 479.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4158,
@@ -39732,20 +39789,23 @@
       },
       {
         "entity_number": 4160,
+        "name": "electric-furnace",
+        "position": {
+          "x": 487.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4161,
         "name": "express-underground-belt",
         "position": {
           "x": 486.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4161,
-        "name": "electric-furnace",
-        "position": {
-          "x": 487.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4162,
@@ -39772,20 +39832,23 @@
       },
       {
         "entity_number": 4164,
+        "name": "electric-furnace",
+        "position": {
+          "x": 495.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4165,
         "name": "express-underground-belt",
         "position": {
           "x": 494.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4165,
-        "name": "electric-furnace",
-        "position": {
-          "x": 495.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4166,
@@ -39812,20 +39875,23 @@
       },
       {
         "entity_number": 4168,
+        "name": "electric-furnace",
+        "position": {
+          "x": 503.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4169,
         "name": "express-underground-belt",
         "position": {
           "x": 502.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4169,
-        "name": "electric-furnace",
-        "position": {
-          "x": 503.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4170,
@@ -39852,20 +39918,23 @@
       },
       {
         "entity_number": 4172,
+        "name": "electric-furnace",
+        "position": {
+          "x": 511.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4173,
         "name": "express-underground-belt",
         "position": {
           "x": 510.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4173,
-        "name": "electric-furnace",
-        "position": {
-          "x": 511.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4174,
@@ -39892,20 +39961,23 @@
       },
       {
         "entity_number": 4176,
+        "name": "electric-furnace",
+        "position": {
+          "x": 519.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4177,
         "name": "express-underground-belt",
         "position": {
           "x": 518.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4177,
-        "name": "electric-furnace",
-        "position": {
-          "x": 519.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4178,
@@ -39932,20 +40004,23 @@
       },
       {
         "entity_number": 4180,
+        "name": "electric-furnace",
+        "position": {
+          "x": 527.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4181,
         "name": "express-underground-belt",
         "position": {
           "x": 526.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4181,
-        "name": "electric-furnace",
-        "position": {
-          "x": 527.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4182,
@@ -39972,20 +40047,23 @@
       },
       {
         "entity_number": 4184,
+        "name": "electric-furnace",
+        "position": {
+          "x": 535.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4185,
         "name": "express-underground-belt",
         "position": {
           "x": 534.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4185,
-        "name": "electric-furnace",
-        "position": {
-          "x": 535.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4186,
@@ -40012,20 +40090,23 @@
       },
       {
         "entity_number": 4188,
+        "name": "electric-furnace",
+        "position": {
+          "x": 543.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4189,
         "name": "express-underground-belt",
         "position": {
           "x": 542.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4189,
-        "name": "electric-furnace",
-        "position": {
-          "x": 543.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4190,
@@ -40052,20 +40133,23 @@
       },
       {
         "entity_number": 4192,
+        "name": "electric-furnace",
+        "position": {
+          "x": 551.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4193,
         "name": "express-underground-belt",
         "position": {
           "x": 550.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4193,
-        "name": "electric-furnace",
-        "position": {
-          "x": 551.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4194,
@@ -40092,20 +40176,23 @@
       },
       {
         "entity_number": 4196,
+        "name": "electric-furnace",
+        "position": {
+          "x": 559.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4197,
         "name": "express-underground-belt",
         "position": {
           "x": 558.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4197,
-        "name": "electric-furnace",
-        "position": {
-          "x": 559.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4198,
@@ -40132,20 +40219,23 @@
       },
       {
         "entity_number": 4200,
+        "name": "electric-furnace",
+        "position": {
+          "x": 567.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4201,
         "name": "express-underground-belt",
         "position": {
           "x": 566.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4201,
-        "name": "electric-furnace",
-        "position": {
-          "x": 567.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4202,
@@ -40172,20 +40262,23 @@
       },
       {
         "entity_number": 4204,
+        "name": "electric-furnace",
+        "position": {
+          "x": 575.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4205,
         "name": "express-underground-belt",
         "position": {
           "x": 574.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4205,
-        "name": "electric-furnace",
-        "position": {
-          "x": 575.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4206,
@@ -40212,20 +40305,23 @@
       },
       {
         "entity_number": 4208,
+        "name": "electric-furnace",
+        "position": {
+          "x": 583.5,
+          "y": 4.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4209,
         "name": "express-underground-belt",
         "position": {
           "x": 582.5,
           "y": 2.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4209,
-        "name": "electric-furnace",
-        "position": {
-          "x": 583.5,
-          "y": 4.5
-        }
       },
       {
         "entity_number": 4210,
@@ -42276,6 +42372,9 @@
         "position": {
           "x": 476.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42301,6 +42400,9 @@
         "position": {
           "x": 484.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42326,6 +42428,9 @@
         "position": {
           "x": 492.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42351,6 +42456,9 @@
         "position": {
           "x": 500.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42376,6 +42484,9 @@
         "position": {
           "x": 508.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42401,6 +42512,9 @@
         "position": {
           "x": 516.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42426,6 +42540,9 @@
         "position": {
           "x": 524.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42451,6 +42568,9 @@
         "position": {
           "x": 532.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42476,6 +42596,9 @@
         "position": {
           "x": 540.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42501,6 +42624,9 @@
         "position": {
           "x": 548.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42526,6 +42652,9 @@
         "position": {
           "x": 556.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42551,6 +42680,9 @@
         "position": {
           "x": 564.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42576,6 +42708,9 @@
         "position": {
           "x": 572.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42601,6 +42736,9 @@
         "position": {
           "x": 580.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42626,6 +42764,9 @@
         "position": {
           "x": 588.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42651,6 +42792,9 @@
         "position": {
           "x": 596.5,
           "y": 13.5
+        },
+        "items": {
+          "productivity-module-3": 2
         }
       },
       {
@@ -42786,20 +42930,23 @@
       },
       {
         "entity_number": 4467,
+        "name": "electric-furnace",
+        "position": {
+          "x": 474.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4468,
         "name": "express-underground-belt",
         "position": {
           "x": 473.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4468,
-        "name": "electric-furnace",
-        "position": {
-          "x": 474.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4469,
@@ -42836,20 +42983,23 @@
       },
       {
         "entity_number": 4472,
+        "name": "electric-furnace",
+        "position": {
+          "x": 482.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4473,
         "name": "express-underground-belt",
         "position": {
           "x": 481.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4473,
-        "name": "electric-furnace",
-        "position": {
-          "x": 482.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4474,
@@ -42887,20 +43037,23 @@
       },
       {
         "entity_number": 4477,
+        "name": "electric-furnace",
+        "position": {
+          "x": 490.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4478,
         "name": "express-underground-belt",
         "position": {
           "x": 489.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4478,
-        "name": "electric-furnace",
-        "position": {
-          "x": 490.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4479,
@@ -42938,20 +43091,23 @@
       },
       {
         "entity_number": 4482,
+        "name": "electric-furnace",
+        "position": {
+          "x": 498.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4483,
         "name": "express-underground-belt",
         "position": {
           "x": 497.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4483,
-        "name": "electric-furnace",
-        "position": {
-          "x": 498.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4484,
@@ -42989,20 +43145,23 @@
       },
       {
         "entity_number": 4487,
+        "name": "electric-furnace",
+        "position": {
+          "x": 506.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4488,
         "name": "express-underground-belt",
         "position": {
           "x": 505.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4488,
-        "name": "electric-furnace",
-        "position": {
-          "x": 506.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4489,
@@ -43040,20 +43199,23 @@
       },
       {
         "entity_number": 4492,
+        "name": "electric-furnace",
+        "position": {
+          "x": 514.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4493,
         "name": "express-underground-belt",
         "position": {
           "x": 513.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4493,
-        "name": "electric-furnace",
-        "position": {
-          "x": 514.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4494,
@@ -43091,20 +43253,23 @@
       },
       {
         "entity_number": 4497,
+        "name": "electric-furnace",
+        "position": {
+          "x": 522.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4498,
         "name": "express-underground-belt",
         "position": {
           "x": 521.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4498,
-        "name": "electric-furnace",
-        "position": {
-          "x": 522.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4499,
@@ -43142,20 +43307,23 @@
       },
       {
         "entity_number": 4502,
+        "name": "electric-furnace",
+        "position": {
+          "x": 530.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4503,
         "name": "express-underground-belt",
         "position": {
           "x": 529.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4503,
-        "name": "electric-furnace",
-        "position": {
-          "x": 530.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4504,
@@ -43193,20 +43361,23 @@
       },
       {
         "entity_number": 4507,
+        "name": "electric-furnace",
+        "position": {
+          "x": 538.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4508,
         "name": "express-underground-belt",
         "position": {
           "x": 537.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4508,
-        "name": "electric-furnace",
-        "position": {
-          "x": 538.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4509,
@@ -43244,20 +43415,23 @@
       },
       {
         "entity_number": 4512,
+        "name": "electric-furnace",
+        "position": {
+          "x": 546.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4513,
         "name": "express-underground-belt",
         "position": {
           "x": 545.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4513,
-        "name": "electric-furnace",
-        "position": {
-          "x": 546.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4514,
@@ -43295,20 +43469,23 @@
       },
       {
         "entity_number": 4517,
+        "name": "electric-furnace",
+        "position": {
+          "x": 554.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4518,
         "name": "express-underground-belt",
         "position": {
           "x": 553.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4518,
-        "name": "electric-furnace",
-        "position": {
-          "x": 554.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4519,
@@ -43346,20 +43523,23 @@
       },
       {
         "entity_number": 4522,
+        "name": "electric-furnace",
+        "position": {
+          "x": 562.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4523,
         "name": "express-underground-belt",
         "position": {
           "x": 561.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4523,
-        "name": "electric-furnace",
-        "position": {
-          "x": 562.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4524,
@@ -43397,20 +43577,23 @@
       },
       {
         "entity_number": 4527,
+        "name": "electric-furnace",
+        "position": {
+          "x": 570.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4528,
         "name": "express-underground-belt",
         "position": {
           "x": 569.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4528,
-        "name": "electric-furnace",
-        "position": {
-          "x": 570.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4529,
@@ -43448,20 +43631,23 @@
       },
       {
         "entity_number": 4532,
+        "name": "electric-furnace",
+        "position": {
+          "x": 578.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4533,
         "name": "express-underground-belt",
         "position": {
           "x": 577.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4533,
-        "name": "electric-furnace",
-        "position": {
-          "x": 578.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4534,
@@ -43499,20 +43685,23 @@
       },
       {
         "entity_number": 4537,
+        "name": "electric-furnace",
+        "position": {
+          "x": 586.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4538,
         "name": "express-underground-belt",
         "position": {
           "x": 585.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4538,
-        "name": "electric-furnace",
-        "position": {
-          "x": 586.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4539,
@@ -43550,20 +43739,23 @@
       },
       {
         "entity_number": 4542,
+        "name": "electric-furnace",
+        "position": {
+          "x": 594.5,
+          "y": 16.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4543,
         "name": "express-underground-belt",
         "position": {
           "x": 593.5,
           "y": 14.5
         },
         "type": "output"
-      },
-      {
-        "entity_number": 4543,
-        "name": "electric-furnace",
-        "position": {
-          "x": 594.5,
-          "y": 16.5
-        }
       },
       {
         "entity_number": 4544,
@@ -78001,8 +78193,8 @@
           "y": 83.5
         },
         "neighbours": [
-          8143,
           7751,
+          8143,
           8163,
           8306
         ]
@@ -78181,8 +78373,8 @@
           "y": 83.5
         },
         "neighbours": [
-          7778,
           8163,
+          7778,
           8175,
           8328
         ]
@@ -78404,8 +78596,8 @@
           }
         },
         "neighbours": [
-          7780,
           8175,
+          7780,
           8456
         ]
       },
@@ -79512,8 +79704,8 @@
           "y": 86.5
         },
         "neighbours": [
-          8297,
           8153,
+          8297,
           8319
         ]
       },

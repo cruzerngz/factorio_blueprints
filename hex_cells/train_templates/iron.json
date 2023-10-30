@@ -18,7 +18,7 @@
     ],
     "item": "blueprint",
     "label": "iron",
-    "version": 281479276527617,
+    "version": 281479277641728,
     "entities": [
       {
         "entity_number": 1,
@@ -1443,7 +1443,7 @@
         ],
         "schedule": [
           {
-            "station": "cell_pickup_iron_ore",
+            "station": "cell_pickup_iron",
             "wait_conditions": [
               {
                 "compare_type": "or",
@@ -1452,7 +1452,7 @@
             ]
           },
           {
-            "station": "cell_iron_ore",
+            "station": "cell_iron",
             "wait_conditions": [
               {
                 "compare_type": "or",

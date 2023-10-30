@@ -1,0 +1,65 @@
+{
+  "blueprint_book": {
+    "description": "Trains for anything that is not bulk resources",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint-book",
+    "label": "hub_trains",
+    "label_color": null,
+    "active_index": 1,
+    "version": 281479277641728,
+    "order": [
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "cargo-wagon"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "solar_restock",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "arti_service",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 1
+      }
+    ]
+  },
+  "index": 24
+}
