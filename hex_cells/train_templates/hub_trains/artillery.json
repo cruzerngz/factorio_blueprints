@@ -1,0 +1,170 @@
+{
+  "blueprint": {
+    "description": "2-8 artillery trainr",
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "artillery-wagon"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "artillery",
+    "version": 281479277641728,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1243.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 2,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1250.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 3,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1257.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 4,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1264.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 5,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1271.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 6,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1278.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 7,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1285.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 8,
+        "name": "artillery-wagon",
+        "position": {
+          "x": 1292.90625,
+          "y": -829
+        },
+        "orientation": 0.25
+      },
+      {
+        "entity_number": 9,
+        "name": "locomotive",
+        "position": {
+          "x": 1299.90625,
+          "y": -829
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.686274528503418,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "locomotive",
+        "position": {
+          "x": 1306.90625,
+          "y": -829
+        },
+        "orientation": 0.25,
+        "color": {
+          "r": 1,
+          "g": 0.686274528503418,
+          "b": 0,
+          "a": 0.49803921580314636
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          9,
+          10
+        ],
+        "schedule": [
+          {
+            "station": "cell_arti_restock",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_arti_outpost_main",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "circuit",
+                "condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-A"
+                  },
+                  "constant": 0,
+                  "comparator": "="
+                }
+              },
+              {
+                "compare_type": "and",
+                "type": "time",
+                "ticks": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 2
+}

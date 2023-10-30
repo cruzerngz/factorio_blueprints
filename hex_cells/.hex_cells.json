@@ -109,7 +109,7 @@
           "item": "blueprint-book",
           "label": "work_unit_slices",
           "label_color": null,
-          "active_index": 24,
+          "active_index": 0,
           "version": 281479277641728
         },
         "index": 4
@@ -129,7 +129,7 @@
           "item": "blueprint-book",
           "label": "research_units",
           "label_color": null,
-          "active_index": 13,
+          "active_index": 0,
           "version": 281479277641728
         },
         "index": 5
@@ -148,7 +148,7 @@
           "item": "blueprint-book",
           "label": "artillery_units",
           "label_color": null,
-          "active_index": 12,
+          "active_index": 0,
           "version": 281479277641728
         },
         "index": 6

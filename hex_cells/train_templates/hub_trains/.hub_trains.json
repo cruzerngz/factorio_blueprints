@@ -13,7 +13,7 @@
     "item": "blueprint-book",
     "label": "hub_trains",
     "label_color": null,
-    "active_index": 1,
+    "active_index": 2,
     "version": 281479277641728,
     "order": [
       {
@@ -58,6 +58,32 @@
           "version": 281479277641728
         },
         "index": 1
+      },
+      {
+        "blueprint": {
+          "description": "2-8 artillery trainr",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "artillery-wagon"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "artillery",
+          "label_color": null,
+          "version": 281479277641728
+        },
+        "index": 2
       }
     ]
   },

@@ -15,167 +15,88 @@
     "entities": [
       {
         "entity_number": 1,
-        "name": "straight-rail",
+        "name": "pump",
         "position": {
-          "x": 757,
-          "y": -709
-        }
+          "x": 1207,
+          "y": -815.5
+        },
+        "direction": 2
       },
       {
         "entity_number": 2,
-        "name": "locomotive",
+        "name": "fluid-wagon",
         "position": {
-          "x": 757,
-          "y": -704
+          "x": 1209,
+          "y": -813.00390625
         },
-        "orientation": 0,
-        "items": {
-          "rocket-fuel": 30
-        }
+        "orientation": 0.5
       },
       {
         "entity_number": 3,
         "name": "straight-rail",
         "position": {
-          "x": 757,
-          "y": -707
+          "x": 1209,
+          "y": -815
         }
       },
       {
         "entity_number": 4,
-        "name": "train-stop",
+        "name": "straight-rail",
         "position": {
-          "x": 759,
-          "y": -707
-        },
-        "control_behavior": {
-          "read_from_train": true,
-          "train_stopped_signal": {
-            "type": "virtual",
-            "name": "signal-T"
-          }
-        },
-        "station": "",
-        "manual_trains_limit": 1
+          "x": 1209,
+          "y": -813
+        }
       },
       {
         "entity_number": 5,
-        "name": "straight-rail",
+        "name": "pump",
         "position": {
-          "x": 757,
-          "y": -705
-        }
+          "x": 1207,
+          "y": -810.5
+        },
+        "direction": 2
       },
       {
         "entity_number": 6,
         "name": "straight-rail",
         "position": {
-          "x": 757,
-          "y": -703
+          "x": 1209,
+          "y": -811
         }
       },
       {
         "entity_number": 7,
-        "name": "straight-rail",
+        "name": "stack-inserter",
         "position": {
-          "x": 757,
-          "y": -701
-        }
+          "x": 1207.5,
+          "y": -808.5
+        },
+        "direction": 6
       },
       {
         "entity_number": 8,
-        "name": "stack-inserter",
+        "name": "logistic-chest-requester",
         "position": {
-          "x": 758.5,
-          "y": -701.5
+          "x": 1206.5,
+          "y": -808.5
         },
-        "direction": 2
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "laser-turret",
+            "count": 50
+          }
+        ],
+        "request_from_buffers": true
       },
       {
         "entity_number": 9,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -701.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "rocket-fuel",
-            "count": 100
-          }
-        ],
-        "request_from_buffers": true
-      },
-      {
-        "entity_number": 10,
-        "name": "locomotive",
-        "position": {
-          "x": 757,
-          "y": -697
-        },
-        "orientation": 0,
-        "items": {
-          "rocket-fuel": 30
-        }
-      },
-      {
-        "entity_number": 11,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -699
-        }
-      },
-      {
-        "entity_number": 12,
-        "name": "stack-inserter",
-        "position": {
-          "x": 758.5,
-          "y": -699.5
-        },
-        "direction": 2
-      },
-      {
-        "entity_number": 13,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -699.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "rocket-fuel",
-            "count": 100
-          }
-        ],
-        "request_from_buffers": true
-      },
-      {
-        "entity_number": 14,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -697
-        }
-      },
-      {
-        "entity_number": 15,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -695
-        }
-      },
-      {
-        "entity_number": 16,
         "name": "cargo-wagon",
         "position": {
-          "x": 757,
-          "y": -690
+          "x": 1209,
+          "y": -806.00390625
         },
-        "orientation": 0,
+        "orientation": 0.5,
         "inventory": {
           "filters": [
             {
@@ -219,165 +140,28 @@
         }
       },
       {
-        "entity_number": 17,
+        "entity_number": 10,
         "name": "straight-rail",
         "position": {
-          "x": 757,
-          "y": -693
+          "x": 1209,
+          "y": -809
         }
       },
       {
-        "entity_number": 18,
+        "entity_number": 11,
         "name": "stack-inserter",
         "position": {
-          "x": 758.5,
-          "y": -692.5
+          "x": 1210.5,
+          "y": -808.5
         },
         "direction": 2
       },
       {
-        "entity_number": 19,
+        "entity_number": 12,
         "name": "logistic-chest-requester",
         "position": {
-          "x": 759.5,
-          "y": -692.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "construction-robot",
-            "count": 50
-          }
-        ]
-      },
-      {
-        "entity_number": 20,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -691
-        }
-      },
-      {
-        "entity_number": 21,
-        "name": "stack-inserter",
-        "position": {
-          "x": 758.5,
-          "y": -690.5
-        },
-        "direction": 2
-      },
-      {
-        "entity_number": 22,
-        "name": "stack-inserter",
-        "position": {
-          "x": 758.5,
-          "y": -691.5
-        },
-        "direction": 2
-      },
-      {
-        "entity_number": 23,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -690.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "artillery-turret",
-            "count": 10
-          }
-        ],
-        "request_from_buffers": true
-      },
-      {
-        "entity_number": 24,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -691.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "repair-pack",
-            "count": 300
-          }
-        ]
-      },
-      {
-        "entity_number": 25,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -689
-        }
-      },
-      {
-        "entity_number": 26,
-        "name": "stack-inserter",
-        "position": {
-          "x": 758.5,
-          "y": -688.5
-        },
-        "direction": 2
-      },
-      {
-        "entity_number": 27,
-        "name": "stack-inserter",
-        "position": {
-          "x": 758.5,
-          "y": -689.5
-        },
-        "direction": 2
-      },
-      {
-        "entity_number": 28,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -688.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "gate",
-            "count": 50
-          }
-        ]
-      },
-      {
-        "entity_number": 29,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 759.5,
-          "y": -689.5
-        },
-        "request_filters": [
-          {
-            "index": 1,
-            "name": "radar",
-            "count": 50
-          }
-        ]
-      },
-      {
-        "entity_number": 30,
-        "name": "stack-inserter",
-        "position": {
-          "x": 755.5,
-          "y": -687.5
-        },
-        "direction": 6
-      },
-      {
-        "entity_number": 31,
-        "name": "logistic-chest-requester",
-        "position": {
-          "x": 754.5,
-          "y": -687.5
+          "x": 1211.5,
+          "y": -808.5
         },
         "request_filters": [
           {
@@ -389,103 +173,298 @@
         "request_from_buffers": true
       },
       {
-        "entity_number": 32,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -687
-        }
-      },
-      {
-        "entity_number": 33,
+        "entity_number": 13,
         "name": "stack-inserter",
         "position": {
-          "x": 758.5,
-          "y": -687.5
+          "x": 1207.5,
+          "y": -807.5
         },
-        "direction": 2
+        "direction": 6
       },
       {
-        "entity_number": 34,
+        "entity_number": 14,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -806.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 15,
         "name": "logistic-chest-requester",
         "position": {
-          "x": 759.5,
-          "y": -687.5
+          "x": 1206.5,
+          "y": -807.5
         },
         "request_filters": [
           {
             "index": 1,
-            "name": "laser-turret",
+            "name": "gate",
             "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 16,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 1206.5,
+          "y": -806.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "radar",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -807
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -805.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 19,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -804.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 20,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 1206.5,
+          "y": -805.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "artillery-turret",
+            "count": 10
           }
         ],
         "request_from_buffers": true
       },
       {
-        "entity_number": 35,
-        "name": "fluid-wagon",
+        "entity_number": 21,
+        "name": "logistic-chest-requester",
         "position": {
-          "x": 757,
-          "y": -683
+          "x": 1206.5,
+          "y": -804.5
         },
-        "orientation": 0
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "repair-pack",
+            "count": 300
+          }
+        ]
+      },
+      {
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -805
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -803.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 24,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 1206.5,
+          "y": -803.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "construction-robot",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -803
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "locomotive",
+        "position": {
+          "x": 1209,
+          "y": -799.00390625
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 27,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -801
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -799
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -796.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 30,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 1206.5,
+          "y": -796.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "rocket-fuel",
+            "count": 100
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 31,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -797
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1207.5,
+          "y": -794.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 33,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": 1206.5,
+          "y": -794.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "rocket-fuel",
+            "count": 100
+          }
+        ],
+        "request_from_buffers": true
+      },
+      {
+        "entity_number": 34,
+        "name": "locomotive",
+        "position": {
+          "x": 1209,
+          "y": -792.00390625
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 35,
+        "name": "straight-rail",
+        "position": {
+          "x": 1209,
+          "y": -795
+        }
       },
       {
         "entity_number": 36,
         "name": "straight-rail",
         "position": {
-          "x": 757,
-          "y": -685
+          "x": 1209,
+          "y": -793
         }
       },
       {
         "entity_number": 37,
-        "name": "pump",
+        "name": "straight-rail",
         "position": {
-          "x": 759,
-          "y": -685.5
-        },
-        "direction": 6
+          "x": 1209,
+          "y": -791
+        }
       },
       {
         "entity_number": 38,
-        "name": "straight-rail",
+        "name": "train-stop",
         "position": {
-          "x": 757,
-          "y": -683
-        }
+          "x": 1207,
+          "y": -789
+        },
+        "direction": 4,
+        "control_behavior": {
+          "read_from_train": true,
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "cell_arti_service",
+        "manual_trains_limit": 1
       },
       {
         "entity_number": 39,
         "name": "straight-rail",
         "position": {
-          "x": 757,
-          "y": -681
-        }
-      },
-      {
-        "entity_number": 40,
-        "name": "pump",
-        "position": {
-          "x": 759,
-          "y": -680.5
-        },
-        "direction": 6
-      },
-      {
-        "entity_number": 41,
-        "name": "straight-rail",
-        "position": {
-          "x": 757,
-          "y": -679
+          "x": 1209,
+          "y": -789
         }
       }
     ],
     "schedules": [
       {
         "locomotives": [
-          2,
-          10
+          26,
+          34
         ],
         "schedule": [
           {
@@ -506,11 +485,16 @@
                 "condition": {
                   "first_signal": {
                     "type": "virtual",
-                    "name": "signal-check"
+                    "name": "signal-C"
                   },
                   "constant": 1,
                   "comparator": "≠"
                 }
+              },
+              {
+                "compare_type": "and",
+                "type": "inactivity",
+                "ticks": 300
               }
             ]
           }
