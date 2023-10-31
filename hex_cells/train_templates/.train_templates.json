@@ -13,8 +13,8 @@
     "item": "blueprint-book",
     "label": "train_templates",
     "label_color": null,
-    "active_index": 24,
-    "version": 281479277641728,
+    "active_index": 0,
+    "version": 281479277838336,
     "order": [
       {
         "blueprint": {
@@ -38,7 +38,7 @@
           "item": "blueprint",
           "label": "coal",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 0
       },
@@ -64,7 +64,7 @@
           "item": "blueprint",
           "label": "stone",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 1
       },
@@ -90,7 +90,7 @@
           "item": "blueprint",
           "label": "iron_ore",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 2
       },
@@ -116,7 +116,7 @@
           "item": "blueprint",
           "label": "copper_ore",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 3
       },
@@ -141,7 +141,7 @@
           "item": "blueprint",
           "label": "uranium_ore",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 4
       },
@@ -166,7 +166,7 @@
           "item": "blueprint",
           "label": "stone_bricks",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 7
       },
@@ -191,7 +191,7 @@
           "item": "blueprint",
           "label": "iron",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 8
       },
@@ -216,7 +216,7 @@
           "item": "blueprint",
           "label": "copper",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 9
       },
@@ -241,7 +241,7 @@
           "item": "blueprint",
           "label": "steel",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 10
       },
@@ -266,7 +266,7 @@
           "item": "blueprint",
           "label": "oil",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 12
       },
@@ -291,7 +291,7 @@
           "item": "blueprint",
           "label": "water",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 13
       },
@@ -316,7 +316,7 @@
           "item": "blueprint",
           "label": "petroleum",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 14
       },
@@ -342,7 +342,7 @@
           "item": "blueprint",
           "label": "green_chips",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 18
       },
@@ -368,7 +368,7 @@
           "item": "blueprint",
           "label": "red_chips",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 19
       },
@@ -394,7 +394,7 @@
           "item": "blueprint",
           "label": "blue_chips",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 20
       },
@@ -420,7 +420,7 @@
           "item": "blueprint",
           "label": "plastic",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 21
       },
@@ -439,8 +439,8 @@
           "item": "blueprint-book",
           "label": "hub_trains",
           "label_color": null,
-          "active_index": 2,
-          "version": 281479277641728
+          "active_index": 0,
+          "version": 281479277838336
         },
         "index": 24
       }

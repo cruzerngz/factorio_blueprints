@@ -35,7 +35,7 @@
     "label": "prototypes",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277641728,
+    "version": 281479277838336,
     "order": [
       {
         "blueprint": {
@@ -52,7 +52,7 @@
           "item": "blueprint",
           "label": "mini_plastic",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 0
       }

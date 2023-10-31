@@ -13,7 +13,7 @@
     "label": "artillery_units",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277641728,
+    "version": 281479277838336,
     "order": [
       {
         "blueprint": {
@@ -29,7 +29,7 @@
           "item": "blueprint",
           "label": "cell_arti_template_1",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 0
       },
@@ -47,7 +47,7 @@
           "item": "blueprint",
           "label": "cell_arti_template_2",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 1
       },
@@ -65,7 +65,7 @@
           "item": "blueprint",
           "label": "cell_arti_template_v2",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 6
       },
@@ -83,7 +83,7 @@
           "item": "blueprint",
           "label": "cell_arti_template_v3",
           "label_color": null,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 12
       }

@@ -14,7 +14,7 @@
     "label": "hex_cells",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277641728,
+    "version": 281479277838336,
     "order": [
       {
         "blueprint_book": {
@@ -31,7 +31,7 @@
           "label": "empty_templates",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 0
       },
@@ -51,7 +51,7 @@
           "label": "small_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 1
       },
@@ -70,7 +70,7 @@
           "label": "power_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 2
       },
@@ -90,7 +90,7 @@
           "label": "work_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 3
       },
@@ -110,7 +110,7 @@
           "label": "work_unit_slices",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 4
       },
@@ -130,7 +130,7 @@
           "label": "research_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 5
       },
@@ -149,7 +149,7 @@
           "label": "artillery_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 6
       },
@@ -190,7 +190,7 @@
           "label": "prototypes",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277641728
+          "version": 281479277838336
         },
         "index": 7
       },
@@ -209,8 +209,8 @@
           "item": "blueprint-book",
           "label": "train_templates",
           "label_color": null,
-          "active_index": 24,
-          "version": 281479277641728
+          "active_index": 0,
+          "version": 281479277838336
         },
         "index": 8
       }

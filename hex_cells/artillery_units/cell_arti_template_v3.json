@@ -11,7 +11,7 @@
     ],
     "item": "blueprint",
     "label": "cell_arti_template_v3",
-    "version": 281479277641728,
+    "version": 281479277838336,
     "entities": [
       {
         "entity_number": 1,
@@ -876,8 +876,7 @@
         },
         "neighbours": [
           87,
-          89,
-          145
+          89
         ]
       },
       {
@@ -1580,8 +1579,7 @@
         },
         "neighbours": [
           143,
-          147,
-          88
+          147
         ]
       },
       {
@@ -8943,7 +8941,7 @@
                 "entity_id": 463
               },
               {
-                "entity_id": 1291
+                "entity_id": 1292
               }
             ],
             "green": [
@@ -8951,14 +8949,14 @@
                 "entity_id": 463
               },
               {
-                "entity_id": 1291
+                "entity_id": 1292
               }
             ]
           }
         },
         "neighbours": [
           463,
-          1291
+          1292
         ]
       },
       {
@@ -9221,7 +9219,7 @@
                 "entity_id": 503
               },
               {
-                "entity_id": 1319
+                "entity_id": 1321
               }
             ],
             "green": [
@@ -9229,14 +9227,14 @@
                 "entity_id": 503
               },
               {
-                "entity_id": 1319
+                "entity_id": 1321
               }
             ]
           }
         },
         "neighbours": [
           503,
-          1319
+          1321
         ]
       },
       {
@@ -9481,7 +9479,7 @@
                 "entity_id": 555
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               }
             ],
             "green": [
@@ -9489,14 +9487,14 @@
                 "entity_id": 555
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               }
             ]
           }
         },
         "neighbours": [
           555,
-          1367
+          1369
         ]
       },
       {
@@ -11545,10 +11543,10 @@
                 "entity_id": 1147
               },
               {
-                "entity_id": 1386
+                "entity_id": 1388
               },
               {
-                "entity_id": 1388
+                "entity_id": 1390
               }
             ]
           }
@@ -11556,7 +11554,7 @@
         "neighbours": [
           963,
           1238,
-          1388,
+          1390,
           1555
         ]
       },
@@ -12207,7 +12205,7 @@
                 "circuit_id": 1
               },
               {
-                "entity_id": 1300,
+                "entity_id": 1301,
                 "circuit_id": 1
               }
             ]
@@ -12260,7 +12258,7 @@
                 "circuit_id": 1
               },
               {
-                "entity_id": 1301,
+                "entity_id": 1302,
                 "circuit_id": 1
               }
             ]
@@ -12320,7 +12318,7 @@
                 "circuit_id": 1
               },
               {
-                "entity_id": 1301,
+                "entity_id": 1302,
                 "circuit_id": 1
               }
             ]
@@ -12364,7 +12362,7 @@
                 "circuit_id": 2
               },
               {
-                "entity_id": 1302,
+                "entity_id": 1303,
                 "circuit_id": 1
               }
             ],
@@ -12415,7 +12413,7 @@
                 "circuit_id": 2
               },
               {
-                "entity_id": 1303,
+                "entity_id": 1306,
                 "circuit_id": 1
               }
             ]
@@ -12468,6 +12466,51 @@
       },
       {
         "entity_number": 1273,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 1026.5,
+          "y": -970
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "item",
+              "name": "artillery-shell"
+            },
+            "second_constant": -1,
+            "operation": "*",
+            "output_signal": {
+              "type": "item",
+              "name": "artillery-shell"
+            }
+          }
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 1306,
+                "circuit_id": 1
+              }
+            ]
+          },
+          "2": {
+            "red": [
+              {
+                "entity_id": 1306,
+                "circuit_id": 2
+              },
+              {
+                "entity_id": 1395,
+                "circuit_id": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 1274,
         "name": "straight-rail",
         "position": {
           "x": 1031,
@@ -12475,7 +12518,7 @@
         }
       },
       {
-        "entity_number": 1274,
+        "entity_number": 1275,
         "name": "stack-inserter",
         "position": {
           "x": 1032.5,
@@ -12491,14 +12534,14 @@
           "1": {
             "red": [
               {
-                "entity_id": 1277
+                "entity_id": 1278
               }
             ]
           }
         }
       },
       {
-        "entity_number": 1275,
+        "entity_number": 1276,
         "name": "logistic-chest-passive-provider",
         "position": {
           "x": 1033.5,
@@ -12506,7 +12549,7 @@
         }
       },
       {
-        "entity_number": 1276,
+        "entity_number": 1277,
         "name": "logistic-chest-passive-provider",
         "position": {
           "x": 1034.5,
@@ -12514,7 +12557,7 @@
         }
       },
       {
-        "entity_number": 1277,
+        "entity_number": 1278,
         "name": "stack-inserter",
         "position": {
           "x": 1035.5,
@@ -12530,7 +12573,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1274
+                "entity_id": 1275
               },
               {
                 "entity_id": 1401
@@ -12540,7 +12583,7 @@
         }
       },
       {
-        "entity_number": 1278,
+        "entity_number": 1279,
         "name": "straight-rail",
         "position": {
           "x": 1037,
@@ -12548,7 +12591,7 @@
         }
       },
       {
-        "entity_number": 1279,
+        "entity_number": 1280,
         "name": "straight-rail",
         "position": {
           "x": 1047,
@@ -12556,7 +12599,7 @@
         }
       },
       {
-        "entity_number": 1280,
+        "entity_number": 1281,
         "name": "laser-turret",
         "position": {
           "x": 1055,
@@ -12564,27 +12607,19 @@
         }
       },
       {
-        "entity_number": 1281,
-        "name": "stone-wall",
-        "position": {
-          "x": 1063.5,
-          "y": -970.5
-        }
-      },
-      {
         "entity_number": 1282,
         "name": "stone-wall",
         "position": {
           "x": 1063.5,
-          "y": -971.5
+          "y": -970.5
         }
       },
       {
         "entity_number": 1283,
         "name": "stone-wall",
         "position": {
-          "x": 1072.5,
-          "y": -970.5
+          "x": 1063.5,
+          "y": -971.5
         }
       },
       {
@@ -12592,11 +12627,19 @@
         "name": "stone-wall",
         "position": {
           "x": 1072.5,
-          "y": -971.5
+          "y": -970.5
         }
       },
       {
         "entity_number": 1285,
+        "name": "stone-wall",
+        "position": {
+          "x": 1072.5,
+          "y": -971.5
+        }
+      },
+      {
+        "entity_number": 1286,
         "name": "straight-rail",
         "position": {
           "x": 1157,
@@ -12605,7 +12648,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1286,
+        "entity_number": 1287,
         "name": "straight-rail",
         "position": {
           "x": 1157,
@@ -12614,7 +12657,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1287,
+        "entity_number": 1288,
         "name": "curved-rail",
         "position": {
           "x": 1168,
@@ -12623,7 +12666,7 @@
         "direction": 6
       },
       {
-        "entity_number": 1288,
+        "entity_number": 1289,
         "name": "straight-rail",
         "position": {
           "x": 1173,
@@ -12632,7 +12675,7 @@
         "direction": 2
       },
       {
-        "entity_number": 1289,
+        "entity_number": 1290,
         "name": "straight-rail",
         "position": {
           "x": 1175,
@@ -12641,7 +12684,7 @@
         "direction": 2
       },
       {
-        "entity_number": 1290,
+        "entity_number": 1291,
         "name": "rail-chain-signal",
         "position": {
           "x": 892.5,
@@ -12650,7 +12693,7 @@
         "direction": 6
       },
       {
-        "entity_number": 1291,
+        "entity_number": 1292,
         "name": "big-electric-pole",
         "position": {
           "x": 898,
@@ -12663,7 +12706,7 @@
                 "entity_id": 955
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 1495
@@ -12674,7 +12717,7 @@
                 "entity_id": 955
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 1495
@@ -12684,12 +12727,12 @@
         },
         "neighbours": [
           955,
-          1367,
+          1369,
           1495
         ]
       },
       {
-        "entity_number": 1292,
+        "entity_number": 1293,
         "name": "straight-rail",
         "position": {
           "x": 903,
@@ -12698,7 +12741,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1293,
+        "entity_number": 1294,
         "name": "straight-rail",
         "position": {
           "x": 909,
@@ -12707,7 +12750,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1294,
+        "entity_number": 1295,
         "name": "straight-rail",
         "position": {
           "x": 909,
@@ -12716,27 +12759,19 @@
         "direction": 3
       },
       {
-        "entity_number": 1295,
-        "name": "stone-wall",
-        "position": {
-          "x": 995.5,
-          "y": -969.5
-        }
-      },
-      {
         "entity_number": 1296,
         "name": "stone-wall",
         "position": {
           "x": 995.5,
-          "y": -968.5
+          "y": -969.5
         }
       },
       {
         "entity_number": 1297,
         "name": "stone-wall",
         "position": {
-          "x": 1004.5,
-          "y": -969.5
+          "x": 995.5,
+          "y": -968.5
         }
       },
       {
@@ -12744,11 +12779,19 @@
         "name": "stone-wall",
         "position": {
           "x": 1004.5,
-          "y": -968.5
+          "y": -969.5
         }
       },
       {
         "entity_number": 1299,
+        "name": "stone-wall",
+        "position": {
+          "x": 1004.5,
+          "y": -968.5
+        }
+      },
+      {
+        "entity_number": 1300,
         "name": "laser-turret",
         "position": {
           "x": 1013,
@@ -12756,7 +12799,7 @@
         }
       },
       {
-        "entity_number": 1300,
+        "entity_number": 1301,
         "name": "decider-combinator",
         "position": {
           "x": 1019.5,
@@ -12791,7 +12834,7 @@
             ],
             "green": [
               {
-                "entity_id": 1301,
+                "entity_id": 1302,
                 "circuit_id": 1
               }
             ]
@@ -12799,18 +12842,18 @@
           "2": {
             "green": [
               {
-                "entity_id": 1342
+                "entity_id": 1305,
+                "circuit_id": 1
               },
               {
-                "entity_id": 1392,
-                "circuit_id": 1
+                "entity_id": 1344
               }
             ]
           }
         }
       },
       {
-        "entity_number": 1301,
+        "entity_number": 1302,
         "name": "decider-combinator",
         "position": {
           "x": 1021.5,
@@ -12845,7 +12888,7 @@
             ],
             "green": [
               {
-                "entity_id": 1300,
+                "entity_id": 1301,
                 "circuit_id": 1
               },
               {
@@ -12857,7 +12900,7 @@
           "2": {
             "green": [
               {
-                "entity_id": 1343
+                "entity_id": 1345
               },
               {
                 "entity_id": 1457,
@@ -12868,7 +12911,7 @@
         }
       },
       {
-        "entity_number": 1302,
+        "entity_number": 1303,
         "name": "decider-combinator",
         "position": {
           "x": 1023.5,
@@ -12902,7 +12945,7 @@
           "2": {
             "red": [
               {
-                "entity_id": 1392,
+                "entity_id": 1305,
                 "circuit_id": 1
               }
             ]
@@ -12910,10 +12953,103 @@
         }
       },
       {
-        "entity_number": 1303,
+        "entity_number": 1304,
         "name": "arithmetic-combinator",
         "position": {
           "x": 1025.5,
+          "y": -968
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-pink"
+            },
+            "second_constant": -1,
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-pink"
+            }
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1305,
+                "circuit_id": 2
+              },
+              {
+                "entity_id": 1394,
+                "circuit_id": 1
+              }
+            ]
+          },
+          "2": {
+            "green": [
+              {
+                "entity_id": 1394,
+                "circuit_id": 2
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 1305,
+        "name": "decider-combinator",
+        "position": {
+          "x": 1024.5,
+          "y": -968
+        },
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-pink"
+            },
+            "constant": 0,
+            "comparator": ">",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-everything"
+            },
+            "copy_count_from_input": true
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1303,
+                "circuit_id": 2
+              }
+            ],
+            "green": [
+              {
+                "entity_id": 1301,
+                "circuit_id": 2
+              }
+            ]
+          },
+          "2": {
+            "red": [
+              {
+                "entity_id": 1304,
+                "circuit_id": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 1306,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 1026.5,
           "y": -968
         },
         "direction": 4,
@@ -12939,7 +13075,7 @@
                 "circuit_id": 2
               },
               {
-                "entity_id": 1304,
+                "entity_id": 1273,
                 "circuit_id": 1
               }
             ]
@@ -12947,7 +13083,7 @@
           "2": {
             "red": [
               {
-                "entity_id": 1304,
+                "entity_id": 1273,
                 "circuit_id": 2
               }
             ]
@@ -12955,52 +13091,7 @@
         }
       },
       {
-        "entity_number": 1304,
-        "name": "arithmetic-combinator",
-        "position": {
-          "x": 1026.5,
-          "y": -968
-        },
-        "direction": 4,
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "first_signal": {
-              "type": "item",
-              "name": "artillery-shell"
-            },
-            "second_constant": -1,
-            "operation": "*",
-            "output_signal": {
-              "type": "item",
-              "name": "artillery-shell"
-            }
-          }
-        },
-        "connections": {
-          "1": {
-            "green": [
-              {
-                "entity_id": 1303,
-                "circuit_id": 1
-              }
-            ]
-          },
-          "2": {
-            "red": [
-              {
-                "entity_id": 1303,
-                "circuit_id": 2
-              },
-              {
-                "entity_id": 1395,
-                "circuit_id": 1
-              }
-            ]
-          }
-        }
-      },
-      {
-        "entity_number": 1305,
+        "entity_number": 1307,
         "name": "straight-rail",
         "position": {
           "x": 1031,
@@ -13008,7 +13099,7 @@
         }
       },
       {
-        "entity_number": 1306,
+        "entity_number": 1308,
         "name": "stack-inserter",
         "position": {
           "x": 1033.5,
@@ -13023,7 +13114,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1308
+                "entity_id": 1310
               },
               {
                 "entity_id": 1398
@@ -13033,7 +13124,7 @@
         }
       },
       {
-        "entity_number": 1307,
+        "entity_number": 1309,
         "name": "artillery-turret",
         "position": {
           "x": 1034.5,
@@ -13041,7 +13132,7 @@
         }
       },
       {
-        "entity_number": 1308,
+        "entity_number": 1310,
         "name": "stack-inserter",
         "position": {
           "x": 1034.5,
@@ -13056,14 +13147,14 @@
           "1": {
             "red": [
               {
-                "entity_id": 1306
+                "entity_id": 1308
               }
             ]
           }
         }
       },
       {
-        "entity_number": 1309,
+        "entity_number": 1311,
         "name": "straight-rail",
         "position": {
           "x": 1037,
@@ -13071,7 +13162,7 @@
         }
       },
       {
-        "entity_number": 1310,
+        "entity_number": 1312,
         "name": "straight-rail",
         "position": {
           "x": 1047,
@@ -13079,7 +13170,7 @@
         }
       },
       {
-        "entity_number": 1311,
+        "entity_number": 1313,
         "name": "laser-turret",
         "position": {
           "x": 1055,
@@ -13087,26 +13178,10 @@
         }
       },
       {
-        "entity_number": 1312,
-        "name": "stone-wall",
-        "position": {
-          "x": 1063.5,
-          "y": -968.5
-        }
-      },
-      {
-        "entity_number": 1313,
-        "name": "stone-wall",
-        "position": {
-          "x": 1063.5,
-          "y": -969.5
-        }
-      },
-      {
         "entity_number": 1314,
         "name": "stone-wall",
         "position": {
-          "x": 1072.5,
+          "x": 1063.5,
           "y": -968.5
         }
       },
@@ -13114,12 +13189,28 @@
         "entity_number": 1315,
         "name": "stone-wall",
         "position": {
-          "x": 1072.5,
+          "x": 1063.5,
           "y": -969.5
         }
       },
       {
         "entity_number": 1316,
+        "name": "stone-wall",
+        "position": {
+          "x": 1072.5,
+          "y": -968.5
+        }
+      },
+      {
+        "entity_number": 1317,
+        "name": "stone-wall",
+        "position": {
+          "x": 1072.5,
+          "y": -969.5
+        }
+      },
+      {
+        "entity_number": 1318,
         "name": "straight-rail",
         "position": {
           "x": 1159,
@@ -13128,7 +13219,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1317,
+        "entity_number": 1319,
         "name": "straight-rail",
         "position": {
           "x": 1159,
@@ -13137,7 +13228,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1318,
+        "entity_number": 1320,
         "name": "straight-rail",
         "position": {
           "x": 1165,
@@ -13146,7 +13237,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1319,
+        "entity_number": 1321,
         "name": "big-electric-pole",
         "position": {
           "x": 1170,
@@ -13185,7 +13276,7 @@
         ]
       },
       {
-        "entity_number": 1320,
+        "entity_number": 1322,
         "name": "rail-signal",
         "position": {
           "x": 1175.5,
@@ -13194,7 +13285,7 @@
         "direction": 6
       },
       {
-        "entity_number": 1321,
+        "entity_number": 1323,
         "name": "rail-chain-signal",
         "position": {
           "x": 896.5,
@@ -13203,7 +13294,7 @@
         "direction": 4
       },
       {
-        "entity_number": 1322,
+        "entity_number": 1324,
         "name": "rail-chain-signal",
         "position": {
           "x": 901.5,
@@ -13212,7 +13303,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1323,
+        "entity_number": 1325,
         "name": "straight-rail",
         "position": {
           "x": 905,
@@ -13221,7 +13312,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1324,
+        "entity_number": 1326,
         "name": "straight-rail",
         "position": {
           "x": 905,
@@ -13230,7 +13321,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1325,
+        "entity_number": 1327,
         "name": "straight-rail",
         "position": {
           "x": 907,
@@ -13239,7 +13330,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1326,
+        "entity_number": 1328,
         "name": "straight-rail",
         "position": {
           "x": 907,
@@ -13248,7 +13339,7 @@
         "direction": 3
       },
       {
-        "entity_number": 1327,
+        "entity_number": 1329,
         "name": "rail-chain-signal",
         "position": {
           "x": 906.5,
@@ -13257,26 +13348,10 @@
         "direction": 1
       },
       {
-        "entity_number": 1328,
-        "name": "stone-wall",
-        "position": {
-          "x": 995.5,
-          "y": -966.5
-        }
-      },
-      {
-        "entity_number": 1329,
-        "name": "stone-wall",
-        "position": {
-          "x": 995.5,
-          "y": -967.5
-        }
-      },
-      {
         "entity_number": 1330,
         "name": "stone-wall",
         "position": {
-          "x": 997.5,
+          "x": 995.5,
           "y": -966.5
         }
       },
@@ -13284,15 +13359,15 @@
         "entity_number": 1331,
         "name": "stone-wall",
         "position": {
-          "x": 996.5,
-          "y": -966.5
+          "x": 995.5,
+          "y": -967.5
         }
       },
       {
         "entity_number": 1332,
         "name": "stone-wall",
         "position": {
-          "x": 999.5,
+          "x": 997.5,
           "y": -966.5
         }
       },
@@ -13300,7 +13375,7 @@
         "entity_number": 1333,
         "name": "stone-wall",
         "position": {
-          "x": 998.5,
+          "x": 996.5,
           "y": -966.5
         }
       },
@@ -13308,7 +13383,7 @@
         "entity_number": 1334,
         "name": "stone-wall",
         "position": {
-          "x": 1001.5,
+          "x": 999.5,
           "y": -966.5
         }
       },
@@ -13316,7 +13391,7 @@
         "entity_number": 1335,
         "name": "stone-wall",
         "position": {
-          "x": 1000.5,
+          "x": 998.5,
           "y": -966.5
         }
       },
@@ -13324,7 +13399,7 @@
         "entity_number": 1336,
         "name": "stone-wall",
         "position": {
-          "x": 1003.5,
+          "x": 1001.5,
           "y": -966.5
         }
       },
@@ -13332,7 +13407,7 @@
         "entity_number": 1337,
         "name": "stone-wall",
         "position": {
-          "x": 1002.5,
+          "x": 1000.5,
           "y": -966.5
         }
       },
@@ -13340,7 +13415,7 @@
         "entity_number": 1338,
         "name": "stone-wall",
         "position": {
-          "x": 1004.5,
+          "x": 1003.5,
           "y": -966.5
         }
       },
@@ -13348,12 +13423,28 @@
         "entity_number": 1339,
         "name": "stone-wall",
         "position": {
+          "x": 1002.5,
+          "y": -966.5
+        }
+      },
+      {
+        "entity_number": 1340,
+        "name": "stone-wall",
+        "position": {
+          "x": 1004.5,
+          "y": -966.5
+        }
+      },
+      {
+        "entity_number": 1341,
+        "name": "stone-wall",
+        "position": {
           "x": 1004.5,
           "y": -967.5
         }
       },
       {
-        "entity_number": 1340,
+        "entity_number": 1342,
         "name": "flamethrower-turret",
         "position": {
           "x": 1013.5,
@@ -13362,7 +13453,7 @@
         "direction": 6
       },
       {
-        "entity_number": 1341,
+        "entity_number": 1343,
         "name": "pipe-to-ground",
         "position": {
           "x": 1014.5,
@@ -13371,7 +13462,7 @@
         "direction": 4
       },
       {
-        "entity_number": 1342,
+        "entity_number": 1344,
         "name": "small-lamp",
         "position": {
           "x": 1019.5,
@@ -13392,7 +13483,7 @@
           "1": {
             "green": [
               {
-                "entity_id": 1300,
+                "entity_id": 1301,
                 "circuit_id": 2
               }
             ]
@@ -13400,7 +13491,7 @@
         }
       },
       {
-        "entity_number": 1343,
+        "entity_number": 1345,
         "name": "small-lamp",
         "position": {
           "x": 1021.5,
@@ -13421,7 +13512,7 @@
           "1": {
             "green": [
               {
-                "entity_id": 1301,
+                "entity_id": 1302,
                 "circuit_id": 2
               }
             ]
@@ -13429,7 +13520,7 @@
         }
       },
       {
-        "entity_number": 1344,
+        "entity_number": 1346,
         "name": "straight-rail",
         "position": {
           "x": 1031,
@@ -13437,7 +13528,7 @@
         }
       },
       {
-        "entity_number": 1345,
+        "entity_number": 1347,
         "name": "straight-rail",
         "position": {
           "x": 1037,
@@ -13445,7 +13536,7 @@
         }
       },
       {
-        "entity_number": 1346,
+        "entity_number": 1348,
         "name": "straight-rail",
         "position": {
           "x": 1047,
@@ -13453,7 +13544,7 @@
         }
       },
       {
-        "entity_number": 1347,
+        "entity_number": 1349,
         "name": "flamethrower-turret",
         "position": {
           "x": 1054.5,
@@ -13462,7 +13553,7 @@
         "direction": 2
       },
       {
-        "entity_number": 1348,
+        "entity_number": 1350,
         "name": "pipe-to-ground",
         "position": {
           "x": 1053.5,
@@ -13471,7 +13562,7 @@
         "direction": 4
       },
       {
-        "entity_number": 1349,
+        "entity_number": 1351,
         "name": "stone-wall",
         "position": {
           "x": 1063.5,
@@ -13479,26 +13570,10 @@
         }
       },
       {
-        "entity_number": 1350,
-        "name": "stone-wall",
-        "position": {
-          "x": 1063.5,
-          "y": -966.5
-        }
-      },
-      {
-        "entity_number": 1351,
-        "name": "stone-wall",
-        "position": {
-          "x": 1065.5,
-          "y": -966.5
-        }
-      },
-      {
         "entity_number": 1352,
         "name": "stone-wall",
         "position": {
-          "x": 1064.5,
+          "x": 1063.5,
           "y": -966.5
         }
       },
@@ -13506,7 +13581,7 @@
         "entity_number": 1353,
         "name": "stone-wall",
         "position": {
-          "x": 1067.5,
+          "x": 1065.5,
           "y": -966.5
         }
       },
@@ -13514,7 +13589,7 @@
         "entity_number": 1354,
         "name": "stone-wall",
         "position": {
-          "x": 1066.5,
+          "x": 1064.5,
           "y": -966.5
         }
       },
@@ -13522,7 +13597,7 @@
         "entity_number": 1355,
         "name": "stone-wall",
         "position": {
-          "x": 1069.5,
+          "x": 1067.5,
           "y": -966.5
         }
       },
@@ -13530,7 +13605,7 @@
         "entity_number": 1356,
         "name": "stone-wall",
         "position": {
-          "x": 1068.5,
+          "x": 1066.5,
           "y": -966.5
         }
       },
@@ -13538,7 +13613,7 @@
         "entity_number": 1357,
         "name": "stone-wall",
         "position": {
-          "x": 1071.5,
+          "x": 1069.5,
           "y": -966.5
         }
       },
@@ -13546,7 +13621,7 @@
         "entity_number": 1358,
         "name": "stone-wall",
         "position": {
-          "x": 1070.5,
+          "x": 1068.5,
           "y": -966.5
         }
       },
@@ -13554,12 +13629,28 @@
         "entity_number": 1359,
         "name": "stone-wall",
         "position": {
+          "x": 1071.5,
+          "y": -966.5
+        }
+      },
+      {
+        "entity_number": 1360,
+        "name": "stone-wall",
+        "position": {
+          "x": 1070.5,
+          "y": -966.5
+        }
+      },
+      {
+        "entity_number": 1361,
+        "name": "stone-wall",
+        "position": {
           "x": 1072.5,
           "y": -967.5
         }
       },
       {
-        "entity_number": 1360,
+        "entity_number": 1362,
         "name": "stone-wall",
         "position": {
           "x": 1072.5,
@@ -13567,7 +13658,7 @@
         }
       },
       {
-        "entity_number": 1361,
+        "entity_number": 1363,
         "name": "straight-rail",
         "position": {
           "x": 1161,
@@ -13576,7 +13667,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1362,
+        "entity_number": 1364,
         "name": "straight-rail",
         "position": {
           "x": 1163,
@@ -13585,7 +13676,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1363,
+        "entity_number": 1365,
         "name": "straight-rail",
         "position": {
           "x": 1161,
@@ -13594,7 +13685,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1364,
+        "entity_number": 1366,
         "name": "straight-rail",
         "position": {
           "x": 1163,
@@ -13603,7 +13694,7 @@
         "direction": 3
       },
       {
-        "entity_number": 1365,
+        "entity_number": 1367,
         "name": "rail-chain-signal",
         "position": {
           "x": 1166.5,
@@ -13612,7 +13703,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1366,
+        "entity_number": 1368,
         "name": "straight-rail",
         "position": {
           "x": 895,
@@ -13620,7 +13711,7 @@
         }
       },
       {
-        "entity_number": 1367,
+        "entity_number": 1369,
         "name": "big-electric-pole",
         "position": {
           "x": 903,
@@ -13633,7 +13724,7 @@
                 "entity_id": 1004
               },
               {
-                "entity_id": 1291
+                "entity_id": 1292
               },
               {
                 "entity_id": 1495
@@ -13647,7 +13738,7 @@
                 "entity_id": 1004
               },
               {
-                "entity_id": 1291
+                "entity_id": 1292
               },
               {
                 "entity_id": 1495
@@ -13660,13 +13751,13 @@
         },
         "neighbours": [
           1004,
-          1291,
+          1292,
           1495,
           1760
         ]
       },
       {
-        "entity_number": 1368,
+        "entity_number": 1370,
         "name": "straight-rail",
         "position": {
           "x": 905,
@@ -13675,7 +13766,7 @@
         "direction": 7
       },
       {
-        "entity_number": 1369,
+        "entity_number": 1371,
         "name": "straight-rail",
         "position": {
           "x": 905,
@@ -13684,7 +13775,7 @@
         "direction": 3
       },
       {
-        "entity_number": 1370,
+        "entity_number": 1372,
         "name": "straight-rail",
         "position": {
           "x": 907,
@@ -13693,7 +13784,7 @@
         "direction": 5
       },
       {
-        "entity_number": 1371,
+        "entity_number": 1373,
         "name": "straight-rail",
         "position": {
           "x": 907,
@@ -13702,7 +13793,7 @@
         "direction": 1
       },
       {
-        "entity_number": 1372,
+        "entity_number": 1374,
         "name": "rail-chain-signal",
         "position": {
           "x": 909.5,
@@ -13710,7 +13801,7 @@
         }
       },
       {
-        "entity_number": 1373,
+        "entity_number": 1375,
         "name": "straight-rail",
         "position": {
           "x": 911,
@@ -13718,7 +13809,7 @@
         }
       },
       {
-        "entity_number": 1374,
+        "entity_number": 1376,
         "name": "stone-wall",
         "position": {
           "x": 994.5,
@@ -13726,7 +13817,7 @@
         }
       },
       {
-        "entity_number": 1375,
+        "entity_number": 1377,
         "name": "stone-wall",
         "position": {
           "x": 996.5,
@@ -13734,7 +13825,7 @@
         }
       },
       {
-        "entity_number": 1376,
+        "entity_number": 1378,
         "name": "stone-wall",
         "position": {
           "x": 998.5,
@@ -13742,7 +13833,7 @@
         }
       },
       {
-        "entity_number": 1377,
+        "entity_number": 1379,
         "name": "stone-wall",
         "position": {
           "x": 1000.5,
@@ -13750,7 +13841,7 @@
         }
       },
       {
-        "entity_number": 1378,
+        "entity_number": 1380,
         "name": "stone-wall",
         "position": {
           "x": 1002.5,
@@ -13758,7 +13849,7 @@
         }
       },
       {
-        "entity_number": 1379,
+        "entity_number": 1381,
         "name": "stone-wall",
         "position": {
           "x": 1004.5,
@@ -13766,7 +13857,7 @@
         }
       },
       {
-        "entity_number": 1380,
+        "entity_number": 1382,
         "name": "stone-wall",
         "position": {
           "x": 1005.5,
@@ -13774,7 +13865,7 @@
         }
       },
       {
-        "entity_number": 1381,
+        "entity_number": 1383,
         "name": "stone-wall",
         "position": {
           "x": 1007.5,
@@ -13782,7 +13873,7 @@
         }
       },
       {
-        "entity_number": 1382,
+        "entity_number": 1384,
         "name": "stone-wall",
         "position": {
           "x": 1006.5,
@@ -13790,7 +13881,7 @@
         }
       },
       {
-        "entity_number": 1383,
+        "entity_number": 1385,
         "name": "stone-wall",
         "position": {
           "x": 1009.5,
@@ -13798,7 +13889,7 @@
         }
       },
       {
-        "entity_number": 1384,
+        "entity_number": 1386,
         "name": "stone-wall",
         "position": {
           "x": 1008.5,
@@ -13806,7 +13897,7 @@
         }
       },
       {
-        "entity_number": 1385,
+        "entity_number": 1387,
         "name": "gate",
         "position": {
           "x": 1010.5,
@@ -13814,7 +13905,7 @@
         }
       },
       {
-        "entity_number": 1386,
+        "entity_number": 1388,
         "name": "stone-wall",
         "position": {
           "x": 1010.5,
@@ -13843,7 +13934,7 @@
         }
       },
       {
-        "entity_number": 1387,
+        "entity_number": 1389,
         "name": "flamethrower-turret",
         "position": {
           "x": 1013.5,
@@ -13852,7 +13943,7 @@
         "direction": 6
       },
       {
-        "entity_number": 1388,
+        "entity_number": 1390,
         "name": "medium-electric-pole",
         "position": {
           "x": 1017.5,
@@ -13865,7 +13956,7 @@
                 "entity_id": 1235
               },
               {
-                "entity_id": 1389,
+                "entity_id": 1391,
                 "circuit_id": 1
               },
               {
@@ -13883,10 +13974,10 @@
         ]
       },
       {
-        "entity_number": 1389,
+        "entity_number": 1391,
         "name": "decider-combinator",
         "position": {
-          "x": 1020.5,
+          "x": 1019.5,
           "y": -965
         },
         "direction": 4,
@@ -13909,10 +14000,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1388
+                "entity_id": 1390
               },
               {
-                "entity_id": 1390,
+                "entity_id": 1392,
                 "circuit_id": 1
               }
             ]
@@ -13928,7 +14019,7 @@
         }
       },
       {
-        "entity_number": 1390,
+        "entity_number": 1392,
         "name": "decider-combinator",
         "position": {
           "x": 1021.5,
@@ -13954,7 +14045,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1389,
+                "entity_id": 1391,
                 "circuit_id": 1
               }
             ]
@@ -13963,99 +14054,6 @@
             "red": [
               {
                 "entity_id": 1457,
-                "circuit_id": 1
-              }
-            ]
-          }
-        }
-      },
-      {
-        "entity_number": 1391,
-        "name": "arithmetic-combinator",
-        "position": {
-          "x": 1023.5,
-          "y": -965
-        },
-        "direction": 4,
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "first_signal": {
-              "type": "virtual",
-              "name": "signal-pink"
-            },
-            "second_constant": -1,
-            "operation": "*",
-            "output_signal": {
-              "type": "virtual",
-              "name": "signal-pink"
-            }
-          }
-        },
-        "connections": {
-          "1": {
-            "red": [
-              {
-                "entity_id": 1392,
-                "circuit_id": 2
-              },
-              {
-                "entity_id": 1394,
-                "circuit_id": 1
-              }
-            ]
-          },
-          "2": {
-            "green": [
-              {
-                "entity_id": 1394,
-                "circuit_id": 2
-              }
-            ]
-          }
-        }
-      },
-      {
-        "entity_number": 1392,
-        "name": "decider-combinator",
-        "position": {
-          "x": 1022.5,
-          "y": -965
-        },
-        "direction": 4,
-        "control_behavior": {
-          "decider_conditions": {
-            "first_signal": {
-              "type": "virtual",
-              "name": "signal-pink"
-            },
-            "constant": 0,
-            "comparator": ">",
-            "output_signal": {
-              "type": "virtual",
-              "name": "signal-everything"
-            },
-            "copy_count_from_input": true
-          }
-        },
-        "connections": {
-          "1": {
-            "red": [
-              {
-                "entity_id": 1302,
-                "circuit_id": 2
-              }
-            ],
-            "green": [
-              {
-                "entity_id": 1300,
-                "circuit_id": 2
-              }
-            ]
-          },
-          "2": {
-            "red": [
-              {
-                "entity_id": 1391,
                 "circuit_id": 1
               }
             ]
@@ -14139,7 +14137,7 @@
                 "circuit_id": 1
               },
               {
-                "entity_id": 1391,
+                "entity_id": 1304,
                 "circuit_id": 1
               }
             ]
@@ -14151,7 +14149,7 @@
                 "circuit_id": 2
               },
               {
-                "entity_id": 1391,
+                "entity_id": 1304,
                 "circuit_id": 2
               },
               {
@@ -14189,7 +14187,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1304,
+                "entity_id": 1273,
                 "circuit_id": 2
               }
             ]
@@ -14266,7 +14264,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1306
+                "entity_id": 1308
               },
               {
                 "entity_id": 1460,
@@ -14315,7 +14313,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1277
+                "entity_id": 1278
               },
               {
                 "entity_id": 1396,
@@ -14626,7 +14624,7 @@
                 "entity_id": 1022
               },
               {
-                "entity_id": 1319
+                "entity_id": 1321
               },
               {
                 "entity_id": 1513
@@ -14640,7 +14638,7 @@
                 "entity_id": 1022
               },
               {
-                "entity_id": 1319
+                "entity_id": 1321
               },
               {
                 "entity_id": 1513
@@ -14653,7 +14651,7 @@
         },
         "neighbours": [
           1022,
-          1319,
+          1321,
           1513,
           1778
         ]
@@ -14914,7 +14912,7 @@
         "entity_number": 1456,
         "name": "decider-combinator",
         "position": {
-          "x": 1020.5,
+          "x": 1019.5,
           "y": -963
         },
         "direction": 4,
@@ -14937,7 +14935,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1389,
+                "entity_id": 1391,
                 "circuit_id": 2
               }
             ],
@@ -14951,7 +14949,7 @@
           "2": {
             "red": [
               {
-                "entity_id": 1388
+                "entity_id": 1390
               },
               {
                 "entity_id": 1457,
@@ -14988,13 +14986,13 @@
           "1": {
             "red": [
               {
-                "entity_id": 1390,
+                "entity_id": 1392,
                 "circuit_id": 2
               }
             ],
             "green": [
               {
-                "entity_id": 1301,
+                "entity_id": 1302,
                 "circuit_id": 2
               },
               {
@@ -15454,10 +15452,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1291
+                "entity_id": 1292
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 1804
@@ -15465,10 +15463,10 @@
             ],
             "green": [
               {
-                "entity_id": 1291
+                "entity_id": 1292
               },
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 1804
@@ -15477,8 +15475,8 @@
           }
         },
         "neighbours": [
-          1291,
-          1367,
+          1292,
+          1369,
           1804
         ]
       },
@@ -15633,7 +15631,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1319
+                "entity_id": 1321
               },
               {
                 "entity_id": 1427
@@ -15644,7 +15642,7 @@
             ],
             "green": [
               {
-                "entity_id": 1319
+                "entity_id": 1321
               },
               {
                 "entity_id": 1427
@@ -15656,7 +15654,7 @@
           }
         },
         "neighbours": [
-          1319,
+          1321,
           1427,
           1822
         ]
@@ -16090,7 +16088,7 @@
                 "entity_id": 1454
               },
               {
-                "entity_id": 1388
+                "entity_id": 1390
               },
               {
                 "entity_id": 1459,
@@ -18050,7 +18048,7 @@
           "1": {
             "red": [
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 2196
@@ -18058,7 +18056,7 @@
             ],
             "green": [
               {
-                "entity_id": 1367
+                "entity_id": 1369
               },
               {
                 "entity_id": 2196
@@ -18067,7 +18065,7 @@
           }
         },
         "neighbours": [
-          1367,
+          1369,
           2196
         ]
       },
