@@ -11,7 +11,7 @@
     ],
     "item": "blueprint",
     "label": "arti_service",
-    "version": 281479277838336,
+    "version": 281479278690304,
     "entities": [
       {
         "entity_number": 1,
@@ -502,5 +502,5 @@
       }
     ]
   },
-  "index": 1
+  "index": 7
 }

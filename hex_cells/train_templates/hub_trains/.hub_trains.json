@@ -14,7 +14,7 @@
     "label": "hub_trains",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277838336,
+    "version": 281479278690304,
     "order": [
       {
         "blueprint": {
@@ -37,7 +37,7 @@
           "item": "blueprint",
           "label": "solar_restock",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 0
       },
@@ -47,15 +47,22 @@
             {
               "signal": {
                 "type": "item",
-                "name": "rail"
+                "name": "solar-panel"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 2
             }
           ],
           "item": "blueprint",
-          "label": "arti_service",
+          "label": "solar_restock_train",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 1
       },
@@ -81,9 +88,77 @@
           "item": "blueprint",
           "label": "artillery",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
-        "index": 2
+        "index": 6
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "arti_service",
+          "label_color": null,
+          "version": 281479278690304
+        },
+        "index": 7
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "artillery-turret"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "arti_service_train",
+          "label_color": null,
+          "version": 281479278690304
+        },
+        "index": 8
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rocket-fuel"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "fuel_train",
+          "label_color": null,
+          "version": 281479278690304
+        },
+        "index": 12
       }
     ]
   },

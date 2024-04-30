@@ -4,357 +4,269 @@
       {
         "signal": {
           "type": "item",
-          "name": "space-science-pack"
+          "name": "solar-panel"
         },
         "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 2
       }
     ],
     "item": "blueprint",
-    "label": "research_train_2",
+    "label": "solar_restock_train",
     "version": 281479278690304,
     "entities": [
       {
         "entity_number": 1,
         "name": "cargo-wagon",
         "position": {
-          "x": 283.59375,
-          "y": 2283
+          "x": -189,
+          "y": 2830
         },
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "beacon"
+              "name": "substation"
             },
             {
               "index": 2,
-              "name": "beacon"
+              "name": "substation"
             },
             {
               "index": 3,
-              "name": "beacon"
+              "name": "substation"
             },
             {
               "index": 4,
-              "name": "beacon"
+              "name": "substation"
             },
             {
               "index": 5,
-              "name": "beacon"
+              "name": "small-lamp"
             },
             {
               "index": 6,
-              "name": "beacon"
+              "name": "small-lamp"
             },
             {
               "index": 7,
-              "name": "beacon"
+              "name": "small-lamp"
             },
             {
               "index": 8,
-              "name": "beacon"
+              "name": "small-lamp"
             },
             {
               "index": 9,
-              "name": "beacon"
+              "name": "roboport"
             },
             {
               "index": 10,
-              "name": "beacon"
+              "name": "cliff-explosives"
             },
             {
               "index": 11,
-              "name": "beacon"
+              "name": "cliff-explosives"
             },
             {
               "index": 12,
-              "name": "beacon"
+              "name": "cliff-explosives"
             },
             {
               "index": 13,
-              "name": "beacon"
+              "name": "solar-panel"
             },
             {
               "index": 14,
-              "name": "beacon"
+              "name": "solar-panel"
             },
             {
               "index": 15,
-              "name": "beacon"
+              "name": "solar-panel"
             },
             {
               "index": 16,
-              "name": "beacon"
-            },
-            {
-              "index": 17,
-              "name": "beacon"
-            },
-            {
-              "index": 18,
-              "name": "beacon"
-            },
-            {
-              "index": 19,
-              "name": "beacon"
-            },
-            {
-              "index": 20,
-              "name": "beacon"
-            },
-            {
-              "index": 21,
-              "name": "beacon"
-            },
-            {
-              "index": 22,
-              "name": "beacon"
-            },
-            {
-              "index": 23,
-              "name": "beacon"
-            },
-            {
-              "index": 24,
-              "name": "beacon"
-            },
-            {
-              "index": 25,
-              "name": "beacon"
-            },
-            {
-              "index": 26,
-              "name": "beacon"
-            },
-            {
-              "index": 27,
-              "name": "beacon"
-            },
-            {
-              "index": 28,
-              "name": "beacon"
-            },
-            {
-              "index": 29,
-              "name": "beacon"
-            },
-            {
-              "index": 30,
-              "name": "beacon"
-            },
-            {
-              "index": 31,
-              "name": "beacon"
-            },
-            {
-              "index": 32,
-              "name": "beacon"
-            },
-            {
-              "index": 33,
-              "name": "beacon"
-            },
-            {
-              "index": 34,
-              "name": "beacon"
-            },
-            {
-              "index": 35,
-              "name": "beacon"
-            },
-            {
-              "index": 36,
-              "name": "beacon"
-            },
-            {
-              "index": 37,
-              "name": "beacon"
-            },
-            {
-              "index": 38,
-              "name": "beacon"
-            },
-            {
-              "index": 39,
-              "name": "beacon"
-            },
-            {
-              "index": 40,
-              "name": "beacon"
+              "name": "solar-panel"
             }
-          ]
+          ],
+          "bar": 16
         }
       },
       {
         "entity_number": 2,
         "name": "cargo-wagon",
         "position": {
-          "x": 290.59375,
-          "y": 2283
+          "x": -189,
+          "y": 2837
         },
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 2,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 3,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 4,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 5,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 6,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 7,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 8,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 9,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 10,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 11,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 12,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 13,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 14,
-              "name": "beacon"
+              "name": "accumulator"
             },
             {
               "index": 15,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 16,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 17,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 18,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 19,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 20,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 21,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 22,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 23,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 24,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 25,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 26,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 27,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 28,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 29,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 30,
-              "name": "stack-inserter"
+              "name": "accumulator"
             },
             {
               "index": 31,
-              "name": "storage-tank"
+              "name": "accumulator"
             },
             {
               "index": 32,
-              "name": "pump"
+              "name": "accumulator"
             },
             {
               "index": 33,
-              "name": "radar"
+              "name": "accumulator"
             },
             {
               "index": 34,
-              "name": "power-switch"
+              "name": "accumulator"
             },
             {
               "index": 35,
-              "name": "pipe"
+              "name": "accumulator"
             },
             {
               "index": 36,
-              "name": "pipe"
+              "name": "accumulator"
             },
             {
               "index": 37,
-              "name": "pipe"
+              "name": "accumulator"
             },
             {
               "index": 38,
-              "name": "pipe"
+              "name": "accumulator"
             },
             {
               "index": 39,
-              "name": "pipe"
+              "name": "accumulator"
             },
             {
               "index": 40,
-              "name": "pipe"
+              "name": "accumulator"
             }
           ]
         }
@@ -363,112 +275,213 @@
         "entity_number": 3,
         "name": "cargo-wagon",
         "position": {
-          "x": 297.59375,
-          "y": 2283
+          "x": -189,
+          "y": 2844
         },
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "electric-furnace"
+              "name": "solar-panel"
             },
             {
               "index": 2,
-              "name": "electric-furnace"
+              "name": "solar-panel"
             },
             {
               "index": 3,
-              "name": "electric-furnace"
+              "name": "solar-panel"
             },
             {
               "index": 4,
-              "name": "electric-furnace"
+              "name": "solar-panel"
+            },
+            {
+              "index": 5,
+              "name": "solar-panel"
+            },
+            {
+              "index": 6,
+              "name": "solar-panel"
+            },
+            {
+              "index": 7,
+              "name": "solar-panel"
+            },
+            {
+              "index": 8,
+              "name": "solar-panel"
+            },
+            {
+              "index": 9,
+              "name": "solar-panel"
+            },
+            {
+              "index": 10,
+              "name": "solar-panel"
+            },
+            {
+              "index": 11,
+              "name": "solar-panel"
+            },
+            {
+              "index": 12,
+              "name": "solar-panel"
+            },
+            {
+              "index": 13,
+              "name": "solar-panel"
+            },
+            {
+              "index": 14,
+              "name": "solar-panel"
+            },
+            {
+              "index": 15,
+              "name": "solar-panel"
+            },
+            {
+              "index": 16,
+              "name": "solar-panel"
+            },
+            {
+              "index": 17,
+              "name": "solar-panel"
+            },
+            {
+              "index": 18,
+              "name": "solar-panel"
+            },
+            {
+              "index": 19,
+              "name": "solar-panel"
+            },
+            {
+              "index": 20,
+              "name": "solar-panel"
+            },
+            {
+              "index": 21,
+              "name": "solar-panel"
+            },
+            {
+              "index": 22,
+              "name": "solar-panel"
+            },
+            {
+              "index": 23,
+              "name": "solar-panel"
+            },
+            {
+              "index": 24,
+              "name": "solar-panel"
+            },
+            {
+              "index": 25,
+              "name": "solar-panel"
+            },
+            {
+              "index": 26,
+              "name": "solar-panel"
+            },
+            {
+              "index": 27,
+              "name": "solar-panel"
+            },
+            {
+              "index": 28,
+              "name": "solar-panel"
+            },
+            {
+              "index": 29,
+              "name": "solar-panel"
+            },
+            {
+              "index": 30,
+              "name": "solar-panel"
+            },
+            {
+              "index": 31,
+              "name": "solar-panel"
+            },
+            {
+              "index": 32,
+              "name": "solar-panel"
+            },
+            {
+              "index": 33,
+              "name": "solar-panel"
+            },
+            {
+              "index": 34,
+              "name": "solar-panel"
+            },
+            {
+              "index": 35,
+              "name": "solar-panel"
+            },
+            {
+              "index": 36,
+              "name": "solar-panel"
+            },
+            {
+              "index": 37,
+              "name": "solar-panel"
+            },
+            {
+              "index": 38,
+              "name": "solar-panel"
+            },
+            {
+              "index": 39,
+              "name": "solar-panel"
+            },
+            {
+              "index": 40,
+              "name": "solar-panel"
             }
-          ],
-          "bar": 4
+          ]
         }
       },
       {
         "entity_number": 4,
         "name": "cargo-wagon",
         "position": {
-          "x": 304.59375,
-          "y": 2283
+          "x": -189,
+          "y": 2851
         },
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": {
           "filters": [
             {
               "index": 1,
-              "name": "medium-electric-pole"
+              "name": "construction-robot"
             },
             {
               "index": 2,
-              "name": "medium-electric-pole"
+              "name": "construction-robot"
             },
             {
               "index": 3,
-              "name": "medium-electric-pole"
+              "name": "construction-robot"
             },
             {
               "index": 4,
-              "name": "medium-electric-pole"
-            },
-            {
-              "index": 5,
-              "name": "medium-electric-pole"
-            },
-            {
-              "index": 6,
-              "name": "medium-electric-pole"
-            },
-            {
-              "index": 7,
-              "name": "pipe-to-ground"
-            },
-            {
-              "index": 8,
-              "name": "pipe-to-ground"
-            },
-            {
-              "index": 9,
-              "name": "pipe-to-ground"
-            },
-            {
-              "index": 10,
-              "name": "steel-chest"
-            },
-            {
-              "index": 11,
-              "name": "steel-chest"
-            },
-            {
-              "index": 12,
-              "name": "steel-chest"
-            },
-            {
-              "index": 13,
-              "name": "fast-underground-belt"
+              "name": "logistic-robot"
             }
           ],
-          "bar": 13
+          "bar": 4
         }
       },
       {
         "entity_number": 5,
         "name": "locomotive",
         "position": {
-          "x": 311.59375,
-          "y": 2283
+          "x": -189,
+          "y": 2858
         },
-        "orientation": 0.25,
-        "color": {
-          "r": 1,
-          "g": 0,
-          "b": 1,
-          "a": 0.49803921580314636
-        }
+        "orientation": 0.5
       }
     ],
     "schedules": [
@@ -478,11 +491,20 @@
         ],
         "schedule": [
           {
-            "station": "research_supply_2",
+            "station": "hub_solar_restock",
             "wait_conditions": [
               {
                 "compare_type": "or",
                 "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_solar_construction",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
               }
             ]
           }
@@ -490,5 +512,5 @@
       }
     ]
   },
-  "index": 13
+  "index": 1
 }

@@ -14,7 +14,7 @@
     "label": "hex_cells",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277838336,
+    "version": 281479278690304,
     "order": [
       {
         "blueprint_book": {
@@ -31,7 +31,7 @@
           "label": "empty_templates",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 0
       },
@@ -51,7 +51,7 @@
           "label": "small_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 1
       },
@@ -70,7 +70,7 @@
           "label": "power_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 2
       },
@@ -90,7 +90,7 @@
           "label": "work_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 3
       },
@@ -110,7 +110,7 @@
           "label": "work_unit_slices",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 4
       },
@@ -130,9 +130,50 @@
           "label": "research_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 5
+      },
+      {
+        "blueprint_book": {
+          "description": "Hub items and related stuffs",
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 3
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 4
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "hub_units",
+          "label_color": null,
+          "active_index": 0,
+          "version": 281479278690304
+        },
+        "index": 6
       },
       {
         "blueprint_book": {
@@ -149,9 +190,9 @@
           "label": "artillery_units",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
-        "index": 6
+        "index": 7
       },
       {
         "blueprint_book": {
@@ -190,9 +231,9 @@
           "label": "prototypes",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
-        "index": 7
+        "index": 8
       },
       {
         "blueprint_book": {
@@ -210,9 +251,9 @@
           "label": "train_templates",
           "label_color": null,
           "active_index": 0,
-          "version": 281479277838336
+          "version": 281479278690304
         },
-        "index": 8
+        "index": 9
       }
     ]
   }

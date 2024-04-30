@@ -1,0 +1,247 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rocket-fuel"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "fuel_train",
+    "version": 281479278690304,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -143,
+          "y": 3273
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 2,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 3,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 4,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 5,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 6,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 7,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 8,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 9,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 10,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 11,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 12,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 13,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 14,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 15,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 16,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 17,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 18,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 19,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 20,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 21,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 22,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 23,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 24,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 25,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 26,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 27,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 28,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 29,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 30,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 31,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 32,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 33,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 34,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 35,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 36,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 37,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 38,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 39,
+              "name": "rocket-fuel"
+            },
+            {
+              "index": 40,
+              "name": "rocket-fuel"
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "locomotive",
+        "position": {
+          "x": -143,
+          "y": 3280
+        },
+        "orientation": 0.5
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          2
+        ],
+        "schedule": [
+          {
+            "station": "hub_train_fuel_feeder",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_train_fuel",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              },
+              {
+                "compare_type": "or",
+                "type": "circuit",
+                "condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-F"
+                  },
+                  "constant": 0,
+                  "comparator": "="
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 12
+}

@@ -13,7 +13,7 @@
     "label": "empty_templates",
     "label_color": null,
     "active_index": 0,
-    "version": 281479277838336,
+    "version": 281479278690304,
     "order": [
       {
         "blueprint": {
@@ -30,7 +30,7 @@
           "item": "blueprint",
           "label": "empty_cell_land",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 0
       },
@@ -48,7 +48,7 @@
           "item": "blueprint",
           "label": "empty_call_land_full",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 1
       },
@@ -66,7 +66,7 @@
           "item": "blueprint",
           "label": "empty_hex_cell",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 2
       },
@@ -85,7 +85,7 @@
           "item": "blueprint",
           "label": "empty_hex_triple",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 3
       },
@@ -104,7 +104,7 @@
           "item": "blueprint",
           "label": "empty_hex_triple_radar",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 4
       },
@@ -122,7 +122,7 @@
           "item": "blueprint",
           "label": "empty_hex_cell_radar_turrets",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 5
       },
@@ -162,7 +162,7 @@
           "item": "blueprint",
           "label": "cell_laser_full",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 6
       },
@@ -201,7 +201,7 @@
           "item": "blueprint",
           "label": "cell_laser_up",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 7
       },
@@ -240,7 +240,7 @@
           "item": "blueprint",
           "label": "cell_laser_right_upper",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 8
       },
@@ -279,7 +279,7 @@
           "item": "blueprint",
           "label": "cell_laser_right_lower",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 9
       },
@@ -318,7 +318,7 @@
           "item": "blueprint",
           "label": "cell_laser_right",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 10
       },
@@ -357,7 +357,7 @@
           "item": "blueprint",
           "label": "cell_laser_down",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 11
       },
@@ -396,7 +396,7 @@
           "item": "blueprint",
           "label": "cell_laser_left_lower",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 12
       },
@@ -435,7 +435,7 @@
           "item": "blueprint",
           "label": "cell_laser_left_upper",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 13
       },
@@ -474,7 +474,7 @@
           "item": "blueprint",
           "label": "cell_laser_left",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 14
       },
@@ -499,7 +499,7 @@
           "item": "blueprint",
           "label": "empty_work_cell",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 18
       },
@@ -517,7 +517,7 @@
           "item": "blueprint",
           "label": "empty_work_cell_mid_only",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 19
       },
@@ -563,7 +563,7 @@
           "item": "blueprint",
           "label": "cell_stacker_segment",
           "label_color": null,
-          "version": 281479277838336
+          "version": 281479278690304
         },
         "index": 24
       }

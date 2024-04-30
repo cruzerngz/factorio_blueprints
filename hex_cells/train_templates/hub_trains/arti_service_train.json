@@ -1,0 +1,144 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "artillery-turret"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "locomotive"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "arti_service_train",
+    "version": 281479278690304,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fluid-wagon",
+        "position": {
+          "x": -171,
+          "y": 2811
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -171,
+          "y": 2818
+        },
+        "orientation": 0.5,
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "construction-robot"
+            },
+            {
+              "index": 2,
+              "name": "repair-pack"
+            },
+            {
+              "index": 3,
+              "name": "repair-pack"
+            },
+            {
+              "index": 4,
+              "name": "repair-pack"
+            },
+            {
+              "index": 5,
+              "name": "artillery-turret"
+            },
+            {
+              "index": 6,
+              "name": "gate"
+            },
+            {
+              "index": 7,
+              "name": "laser-turret"
+            },
+            {
+              "index": 8,
+              "name": "stone-wall"
+            },
+            {
+              "index": 9,
+              "name": "stone-wall"
+            }
+          ],
+          "bar": 9
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "locomotive",
+        "position": {
+          "x": -171,
+          "y": 2825
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 4,
+        "name": "locomotive",
+        "position": {
+          "x": -171,
+          "y": 2832
+        },
+        "orientation": 0.5
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          3,
+          4
+        ],
+        "schedule": [
+          {
+            "station": "cell_arti_service",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              }
+            ]
+          },
+          {
+            "station": "cell_arti_outpost_supply",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "circuit",
+                "condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-C"
+                  },
+                  "constant": 1,
+                  "comparator": "≠"
+                }
+              },
+              {
+                "compare_type": "and",
+                "type": "inactivity",
+                "ticks": 300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": 8
+}

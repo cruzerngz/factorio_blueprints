@@ -1,56 +1,63 @@
 {
   "blueprint_book": {
-    "description": "Prototyping and small factory units",
+    "description": "Hub items and related stuffs",
     "icons": [
       {
         "signal": {
-          "type": "virtual",
-          "name": "signal-P"
+          "type": "item",
+          "name": "iron-gear-wheel"
         },
         "index": 1
       },
       {
         "signal": {
-          "type": "virtual",
-          "name": "signal-R"
+          "type": "item",
+          "name": "iron-gear-wheel"
         },
         "index": 2
       },
       {
         "signal": {
-          "type": "virtual",
-          "name": "signal-O"
+          "type": "item",
+          "name": "iron-gear-wheel"
         },
         "index": 3
       },
       {
         "signal": {
-          "type": "virtual",
-          "name": "signal-T"
+          "type": "item",
+          "name": "iron-gear-wheel"
         },
         "index": 4
       }
     ],
     "item": "blueprint-book",
-    "label": "prototypes",
+    "label": "hub_units",
     "label_color": null,
     "active_index": 0,
     "version": 281479278690304,
     "order": [
       {
         "blueprint": {
-          "description": "2.7k/min plastic\nfully prod",
+          "description": "Main hub\n\nTODO: sulfuric acid trains and research cell stops\n\nPower: 1.1GW peak",
           "icons": [
             {
               "signal": {
                 "type": "item",
-                "name": "plastic-bar"
+                "name": "iron-gear-wheel"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-gear-wheel"
+              },
+              "index": 2
             }
           ],
           "item": "blueprint",
-          "label": "mini_plastic",
+          "label": "hub_v1",
           "label_color": null,
           "version": 281479278690304
         },
@@ -58,5 +65,5 @@
       }
     ]
   },
-  "index": 8
+  "index": 6
 }
