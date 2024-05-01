@@ -115,10 +115,17 @@
                 "name": "logistic-robot"
               },
               "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "uranium-ore"
+              },
+              "index": 2
             }
           ],
           "item": "blueprint",
-          "label": "bot_train_interface_4",
+          "label": "bot_mining_block_uranium",
           "label_color": null,
           "version": 281479278690304
         },
@@ -136,11 +143,29 @@
             }
           ],
           "item": "blueprint",
-          "label": "bot_train_interface_8",
+          "label": "bot_train_interface_4",
           "label_color": null,
           "version": 281479278690304
         },
         "index": 8
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-robot"
+              },
+              "index": 1
+            }
+          ],
+          "item": "blueprint",
+          "label": "bot_train_interface_8",
+          "label_color": null,
+          "version": 281479278690304
+        },
+        "index": 9
       }
     ]
   },

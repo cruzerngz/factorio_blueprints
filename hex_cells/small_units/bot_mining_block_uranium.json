@@ -1,0 +1,569 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "logistic-robot"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "item",
+          "name": "uranium-ore"
+        },
+        "index": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "bot_mining_block_uranium",
+    "version": 281479278690304,
+    "snap-to-grid": {
+      "x": 8,
+      "y": 8
+    },
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 9
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 8
+              },
+              {
+                "entity_id": 10
+              },
+              {
+                "entity_id": 13
+              },
+              {
+                "entity_id": 33
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          13,
+          33
+        ]
+      },
+      {
+        "entity_number": 10,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 9
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 9.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 13
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 9
+              },
+              {
+                "entity_id": 12
+              },
+              {
+                "entity_id": 14
+              },
+              {
+                "entity_id": 37
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          9,
+          37
+        ]
+      },
+      {
+        "entity_number": 14,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 13.5,
+          "y": 3.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 13
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 4.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 8.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 9.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 32,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 1.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 33
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 3.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 9
+              },
+              {
+                "entity_id": 32
+              },
+              {
+                "entity_id": 34
+              },
+              {
+                "entity_id": 37
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          9,
+          37
+        ]
+      },
+      {
+        "entity_number": 34,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 5.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 33
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 9.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 37
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 13
+              },
+              {
+                "entity_id": 33
+              },
+              {
+                "entity_id": 36
+              },
+              {
+                "entity_id": 38
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          13,
+          33
+        ]
+      },
+      {
+        "entity_number": 38,
+        "name": "logistic-chest-passive-provider",
+        "position": {
+          "x": 13.5,
+          "y": 11.5
+        },
+        "connections": {
+          "1": {
+            "green": [
+              {
+                "entity_id": 37
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 43,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 13.5
+        }
+      }
+    ]
+  },
+  "index": 7
+}

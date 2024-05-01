@@ -28,7 +28,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 2,
@@ -38,7 +201,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 3,
@@ -48,7 +374,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 4,
@@ -58,7 +547,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 5,
@@ -68,7 +720,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 6,
@@ -78,7 +893,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 7,
@@ -88,7 +1066,170 @@
           "y": 1307
         },
         "orientation": 0.25,
-        "inventory": null
+        "inventory": {
+          "filters": [
+            {
+              "index": 1,
+              "name": "steel-plate"
+            },
+            {
+              "index": 2,
+              "name": "steel-plate"
+            },
+            {
+              "index": 3,
+              "name": "steel-plate"
+            },
+            {
+              "index": 4,
+              "name": "steel-plate"
+            },
+            {
+              "index": 5,
+              "name": "steel-plate"
+            },
+            {
+              "index": 6,
+              "name": "steel-plate"
+            },
+            {
+              "index": 7,
+              "name": "steel-plate"
+            },
+            {
+              "index": 8,
+              "name": "steel-plate"
+            },
+            {
+              "index": 9,
+              "name": "steel-plate"
+            },
+            {
+              "index": 10,
+              "name": "steel-plate"
+            },
+            {
+              "index": 11,
+              "name": "steel-plate"
+            },
+            {
+              "index": 12,
+              "name": "steel-plate"
+            },
+            {
+              "index": 13,
+              "name": "steel-plate"
+            },
+            {
+              "index": 14,
+              "name": "steel-plate"
+            },
+            {
+              "index": 15,
+              "name": "steel-plate"
+            },
+            {
+              "index": 16,
+              "name": "steel-plate"
+            },
+            {
+              "index": 17,
+              "name": "steel-plate"
+            },
+            {
+              "index": 18,
+              "name": "steel-plate"
+            },
+            {
+              "index": 19,
+              "name": "steel-plate"
+            },
+            {
+              "index": 20,
+              "name": "steel-plate"
+            },
+            {
+              "index": 21,
+              "name": "steel-plate"
+            },
+            {
+              "index": 22,
+              "name": "steel-plate"
+            },
+            {
+              "index": 23,
+              "name": "steel-plate"
+            },
+            {
+              "index": 24,
+              "name": "steel-plate"
+            },
+            {
+              "index": 25,
+              "name": "steel-plate"
+            },
+            {
+              "index": 26,
+              "name": "steel-plate"
+            },
+            {
+              "index": 27,
+              "name": "steel-plate"
+            },
+            {
+              "index": 28,
+              "name": "steel-plate"
+            },
+            {
+              "index": 29,
+              "name": "steel-plate"
+            },
+            {
+              "index": 30,
+              "name": "steel-plate"
+            },
+            {
+              "index": 31,
+              "name": "steel-plate"
+            },
+            {
+              "index": 32,
+              "name": "steel-plate"
+            },
+            {
+              "index": 33,
+              "name": "steel-plate"
+            },
+            {
+              "index": 34,
+              "name": "steel-plate"
+            },
+            {
+              "index": 35,
+              "name": "steel-plate"
+            },
+            {
+              "index": 36,
+              "name": "steel-plate"
+            },
+            {
+              "index": 37,
+              "name": "steel-plate"
+            },
+            {
+              "index": 38,
+              "name": "steel-plate"
+            },
+            {
+              "index": 39,
+              "name": "steel-plate"
+            },
+            {
+              "index": 40,
+              "name": "steel-plate"
+            }
+          ]
+        }
       },
       {
         "entity_number": 8,
