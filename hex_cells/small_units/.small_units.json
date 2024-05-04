@@ -166,6 +166,31 @@
           "version": 281479278690304
         },
         "index": 9
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "fluid",
+                "name": "crude-oil"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "pump"
+              },
+              "index": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "oil_loader",
+          "label_color": null,
+          "version": 281479278690304
+        },
+        "index": 12
       }
     ]
   },

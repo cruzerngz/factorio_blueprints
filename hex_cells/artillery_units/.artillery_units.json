@@ -71,6 +71,7 @@
       },
       {
         "blueprint": {
+          "description": "Call trains with the right-most combinator.\n\nOnce the cargo train arrives, turn on the middle combinator to enable cargo loading.\n\nTo release trains, enable the turn on the left-most combinator and disable the right-most combinator.\n\n",
           "icons": [
             {
               "signal": {

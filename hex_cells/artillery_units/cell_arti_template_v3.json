@@ -1,5 +1,6 @@
 {
   "blueprint": {
+    "description": "Call trains with the right-most combinator.\n\nOnce the cargo train arrives, turn on the middle combinator to enable cargo loading.\n\nTo release trains, enable the turn on the left-most combinator and disable the right-most combinator.\n\n",
     "icons": [
       {
         "signal": {
@@ -11704,6 +11705,14 @@
               },
               "count": 160,
               "index": 16
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "gate"
+              },
+              "count": 20,
+              "index": 17
             }
           ],
           "is_on": false
@@ -11828,7 +11837,7 @@
                 "name": "signal-L"
               },
               "count": 1,
-              "index": 11
+              "index": 4
             },
             {
               "signal": {
@@ -11836,7 +11845,23 @@
                 "name": "signal-M"
               },
               "count": 1,
-              "index": 12
+              "index": 5
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-C"
+              },
+              "count": 1,
+              "index": 14
+            },
+            {
+              "signal": {
+                "type": "virtual",
+                "name": "signal-A"
+              },
+              "count": 1,
+              "index": 15
             },
             {
               "signal": {
@@ -11844,7 +11869,7 @@
                 "name": "signal-G"
               },
               "count": 1,
-              "index": 14
+              "index": 17
             }
           ],
           "is_on": false
@@ -12147,7 +12172,8 @@
               "count": 1,
               "index": 15
             }
-          ]
+          ],
+          "is_on": false
         },
         "connections": {
           "1": {
