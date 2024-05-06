@@ -71,7 +71,7 @@
       },
       {
         "blueprint": {
-          "description": "Call trains with the right-most combinator.\n\nOnce the cargo train arrives, turn on the middle combinator to enable cargo loading.\n\nTo release trains, enable the turn on the left-most combinator and disable the right-most combinator.\n\n",
+          "description": "Auto artillery cell\n\nTwo combinators can independenly control the cell:\n- Sentry combinator, middle, automatically replenish materials\n- Train override, right-most, call and hold trains in cell\n\nThe left-most combinator manages timers for determining when it is appropriate to call or release trains. This should be always on.\n- Signal D: time (s) from last use of weapons (arti, flamethrowers), 450s\n- Signal A: time (s) from last cargo load action, 30s\n\n",
           "icons": [
             {
               "signal": {
