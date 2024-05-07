@@ -877,8 +877,7 @@
         },
         "neighbours": [
           87,
-          89,
-          145
+          89
         ]
       },
       {
@@ -1581,8 +1580,7 @@
         },
         "neighbours": [
           143,
-          147,
-          88
+          147
         ]
       },
       {
@@ -7152,6 +7150,18 @@
             "constant": 0,
             "comparator": "≠"
           }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 775
+              },
+              {
+                "entity_id": 831
+              }
+            ]
+          }
         }
       },
       {
@@ -7160,18 +7170,6 @@
         "position": {
           "x": 1011.5,
           "y": -999.5
-        },
-        "control_behavior": {
-          "circuit_open_gate": true,
-          "circuit_read_sensor": false,
-          "circuit_condition": {
-            "first_signal": {
-              "type": "virtual",
-              "name": "signal-G"
-            },
-            "constant": 0,
-            "comparator": "≠"
-          }
         }
       },
       {
@@ -7196,15 +7194,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 772
+              },
               {
                 "entity_id": 963
               }
@@ -7243,6 +7244,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 780
+              },
+              {
                 "entity_id": 963
               }
             ]
@@ -7279,15 +7283,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 777
+              },
               {
                 "entity_id": 965
               }
@@ -7418,6 +7425,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 789
+              },
+              {
                 "entity_id": 965
               }
             ]
@@ -7454,15 +7464,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 786
+              },
               {
                 "entity_id": 968
               }
@@ -7518,6 +7531,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 795
+              },
+              {
                 "entity_id": 968
               }
             ]
@@ -7545,10 +7561,22 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 793
+              },
+              {
+                "entity_id": 851
+              }
+            ]
           }
         }
       },
@@ -7857,10 +7885,22 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 772
+              },
+              {
+                "entity_id": 889
+              }
+            ]
           }
         }
       },
@@ -8033,6 +8073,18 @@
             },
             "constant": 0,
             "comparator": "≠"
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 795
+              },
+              {
+                "entity_id": 905
+              }
+            ]
           }
         }
       },
@@ -8363,6 +8415,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 831
+              },
+              {
                 "entity_id": 963
               }
             ]
@@ -8508,15 +8563,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 851
+              },
               {
                 "entity_id": 968
               }
@@ -10333,10 +10391,19 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1147
+              }
+            ]
           }
         }
       },
@@ -10399,6 +10466,15 @@
             },
             "constant": 0,
             "comparator": "≠"
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1154
+              }
+            ]
           }
         }
       },
@@ -10746,6 +10822,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 1101
+              },
+              {
                 "entity_id": 1235
               }
             ]
@@ -10845,15 +10924,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 1107
+              },
               {
                 "entity_id": 1244
               }
@@ -14000,10 +14082,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -14011,6 +14093,9 @@
             "red": [
               {
                 "entity_id": 1235
+              },
+              {
+                "entity_id": 1455
               }
             ]
           }
@@ -14553,6 +14638,9 @@
             "red": [
               {
                 "entity_id": 1244
+              },
+              {
+                "entity_id": 1471
               }
             ]
           }
@@ -14983,6 +15071,9 @@
           "1": {
             "red": [
               {
+                "entity_id": 1389
+              },
+              {
                 "entity_id": 1564
               }
             ]
@@ -15378,15 +15469,18 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
           "1": {
             "red": [
+              {
+                "entity_id": 1410
+              },
               {
                 "entity_id": 1571
               }
@@ -17677,10 +17771,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -17688,6 +17782,9 @@
             "red": [
               {
                 "entity_id": 1564
+              },
+              {
+                "entity_id": 1736
               }
             ]
           }
@@ -17759,6 +17856,9 @@
             "red": [
               {
                 "entity_id": 1571
+              },
+              {
+                "entity_id": 1744
               }
             ]
           }
@@ -18094,6 +18194,15 @@
             "constant": 0,
             "comparator": "≠"
           }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1691
+              }
+            ]
+          }
         }
       },
       {
@@ -18165,10 +18274,19 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1697
+              }
+            ]
           }
         }
       },
@@ -20099,10 +20217,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -20110,6 +20228,9 @@
             "red": [
               {
                 "entity_id": 1844
+              },
+              {
+                "entity_id": 2006
               }
             ]
           }
@@ -20235,6 +20356,9 @@
             "red": [
               {
                 "entity_id": 1849
+              },
+              {
+                "entity_id": 2025
               }
             ]
           }
@@ -20570,6 +20694,18 @@
             "constant": 0,
             "comparator": "≠"
           }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 1954
+              },
+              {
+                "entity_id": 2007
+              }
+            ]
+          }
         }
       },
       {
@@ -20585,10 +20721,22 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 2006
+              },
+              {
+                "entity_id": 2009
+              }
+            ]
           }
         }
       },
@@ -20625,6 +20773,9 @@
             "red": [
               {
                 "entity_id": 1844
+              },
+              {
+                "entity_id": 2007
               }
             ]
           }
@@ -20643,10 +20794,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -20654,6 +20805,9 @@
             "red": [
               {
                 "entity_id": 1844
+              },
+              {
+                "entity_id": 2012
               }
             ]
           }
@@ -20692,6 +20846,9 @@
             "red": [
               {
                 "entity_id": 1846
+              },
+              {
+                "entity_id": 2010
               }
             ]
           }
@@ -20753,10 +20910,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -20764,6 +20921,9 @@
             "red": [
               {
                 "entity_id": 1846
+              },
+              {
+                "entity_id": 2019
               }
             ]
           }
@@ -20793,6 +20953,9 @@
             "red": [
               {
                 "entity_id": 1849
+              },
+              {
+                "entity_id": 2018
               }
             ]
           }
@@ -20837,10 +21000,10 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
           }
         },
         "connections": {
@@ -20848,6 +21011,9 @@
             "red": [
               {
                 "entity_id": 1849
+              },
+              {
+                "entity_id": 2024
               }
             ]
           }
@@ -20866,10 +21032,22 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-T"
+              "name": "signal-G"
             },
-            "constant": 3,
-            "comparator": "≥"
+            "constant": 0,
+            "comparator": "≠"
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 2023
+              },
+              {
+                "entity_id": 2025
+              }
+            ]
           }
         }
       },
@@ -20886,10 +21064,22 @@
           "circuit_condition": {
             "first_signal": {
               "type": "virtual",
-              "name": "signal-G"
+              "name": "signal-green"
             },
             "constant": 0,
-            "comparator": "≠"
+            "comparator": "="
+          }
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 2024
+              },
+              {
+                "entity_id": 1967
+              }
+            ]
           }
         }
       },
@@ -21307,18 +21497,6 @@
         "position": {
           "x": 1054.5,
           "y": -929.5
-        },
-        "control_behavior": {
-          "circuit_open_gate": true,
-          "circuit_read_sensor": false,
-          "circuit_condition": {
-            "first_signal": {
-              "type": "virtual",
-              "name": "signal-G"
-            },
-            "constant": 0,
-            "comparator": "≠"
-          }
         }
       },
       {
@@ -21343,18 +21521,6 @@
         "position": {
           "x": 1056.5,
           "y": -929.5
-        },
-        "control_behavior": {
-          "circuit_open_gate": true,
-          "circuit_read_sensor": false,
-          "circuit_condition": {
-            "first_signal": {
-              "type": "virtual",
-              "name": "signal-G"
-            },
-            "constant": 0,
-            "comparator": "≠"
-          }
         }
       },
       {
